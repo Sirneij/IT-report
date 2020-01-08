@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.14)  27 NOV 2019 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.14)  8 JAN 2020 14:46
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -801,6 +801,16 @@ Overfull \hbox (3.20865pt too wide) in paragraph at lines 3--5
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
@@ -810,12 +820,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 \clearpage
-               [1
+l.15 \clearpage
+                [1
 
 ]) (0.2.ack.tex
 Overfull \hbox (3.20865pt too wide) in paragraph at lines 2--4
  | 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
  []
 
 ) (0.3.pub.tex [2
@@ -903,16 +928,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
  18113 strings out of 492895
- 335387 string characters out of 3133461
+ 335385 string characters out of 3133461
  419500 words of memory out of 3000000
  21608 multiletter control sequences out of 15000+200000
  10710 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,48p,409b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,48p,1325b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on fydp.pdf (16 pages, 175315 bytes).
+Output written on fydp.pdf (16 pages, 181615 bytes).
 PDF statistics:
  332 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
