@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.14)  8 JAN 2020 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.14)  9 JAN 2020 07:58
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -1016,12 +1016,12 @@ LaTeX Info: Redefining \nameref on input line 57.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (0.0.title.tex
-<./ipnx.jpg, id=226, 28.908pt x 13.80357pt>
+<./ipnx.jpg, id=146, 28.908pt x 13.80357pt>
 File: ./ipnx.jpg Graphic file (type jpg)
 <use ./ipnx.jpg>
 Package pdftex.def Info: ./ipnx.jpg  used on input line 8.
 (pdftex.def)             Requested size: 173.44748pt x 82.82117pt.
-<./futa.png, id=227, 48.18pt x 48.18pt>
+<./futa.png, id=147, 48.18pt x 48.18pt>
 File: ./futa.png Graphic file (type png)
 <use ./futa.png>
 Package pdftex.def Info: ./futa.png  used on input line 41.
@@ -1212,80 +1212,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
  []
 
 [4] [5] [6] [7] [8]
-<./mainorg.jpg, id=377, 2677.00125pt x 1505.625pt>
+<./mainorg.jpg, id=294, 2677.00125pt x 1505.625pt>
 File: ./mainorg.jpg Graphic file (type jpg)
 <use ./mainorg.jpg>
-Package pdftex.def Info: ./mainorg.jpg  used on input line 139.
+Package pdftex.def Info: ./mainorg.jpg  used on input line 140.
 (pdftex.def)             Requested size: 426.79135pt x 240.0319pt.
  [9]
-<./InfrastructureOrgan.jpg, id=382, 2346.7675pt x 1659.19875pt>
+<./InfrastructureOrgan.jpg, id=299, 2346.7675pt x 1659.19875pt>
 File: ./InfrastructureOrgan.jpg Graphic file (type jpg)
 <use ./InfrastructureOrgan.jpg>
-Package pdftex.def Info: ./InfrastructureOrgan.jpg  used on input line 146.
+Package pdftex.def Info: ./InfrastructureOrgan.jpg  used on input line 147.
 (pdftex.def)             Requested size: 192.0548pt x 135.77669pt.
-<./B2Borg.jpg, id=383, 2346.7675pt x 1659.19875pt>
+<./B2Borg.jpg, id=300, 2346.7675pt x 1659.19875pt>
 File: ./B2Borg.jpg Graphic file (type jpg)
 <use ./B2Borg.jpg>
-Package pdftex.def Info: ./B2Borg.jpg  used on input line 150.
+Package pdftex.def Info: ./B2Borg.jpg  used on input line 151.
 (pdftex.def)             Requested size: 192.0548pt x 135.77669pt.
-<./B2COrgan.jpg, id=384, 2346.7675pt x 1659.19875pt>
+<./B2COrgan.jpg, id=301, 2346.7675pt x 1659.19875pt>
 File: ./B2COrgan.jpg Graphic file (type jpg)
 <use ./B2COrgan.jpg>
-Package pdftex.def Info: ./B2COrgan.jpg  used on input line 154.
+Package pdftex.def Info: ./B2COrgan.jpg  used on input line 155.
 (pdftex.def)             Requested size: 213.39568pt x 150.8658pt.
  [10 <./mainorg.jpg> <./InfrastructureOrgan.jpg> <./B2Borg.jpg> <./B2COrgan.jpg
 >] [11] [12] [13]) (3.design.tex [14]
 Chapter 3.
-) (4.implementation.tex [15
+) (4.conclusion.tex [15
 
 ]
 Chapter 4.
-) (5.sic.tex [16
-
-]
-Chapter 5.
-) (6.conclusion.tex [17
-
-] [18]
-Chapter 6.
-) (fydp.bbl [19
+) (fydp.bbl [16
 
 ]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [20
+) [17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  (fydp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `fydp.out' has not changed.
-(rerunfilecheck)             Checksum: F4AF7D2291D9BCEC74E0286C926CBC60;3678.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+(rerunfilecheck)             Checksum: F3C6B24CFEDDE957A438931A0603FA1E;2355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 30028 strings out of 492895
- 567622 string characters out of 3133461
- 615563 words of memory out of 3000000
- 33414 multiletter control sequences out of 15000+200000
+ 29982 strings out of 492895
+ 566922 string characters out of 3133461
+ 614562 words of memory out of 3000000
+ 33394 multiletter control sequences out of 15000+200000
  540055 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,63p,1325b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exis
-t, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on fydp.pdf (29 pages, 855282 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on fydp.pdf (26 pages, 843546 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
