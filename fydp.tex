@@ -1,3 +1,4 @@
+%!TeX program = xelatex
 \documentclass[a4paper,12pt]{report}
 %\usepackage[none]{hyphenat}
 
@@ -6,23 +7,25 @@
 
 %\usepackage[usenames,dvipsnames,pdf]{pstricks}
 %\usepackage[crop=off]{auto-pst-pdf}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
 \usepackage{makeidx}
 \usepackage{url}
-\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{natbib}
 \usepackage{framed}
 \usepackage{tikz}
 \usepackage{graphicx}
-\usepackage{subcaption}
+\usepackage[list=true]{subcaption}
 \usepackage{longtable}
 \usepackage{amsfonts}
 \usepackage{amsmath}
 
 \usepackage[noend,ruled,noline,linesnumbered,algochapter]{algorithm2e}
 
-\usepackage[linktoc=page]{hyperref}
+\usepackage[linktoc=page, colorlinks]{hyperref}
 \usepackage[margin=3cm]{geometry}
 \usepackage{setspace} 
-
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -36,7 +39,7 @@
 \renewcommand*\contentsname{Table of Contents}
 \usepackage{xpatch}
 \usepackage{blindtext}
-
+\usepackage{indentfirst}
 
 \makeatletter
 
@@ -54,6 +57,16 @@
 }{\typeout{Patched @makechapterhead}}{\typeout{Patching of @makechapterhead failed}}
 
 \makeatother
+\usepackage{xcolor}
+\usepackage[newfloat]{minted}
+\usepackage{caption}
+\newenvironment{code}{\captionsetup{type=listing}}{}
+\SetupFloatingEnvironment{listing}{name=Code Snippet}
+%\usepackage[toc, nopostdot, nonumberlist, style=long, automake, acronym]{glossaries}
+\usepackage{acronym}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{booktabs}
 \begin{document}
 
 \pagenumbering{roman}
@@ -95,9 +108,53 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
-
-
-
+\clearpage
+\chapter*{\centerline{List of Abbreviations}}
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+%\begin{acronym}[longest acronym must be entered here]
+\begin{acronym}[XHR]
+\acro{AJAX}{Asynchronous JavaScript and \ac{XML}}
+\acro{API}{Application Programming Interface}
+\acro{CRUD}{Create, Retrieve, Update and Delete}
+\acro{DTL}{Django template language}
+\acro{HTML}{HyperText Markup Language}
+\acro{HTTP}{HyperText Transfer Protocol}
+\acro{JSON}{JavaScript Object Notation}
+\acro{ORM}{Object Relational Mapper}
+\acro{REPL}{Read-Execute-Print Loop}
+\acro{SDLC}{Software Development Life Cycle}
+\acro{SIWES}{Students’ Work Experience Scheme}
+\acro{SQL}{Structured Query Language}
+\acro{vCPE}{Virtual Customer Premises Equipment}
+\acro{XHR}{eXtensible Markup Language and HyperText Transfer Protocol Request}
+\acro{XML}{eXtensible Markup Language}
+\acro{XHTML}{eXtensible HyperText Markup Language}
+\acro{XSLT}{eXtensible Stylesheet Language Transformations}
+\acro{WSGI}{Web Server Gateway Interface}
+\acro{WYSIWYG}{What You See Is What You Get}
+\end{acronym}
+\clearpage
+\chapter*{\centerline{List of Symbols}}
+\addcontentsline{toc}{chapter}{List of Symbols}
+\begin{doublespace}
+	\begin{tabbing}
+		%\printnomenclature
+		xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
+		\textbf{$\alpha$, $\beta$}   \> Damping constants  \\
+		\textbf{$\theta$}   \> Angle of twist, rad  \\
+		\textbf{$\omega$}   \> Angular velocity, rad/s  \\
+		\textbf{$b$}   \> Width of the beam,  m \\
+		\textbf{$h$}   \> Height of the beam,  m \\
+		\textbf{$\{f(t)\}$}   \> force vector  \\
+		\textbf{$[K^e]$}  \> Element stiffness matrix\\
+		\textbf{$[M^e]$}  \> Element mass matrix \\
+		\textbf{$\{q(t)\}$}   \> Displacement vector  \\
+		\textbf{$\{\dot{q}(t)\}$}   \> Velocity vector  \\
+		\textbf{$\{\ddot{q}(t)\}$}   \> Acceleration vector  \\
+		
+		
+	\end{tabbing}
+\end{doublespace}
 \clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
@@ -114,7 +171,7 @@
 \input{4.conclusion.tex}
 
 
-\bibliographystyle{unsrt}
+\bibliographystyle{apalike}
 \bibliography{fydp}
 \addcontentsline{toc}{chapter}{References}
 

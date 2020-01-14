@@ -1,0 +1,69 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{django.shortcuts} \PYG{k+kn}{import} \PYG{n}{render}\PYG{p}{,} \PYG{n}{get\PYGZus{}object\PYGZus{}or\PYGZus{}404}\PYG{p}{,} \PYG{n}{redirect}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.contenttypes.models} \PYG{k+kn}{import} \PYG{n}{ContentType}
+\PYG{k+kn}{from} \PYG{n+nn}{django.template.defaultfilters} \PYG{k+kn}{import} \PYG{n}{slugify}
+\PYG{k+kn}{from} \PYG{n+nn}{django.http} \PYG{k+kn}{import} \PYG{n}{HttpResponse}\PYG{p}{,} \PYG{n}{HttpResponseRedirect}\PYG{p}{,}
+\PYG{n}{Http404}\PYG{p}{,} \PYG{n}{JsonResponse}
+\PYG{k+kn}{from} \PYG{n+nn}{django.core.paginator} \PYG{k+kn}{import} \PYG{n}{Paginator}\PYG{p}{,}
+\PYG{n}{EmptyPage}\PYG{p}{,} \PYG{n}{PageNotAnInteger}
+\PYG{k+kn}{from} \PYG{n+nn}{django.views} \PYG{k+kn}{import} \PYG{n}{generic}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.auth.mixins} \PYG{k+kn}{import} \PYG{n}{LoginRequiredMixin}
+\PYG{p}{,} \PYG{n}{UserPassesTestMixin}
+
+\PYG{k+kn}{from} \PYG{n+nn}{taggit.models} \PYG{k+kn}{import} \PYG{n}{Tag}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.auth.decorators} \PYG{k+kn}{import} \PYG{n}{login\PYGZus{}required}
+\PYG{k+kn}{from} \PYG{n+nn}{django.db.models} \PYG{k+kn}{import} \PYG{n}{Count}\PYG{p}{,} \PYG{n}{Q}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.auth.models} \PYG{k+kn}{import} \PYG{n}{User}
+\PYG{k+kn}{from} \PYG{n+nn}{.models} \PYG{k+kn}{import} \PYG{n}{Post}\PYG{p}{,} \PYG{n}{Comment}
+\PYG{k+kn}{from} \PYG{n+nn}{.forms} \PYG{k+kn}{import} \PYG{n}{PostForm}\PYG{p}{,} \PYG{n}{UpdatePostForm}\PYG{p}{,} \PYG{n}{CommentForm}
+\PYG{k+kn}{from} \PYG{n+nn}{django.template.loader} \PYG{k+kn}{import} \PYG{n}{render\PYGZus{}to\PYGZus{}string}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.postgres.search} \PYG{k+kn}{import} \PYG{n}{SearchVector}\PYG{p}{,}
+\PYG{n}{SearchQuery}\PYG{p}{,} \PYG{n}{SearchRank}\PYG{p}{,} \PYG{n}{TrigramSimilarity}
+
+\PYG{c+c1}{\PYGZsh{}Function based view}
+\PYG{k}{def} \PYG{n+nf}{blog\PYGZus{}index}\PYG{p}{(}\PYG{n}{request}\PYG{p}{,} \PYG{n}{tag\PYGZus{}slug}\PYG{o}{=}\PYG{n+nb+bp}{None}\PYG{p}{):}
+	\PYG{n}{object\PYGZus{}list} \PYG{o}{=} \PYG{n}{Post}\PYG{o}{.}\PYG{n}{published}\PYG{o}{.}\PYG{n}{all}\PYG{p}{()}
+	\PYG{k}{if} \PYG{n}{request}\PYG{o}{.}\PYG{n}{user}\PYG{o}{.}\PYG{n}{is\PYGZus{}staff} \PYG{o+ow}{or} \PYG{n}{request}\PYG{o}{.}\PYG{n}{user}\PYG{o}{.}\PYG{n}{is\PYGZus{}superuser}\PYG{p}{:}
+		\PYG{n}{object\PYGZus{}list} \PYG{o}{=} \PYG{n}{Post}\PYG{o}{.}\PYG{n}{objects}\PYG{o}{.}\PYG{n}{all}\PYG{p}{()}
+	\PYG{n}{common\PYGZus{}tags} \PYG{o}{=} \PYG{n}{Post}\PYG{o}{.}\PYG{n}{tags}\PYG{o}{.}\PYG{n}{most\PYGZus{}common}\PYG{p}{()[:}\PYG{l+m+mi}{2}\PYG{p}{]}
+	\PYG{n}{tag} \PYG{o}{=} \PYG{n+nb+bp}{None}
+
+	\PYG{k}{if} \PYG{n}{tag\PYGZus{}slug}\PYG{p}{:}
+		\PYG{n}{tag} \PYG{o}{=} \PYG{n}{get\PYGZus{}object\PYGZus{}or\PYGZus{}404}\PYG{p}{(}\PYG{n}{Tag}\PYG{p}{,} \PYG{n}{slug}\PYG{o}{=}\PYG{n}{tag\PYGZus{}slug}\PYG{p}{)}
+		\PYG{n}{object\PYGZus{}list} \PYG{o}{=} \PYG{n}{object\PYGZus{}list}\PYG{o}{.}\PYG{n}{filter}\PYG{p}{(}\PYG{n}{tags\PYGZus{}\PYGZus{}in}\PYG{o}{=}\PYG{p}{[}\PYG{n}{tag}\PYG{p}{])}
+
+	\PYG{n}{paginator} \PYG{o}{=} \PYG{n}{Paginator}\PYG{p}{(}\PYG{n}{object\PYGZus{}list}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} 5 posts in each page}
+	\PYG{n}{page} \PYG{o}{=} \PYG{n}{request}\PYG{o}{.}\PYG{n}{GET}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}page\PYGZsq{}}\PYG{p}{)}
+	\PYG{k}{try}\PYG{p}{:}
+		\PYG{n}{posts} \PYG{o}{=} \PYG{n}{paginator}\PYG{o}{.}\PYG{n}{page}\PYG{p}{(}\PYG{n}{page}\PYG{p}{)}
+		\PYG{k}{except} \PYG{n}{PageNotAnInteger}\PYG{p}{:}
+		\PYG{c+c1}{\PYGZsh{} If page is not an integer deliver the first page}
+		\PYG{n}{posts} \PYG{o}{=} \PYG{n}{paginator}\PYG{o}{.}\PYG{n}{page}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n}{EmptyPage}\PYG{p}{:}
+		\PYG{c+c1}{\PYGZsh{} If page is out of range deliver last page of results}
+		\PYG{n}{posts} \PYG{o}{=} \PYG{n}{paginator}\PYG{o}{.}\PYG{n}{page}\PYG{p}{(}\PYG{n}{paginator}\PYG{o}{.}\PYG{n}{num\PYGZus{}pages}\PYG{p}{)}
+	\PYG{n}{context} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+		\PYG{l+s+s1}{\PYGZsq{}page\PYGZsq{}}\PYG{p}{:} \PYG{n}{page}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}posts\PYGZsq{}}\PYG{p}{:} \PYG{n}{posts}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}tag\PYGZsq{}}\PYG{p}{:} \PYG{n}{tag}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}common\PYGZus{}tags\PYGZsq{}}\PYG{p}{:} \PYG{n}{common\PYGZus{}tags}\PYG{p}{,}
+	\PYG{p}{\PYGZcb{}}
+	\PYG{k}{return} \PYG{n}{render}\PYG{p}{(}\PYG{n}{request}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}blog/index.html\PYGZsq{}}\PYG{p}{,} \PYG{n}{context}\PYG{p}{)}
+	
+\PYG{c+c1}{\PYGZsh{}Class based view}
+\PYG{k}{class} \PYG{n+nc}{PostUpdateView}\PYG{p}{(}\PYG{n}{LoginRequiredMixin}\PYG{p}{,}
+		\PYG{n}{UserPassesTestMixin}\PYG{p}{,} \PYG{n}{generic}\PYG{o}{.}\PYG{n}{UpdateView}\PYG{p}{):}
+	\PYG{n}{model} \PYG{o}{=} \PYG{n}{Post}
+	\PYG{n}{form\PYGZus{}class}\PYG{o}{=}\PYG{n}{UpdatePostForm}
+	\PYG{n}{template\PYGZus{}name} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}blog/post\PYGZus{}form.html\PYGZsq{}}
+
+	\PYG{k}{def} \PYG{n+nf}{form\PYGZus{}valid}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{form}\PYG{p}{):}
+		\PYG{n}{form}\PYG{o}{.}\PYG{n}{instance}\PYG{o}{.}\PYG{n}{author} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{request}\PYG{o}{.}\PYG{n}{user}
+		\PYG{k}{return} \PYG{n+nb}{super}\PYG{p}{()}\PYG{o}{.}\PYG{n}{form\PYGZus{}valid}\PYG{p}{(}\PYG{n}{form}\PYG{p}{)}
+
+	\PYG{k}{def} \PYG{n+nf}{test\PYGZus{}func}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n}{post} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}object}\PYG{p}{()}
+	\PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{request}\PYG{o}{.}\PYG{n}{user} \PYG{o}{==} \PYG{n}{post}\PYG{o}{.}\PYG{n}{author} \PYG{o+ow}{or} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{request}\PYG{o}{.}\PYG{n}{user}\PYG{o}{.}\PYG{n}{is\PYGZus{}staff}\PYG{p}{:}
+		\PYG{k}{return} \PYG{n+nb+bp}{True}
+	\PYG{k}{return} \PYG{n+nb+bp}{False}
+\end{Verbatim}

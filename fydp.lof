@@ -1,5 +1,29 @@
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces ipNX Main Organogram\relax }}{10}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {ip}NX Main Organogram\relax }}{10}{figure.caption.39}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Each division's organogram\relax }}{10}{figure.caption.40}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Infrastructure Organogram\relax }}{10}{figure.caption.40}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Business Division(B2B) Organogram\relax }}{10}{figure.caption.40}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Retail Division(B2C) Organogram\relax }}{10}{figure.caption.40}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {SDLC} Models\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Prototype Model, Source: \citet {Kumar:2020}\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces Rapid application development model (RAD)\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces Incremental model, Source: \citet {Team:2017}\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces Spiral model, Source: \citet {Team:2017}\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces Agile model, Source: \citet {Team:2017}\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {f}{\ignorespaces V-shaped model, Source: \citet {Team:2017}\relax }}{17}{figure.caption.57}% 
+\contentsline {subfigure}{\numberline {g}{\ignorespaces Waterfall model, Source: \citet {Team:2017}\relax }}{17}{figure.caption.57}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Conventional method vs \ac {AJAX} method, Source \href {https://en.wikipedia.org/wiki/File:Ajax-vergleich-en.svg}{Wikipedia.com}\relax }}{20}{figure.caption.68}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SQLAlchemy overview, from \citet {Bayer:2016}\relax }}{22}{figure.caption.72}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \ac {vCPE} Screenshots\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \ac {vCPE} WiFi management page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces \ac {vCPE} Main page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces \ac {vCPE} DHCP page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces \ac {vCPE} DNS Server page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces \ac {vCPE} DHCP page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {f}{\ignorespaces \ac {vCPE} Devices List page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {g}{\ignorespaces \ac {vCPE} Login page\relax }}{33}{figure.caption.85}% 
+\contentsline {subfigure}{\numberline {h}{\ignorespaces \ac {vCPE} Registration page, \textit {restricted to an admin}.\relax }}{33}{figure.caption.85}% 
 \addvspace {10\p@ }

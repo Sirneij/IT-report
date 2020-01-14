@@ -1,0 +1,38 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{n+nb}{document}\PYG{p}{).}\PYG{n+nx}{ready}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{event}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{n+nb}{document}\PYG{p}{).}\PYG{n+nx}{on}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}submit\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}\PYGZsh{}postcomment\PYGZsq{}}\PYG{p}{,} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{event}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+	\PYG{n+nx}{event}\PYG{p}{.}\PYG{n+nx}{preventDefault}\PYG{p}{();}
+	\PYG{n+nx}{\PYGZdl{}}\PYG{p}{.}\PYG{n+nx}{ajax}\PYG{p}{(\PYGZob{}}
+		\PYG{n+nx}{type}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}POST\PYGZsq{}}\PYG{p}{,}
+		\PYG{n+nx}{url}\PYG{o}{:} \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{k}{this}\PYG{p}{).}\PYG{n+nx}{attr}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}action\PYGZsq{}}\PYG{p}{),}
+		\PYG{n+nx}{data}\PYG{o}{:} \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{k}{this}\PYG{p}{).}\PYG{n+nx}{serialize}\PYG{p}{(),}
+		\PYG{n+nx}{dataType}\PYG{o}{:} \PYG{l+s+s1}{\PYGZsq{}json\PYGZsq{}}\PYG{p}{,}
+		\PYG{n+nx}{success}\PYG{o}{:} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{response}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+			\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.comments\PYGZhy{}wrap\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{html}\PYG{p}{(}\PYG{n+nx}{response}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}form\PYGZsq{}}\PYG{p}{]);}
+				\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{n+nb}{document}\PYG{p}{).}\PYG{n+nx}{ready}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+					\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}commenters\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{on}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}click\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}.reply\PYGZdq{}}\PYG{p}{,}
+					\PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{event}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+						\PYG{n+nx}{event}\PYG{p}{.}\PYG{n+nx}{preventDefault}\PYG{p}{();}
+						\PYG{k+kd}{var} \PYG{n+nx}{form} \PYG{o}{=} \PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZsh{}postcomment\PYGZdq{}}\PYG{p}{).}\PYG{n+nx}{clone}\PYG{p}{(}\PYG{k+kc}{true}\PYG{p}{);}
+						\PYG{n+nx}{form}\PYG{p}{.}\PYG{n+nx}{find}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.parent\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{val}\PYG{p}{(}\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{k}{this}\PYG{p}{)}
+							\PYG{p}{.}\PYG{n+nx}{parent}\PYG{p}{().}\PYG{n+nx}{parent}\PYG{p}{().}\PYG{n+nx}{attr}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}id\PYGZsq{}}\PYG{p}{));}
+						\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{k}{this}\PYG{p}{).}\PYG{n+nx}{parent}\PYG{p}{().}\PYG{n+nx}{append}\PYG{p}{(}\PYG{n+nx}{form}\PYG{p}{).}\PYG{n+nx}{fade}\PYG{p}{();}
+				\PYG{p}{\PYGZcb{});}
+			\PYG{p}{\PYGZcb{});}
+			\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{n+nb}{document}\PYG{p}{).}\PYG{n+nx}{ready}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+				\PYG{k+kd}{var} \PYG{n+nx}{ssPrettyPrint} \PYG{o}{=} \PYG{k+kd}{function}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+					\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}pre\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{addClass}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}prettyprint\PYGZsq{}}\PYG{p}{);}
+					\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}code\PYGZsq{}}\PYG{p}{).}\PYG{n+nx}{addClass}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}prettyprint\PYGZsq{}}\PYG{p}{);}
+					\PYG{n+nx}{\PYGZdl{}}\PYG{p}{(}\PYG{n+nb}{document}\PYG{p}{).}\PYG{n+nx}{ready}\PYG{p}{(}\PYG{k+kd}{function}\PYG{p}{()} \PYG{p}{\PYGZob{}}
+						\PYG{n+nx}{PR}\PYG{p}{.}\PYG{n+nx}{prettyPrint}\PYG{p}{();}
+					\PYG{p}{\PYGZcb{});}
+				\PYG{p}{\PYGZcb{};}
+			\PYG{p}{\PYGZcb{});}
+		\PYG{p}{\PYGZcb{},}
+		\PYG{n+nx}{error}\PYG{o}{:} \PYG{k+kd}{function}\PYG{p}{(}\PYG{n+nx}{rs}\PYG{p}{,} \PYG{n+nx}{e}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+			\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{rs}\PYG{p}{.}\PYG{n+nx}{responseText}\PYG{p}{);}
+		\PYG{p}{\PYGZcb{},}
+	\PYG{p}{\PYGZcb{})}
+\PYG{p}{\PYGZcb{});}
+\PYG{p}{\PYGZcb{});}	
+\end{Verbatim}

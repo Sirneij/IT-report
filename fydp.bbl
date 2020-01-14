@@ -1,3 +1,66 @@
 \begin{thebibliography}{}
 
+\bibitem[Bayer, 2016]{Bayer:2016}
+Bayer, M. (2016).
+\newblock {\em SQLAlchemy Documentation}.
+\newblock Release 0.9.10.
+
+\bibitem[Grinberg, 2014]{Grinberg:2014}
+Grinberg, M. (2014).
+\newblock {\em Flask Web Development}.
+\newblock O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol,
+  CA 95472, second edition.
+
+\bibitem[Holovaty and Willison, 2019]{Adrian:2019}
+Holovaty, A. and Willison, S. (2019).
+\newblock {\em Django Documentation}.
+\newblock Django Software Foundation.
+\newblock Release 3.1.dev.
+
+\bibitem[Melé, 2018]{Antonio:2018}
+Melé, A. (2018).
+\newblock {\em Django 2 by Example: Build powerful and reliable Python web
+  applications from scratch}.
+\newblock Packt Publishing Ltd., 35, Livery Street, Birmingham B3 2PB, United
+  Kingdom.
+
+\bibitem[Pal, 2020]{Kumar:2020}
+Pal, S.~K. (2020 (accessed January 12, 2020)).
+\newblock {\em Software Engineering | Phases of Prototyping Model | Set - 2}.
+\newblock
+  \url{https://www.geeksforgeeks.org/software-engineering-phases-prototyping-model-set-2/}.
+
+\bibitem[Ronacher, 2020]{Ronacher:2010}
+Ronacher, A. (2010 (accessed January 9, 2020)).
+\newblock {\em Flask}.
+\newblock \url{https://palletsprojects.com/p/flask/}.
+
+\bibitem[Ronacher, 2017]{Ronacher:2017}
+Ronacher, A. (2017).
+\newblock {\em Jinja2 Documentation}.
+\newblock Release 2.9.6.
+
+\bibitem[Sharma and Singh, 2015]{Sharma:2015}
+Sharma, P. and Singh, D. (2015).
+\newblock Comparative study of various sdlc models on different parameters.
+\newblock {\em International Journal of Engineering Research}, 4(4):188--191.
+
+\bibitem[Team, 2020]{Team:2017}
+Team, E. (2017 (accessed January 12, 2020)).
+\newblock {\em SDLC Models Explained: Agile, Waterfall, V-Shaped, Iterative,
+  Spiral}.
+\newblock \url{https://existek.com/blog/sdlc-models/}.
+
+\bibitem[Yang, 2020]{Yang:2020}
+Yang, J. (2020 (accessed January 13, 2020)).
+\newblock {\em Ajax}.
+\newblock MDN Web Docs.
+\newblock \url{https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX}.
+
+\bibitem[Zhou, 2010]{Zhou:2010}
+Zhou, Y. (2010).
+\newblock Project report of building course management system by django
+  framework.
+\newblock Report P-5, Simon Fraser University.
+
 \end{thebibliography}

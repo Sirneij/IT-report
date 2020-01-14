@@ -1,0 +1,120 @@
+\ifglsentryexists{AJAX}{}%
+{%
+\gls@defglossaryentry{AJAX}%
+{%
+name={AJAX},%
+sort={AJAX},%
+type={acronym},%
+first={Asynchronous JavaScript and XMLHttpRequest\glsspace (AJAX)},%
+firstplural={Asynchronous JavaScript and XMLHttpRequest\acrpluralsuffix \glsspace (AJAX\acrpluralsuffix )},%
+text={AJAX},%
+plural={AJAX\acrpluralsuffix },%
+description={Asynchronous JavaScript and XMLHttpRequest},%
+descriptionplural={Asynchronous JavaScript and XMLHttpRequest\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Asynchronous JavaScript and XMLHttpRequest},%
+longplural={Asynchronous JavaScript and XMLHttpRequests},%
+short={AJAX},%
+shortplural={AJAXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ORM}{}%
+{%
+\gls@defglossaryentry{ORM}%
+{%
+name={ORM},%
+sort={ORM},%
+type={acronym},%
+first={Object Relational Mapper\glsspace (ORM)},%
+firstplural={Object Relational Mapper\acrpluralsuffix \glsspace (ORM\acrpluralsuffix )},%
+text={ORM},%
+plural={ORM\acrpluralsuffix },%
+description={Object Relational Mapper},%
+descriptionplural={Object Relational Mapper\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Object Relational Mapper},%
+longplural={Object Relational Mappers},%
+short={ORM},%
+shortplural={ORMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SIWES}{}%
+{%
+\gls@defglossaryentry{SIWES}%
+{%
+name={SIWES},%
+sort={SIWES},%
+type={acronym},%
+first={Students\IeC {\textquoteright } Work Experience Scheme\glsspace (SIWES)},%
+firstplural={Students’ Work Experience Scheme\acrpluralsuffix \glsspace (SIWES\acrpluralsuffix )},%
+text={SIWES},%
+plural={SIWES\acrpluralsuffix },%
+description={Students’ Work Experience Scheme},%
+descriptionplural={Students’ Work Experience Scheme\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Students\IeC {\textquoteright } Work Experience Scheme},%
+longplural={Students\IeC {\textquoteright } Work Experience Schemes},%
+short={SIWES},%
+shortplural={SIWESs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{API}{}%
+{%
+\gls@defglossaryentry{API}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface\glsspace (API)},%
+firstplural={Application Programming Interface\acrpluralsuffix \glsspace (API\acrpluralsuffix )},%
+text={API},%
+plural={API\acrpluralsuffix },%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

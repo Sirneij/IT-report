@@ -1,0 +1,52 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} all the imports necessary}
+
+\PYG{k+kn}{from} \PYG{n+nn}{flask} \PYG{k+kn}{import} \PYG{n}{json}\PYG{p}{,} \PYG{n}{url\PYGZus{}for}\PYG{p}{,} \PYG{n}{redirect}\PYG{p}{,} \PYG{n}{Markup}\PYG{p}{,}
+\PYG{n}{Response}\PYG{p}{,} \PYG{n}{render\PYGZus{}template}\PYG{p}{,} \PYG{n}{flash}\PYG{p}{,} \PYG{n}{g}\PYG{p}{,} \PYG{n}{session}\PYG{p}{,} \PYG{n}{jsonify}\PYG{p}{,}
+\PYG{n}{request}\PYG{p}{,} \PYG{n}{send\PYGZus{}from\PYGZus{}directory}
+\PYG{k+kn}{from} \PYG{n+nn}{werkzeug.exceptions} \PYG{k+kn}{import} \PYG{n}{HTTPException}\PYG{p}{,} \PYG{n}{NotFound}\PYG{p}{,} \PYG{n}{abort}
+
+\PYG{k+kn}{import} \PYG{n+nn}{os}
+\PYG{k+kn}{import} \PYG{n+nn}{secrets}
+\PYG{k+kn}{from} \PYG{n+nn}{PIL} \PYG{k+kn}{import} \PYG{n}{Image}
+\PYG{k+kn}{from} \PYG{n+nn}{app}  \PYG{k+kn}{import} \PYG{n}{app}
+
+\PYG{k+kn}{from} \PYG{n+nn}{flask}       \PYG{k+kn}{import} \PYG{n}{url\PYGZus{}for}\PYG{p}{,} \PYG{n}{redirect}\PYG{p}{,} \PYG{n}{render\PYGZus{}template}\PYG{p}{,}
+\PYG{n}{flash}\PYG{p}{,} \PYG{n}{g}\PYG{p}{,} \PYG{n}{session}\PYG{p}{,} \PYG{n}{jsonify}\PYG{p}{,} \PYG{n}{request}\PYG{p}{,} \PYG{n}{send\PYGZus{}from\PYGZus{}directory}
+\PYG{k+kn}{from} \PYG{n+nn}{flask\PYGZus{}login} \PYG{k+kn}{import} \PYG{n}{login\PYGZus{}user}\PYG{p}{,} \PYG{n}{logout\PYGZus{}user}\PYG{p}{,}
+\PYG{n}{current\PYGZus{}user}\PYG{p}{,} \PYG{n}{login\PYGZus{}required}
+\PYG{k+kn}{from} \PYG{n+nn}{app}         \PYG{k+kn}{import} \PYG{n}{app}\PYG{p}{,} \PYG{n}{lm}\PYG{p}{,} \PYG{n}{db}\PYG{p}{,} \PYG{n}{bc}
+\PYG{k+kn}{from} \PYG{n+nn}{.} \PYG{n+nn}{models}    \PYG{k+kn}{import} \PYG{n}{User}
+\PYG{k+kn}{from} \PYG{n+nn}{.} \PYG{n+nn}{common}    \PYG{k+kn}{import} \PYG{n}{COMMON}\PYG{p}{,} \PYG{n}{STATUS}
+\PYG{k+kn}{from} \PYG{n+nn}{.} \PYG{n+nn}{assets}    \PYG{k+kn}{import} \PYG{o}{*}
+\PYG{k+kn}{from} \PYG{n+nn}{.} \PYG{n+nn}{forms}     \PYG{k+kn}{import} \PYG{n}{LoginForm}\PYG{p}{,} \PYG{n}{RegisterForm}\PYG{p}{,} \PYG{n}{UpdateAccountForm}
+\PYG{k+kn}{import} \PYG{n+nn}{os}\PYG{o}{,} \PYG{n+nn}{shutil}\PYG{o}{,} \PYG{n+nn}{re}\PYG{o}{,} \PYG{n+nn}{cgi}\PYG{o}{,} \PYG{n+nn}{json}\PYG{o}{,} \PYG{n+nn}{random}\PYG{o}{,} \PYG{n+nn}{time}
+\PYG{k+kn}{from} \PYG{n+nn}{datetime} \PYG{k+kn}{import} \PYG{n}{datetime}
+
+
+\PYG{n}{random}\PYG{o}{.}\PYG{n}{seed}\PYG{p}{()}  \PYG{c+c1}{\PYGZsh{} Initialize the random number generator}
+
+\PYG{c+c1}{\PYGZsh{} provide login manager with load\PYGZus{}user callback}
+\PYG{n+nd}{@lm.user\PYGZus{}loader}
+\PYG{k}{def} \PYG{n+nf}{load\PYGZus{}user}\PYG{p}{(}\PYG{n}{user\PYGZus{}id}\PYG{p}{):}
+	\PYG{k}{return} \PYG{n}{User}\PYG{o}{.}\PYG{n}{query}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{user\PYGZus{}id}\PYG{p}{))}
+\PYG{n+nd}{@app.route}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/index\PYGZsq{}}\PYG{p}{)}
+\PYG{n+nd}{@login\PYGZus{}required}
+\PYG{k}{def} \PYG{n+nf}{index}\PYG{p}{():}
+	\PYG{n}{inactiveCustomers} \PYG{o}{=} \PYG{l+m+mi}{34546}
+	\PYG{n}{activeCustomers} \PYG{o}{=} \PYG{l+m+mi}{7654984}
+	\PYG{n}{numberOfCalls} \PYG{o}{=} \PYG{l+m+mi}{123456}
+	\PYG{n}{numberOfRetailCustomers} \PYG{o}{=} \PYG{l+m+mi}{455674666}
+	\PYG{k}{return} \PYG{n}{render\PYGZus{}template}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}pages/index.html\PYGZsq{}}\PYG{p}{,}
+	\PYG{n}{numberOfCalls}\PYG{o}{=}\PYG{n}{numberOfCalls}\PYG{p}{,}
+	\PYG{n}{numberOfRetailCustomers}\PYG{o}{=}\PYG{n}{numberOfRetailCustomers}\PYG{p}{,}
+	\PYG{n}{inactiveCustomers}\PYG{o}{=}\PYG{n}{inactiveCustomers}\PYG{p}{,}
+	\PYG{n}{activeCustomers}\PYG{o}{=}\PYG{n}{activeCustomers}\PYG{p}{)}
+
+
+\PYG{c+c1}{\PYGZsh{} authenticate user}
+\PYG{n+nd}{@app.route}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}/logout\PYGZsq{}}\PYG{p}{)}
+\PYG{k}{def} \PYG{n+nf}{logout}\PYG{p}{():}
+	\PYG{n}{logout\PYGZus{}user}\PYG{p}{()}
+	\PYG{k}{return} \PYG{n}{redirect}\PYG{p}{(}\PYG{n}{url\PYGZus{}for}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}login\PYGZsq{}}\PYG{p}{))}
+\end{Verbatim}

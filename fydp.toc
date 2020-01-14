@@ -1,70 +1,91 @@
-\contentsline {chapter}{Table of Contents}{vi}{chapter*.2}% 
-\contentsline {chapter}{List of Figures}{vii}{section*.3}% 
-\contentsline {chapter}{List of Tables}{viii}{section*.5}% 
+\babel@toc {english}{}
+\contentsline {chapter}{Table of Contents}{vi}{chapter*.10}% 
+\contentsline {chapter}{List of Figures}{vii}{section*.11}% 
+\contentsline {chapter}{List of Tables}{viii}{section*.15}% 
+\contentsline {chapter}{List of Abbreviations}{ix}{chapter*.17}% 
+\contentsline {chapter}{List of Symbols}{x}{chapter*.18}% 
 \contentsline {chapter}{\numberline {1}Introduction to SIWES Program}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Brief History of SIWES Program}{1}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Scope of SIWES}{2}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}Aims and Objectives of SIWES}{2}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}ipNX Nigeria Limited}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}\textit {ip}NX Nigeria Limited}{3}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}History and Corporate Profile}{3}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}History}{3}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Corporate Profile}{4}{subsection.2.1.2}% 
-\contentsline {subsubsection}{Vision Statements of ipNX}{5}{section*.8}% 
-\contentsline {subsubsection}{Mission Statements of ipNX}{5}{section*.9}% 
-\contentsline {subsubsection}{Core Credentials}{5}{section*.10}% 
-\contentsline {subsubsection}{Services}{6}{section*.11}% 
-\contentsline {section}{\numberline {2.2}Why ipNX?}{6}{section.2.2}% 
+\contentsline {subsubsection}{Vision Statements of \textit {ip}NX}{5}{section*.20}% 
+\contentsline {subsubsection}{Mission Statements of \textit {ip}NX}{5}{section*.21}% 
+\contentsline {subsubsection}{Core Credentials}{5}{section*.22}% 
+\contentsline {subsubsection}{Services}{5}{section*.23}% 
+\contentsline {section}{\numberline {2.2}Why \textit {ip}NX?}{6}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Our Culture}{6}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}Our Guiding Principles}{6}{subsection.2.2.2}% 
-\contentsline {subsubsection}{Customer Obsession}{7}{section*.12}% 
-\contentsline {subsubsection}{Explorer}{7}{section*.13}% 
-\contentsline {subsubsection}{Can Do Spirit}{7}{section*.14}% 
-\contentsline {subsubsection}{Teamwork}{7}{section*.15}% 
-\contentsline {subsubsection}{Innovation}{7}{section*.16}% 
-\contentsline {subsubsection}{Continuous Improvement}{7}{section*.17}% 
-\contentsline {subsubsection}{Bias for Action}{7}{section*.18}% 
-\contentsline {subsubsection}{Excellence}{7}{section*.19}% 
-\contentsline {subsubsection}{Continuous Learning}{8}{section*.20}% 
-\contentsline {subsubsection}{Respect for the Individual}{8}{section*.21}% 
-\contentsline {subsubsection}{Professionalism}{8}{section*.22}% 
-\contentsline {subsubsection}{Integrity}{8}{section*.23}% 
-\contentsline {subsubsection}{Ownership}{8}{section*.24}% 
-\contentsline {subsubsection}{Frugality}{8}{section*.25}% 
-\contentsline {subsubsection}{Exciting Work Environment}{8}{section*.26}% 
-\contentsline {subsection}{\numberline {2.2.3}Training And Development}{9}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Compensation and Benefits}{9}{subsection.2.2.4}% 
+\contentsline {subsubsection}{Customer Obsession}{6}{section*.24}% 
+\contentsline {subsubsection}{Explorer}{6}{section*.25}% 
+\contentsline {subsubsection}{Can Do Spirit}{6}{section*.26}% 
+\contentsline {subsubsection}{Teamwork}{7}{section*.27}% 
+\contentsline {subsubsection}{Innovation}{7}{section*.28}% 
+\contentsline {subsubsection}{Continuous Improvement}{7}{section*.29}% 
+\contentsline {subsubsection}{Bias for Action}{7}{section*.30}% 
+\contentsline {subsubsection}{Excellence}{7}{section*.31}% 
+\contentsline {subsubsection}{Continuous Learning}{7}{section*.32}% 
+\contentsline {subsubsection}{Respect for the Individual}{7}{section*.33}% 
+\contentsline {subsubsection}{Professionalism}{7}{section*.34}% 
+\contentsline {subsubsection}{Integrity}{8}{section*.35}% 
+\contentsline {subsubsection}{Ownership}{8}{section*.36}% 
+\contentsline {subsubsection}{Frugality}{8}{section*.37}% 
+\contentsline {subsubsection}{Exciting Work Environment}{8}{section*.38}% 
+\contentsline {subsection}{\numberline {2.2.3}Training And Development}{8}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Compensation and Benefits}{8}{subsection.2.2.4}% 
 \contentsline {subsection}{\numberline {2.2.5}Corporate Social Responsibility}{9}{subsection.2.2.5}% 
-\contentsline {section}{\numberline {2.3}ipNX Organogram}{10}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}ipNX Departments And Divisions}{11}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}ipNX Departments}{11}{subsection.2.4.1}% 
-\contentsline {subsubsection}{Human Capital Management}{11}{section*.29}% 
-\contentsline {subsubsection}{Finance}{11}{section*.30}% 
-\contentsline {subsubsection}{Legal, Risk And Compliance}{11}{section*.31}% 
-\contentsline {subsubsection}{Customer Experience \& Advocacy}{11}{section*.32}% 
-\contentsline {subsubsection}{Health, Safety And Environment}{12}{section*.33}% 
-\contentsline {subsubsection}{Marketing}{12}{section*.34}% 
-\contentsline {subsubsection}{Internal Audit}{12}{section*.35}% 
-\contentsline {subsubsection}{Corporate Services}{12}{section*.36}% 
-\contentsline {subsubsection}{Supply Chain Management}{13}{section*.37}% 
-\contentsline {subsubsection}{Information Systems And Technology}{13}{section*.38}% 
-\contentsline {subsubsection}{Fibre Project And Rollout}{13}{section*.39}% 
-\contentsline {subsubsection}{Admin Services}{13}{section*.40}% 
-\contentsline {subsubsection}{Research And System Architecture}{14}{section*.41}% 
-\contentsline {subsection}{\numberline {2.4.2}ipNX Divisions}{14}{subsection.2.4.2}% 
-\contentsline {subsubsection}{Infrastructure Division}{14}{section*.42}% 
-\contentsline {subsubsection}{Retail Division}{14}{section*.43}% 
-\contentsline {subsubsection}{Business Division}{14}{section*.44}% 
+\contentsline {section}{\numberline {2.3}\textit {ip}NX Organogram}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}\textit {ip}NX Departments And Divisions}{9}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}\textit {ip}NX Departments}{9}{subsection.2.4.1}% 
+\contentsline {subsubsection}{Human Capital Management}{9}{section*.41}% 
+\contentsline {subsubsection}{Finance}{11}{section*.42}% 
+\contentsline {subsubsection}{Legal, Risk And Compliance}{11}{section*.43}% 
+\contentsline {subsubsection}{Customer Experience \& Advocacy}{11}{section*.44}% 
+\contentsline {subsubsection}{Health, Safety And Environment}{11}{section*.45}% 
+\contentsline {subsubsection}{Marketing}{12}{section*.46}% 
+\contentsline {subsubsection}{Internal Audit}{12}{section*.47}% 
+\contentsline {subsubsection}{Corporate Services}{12}{section*.48}% 
+\contentsline {subsubsection}{Supply Chain Management}{12}{section*.49}% 
+\contentsline {subsubsection}{Information Systems And Technology}{13}{section*.50}% 
+\contentsline {subsubsection}{Fibre Project And Rollout}{13}{section*.51}% 
+\contentsline {subsubsection}{Admin Services}{13}{section*.52}% 
+\contentsline {subsubsection}{Research And System Architecture}{13}{section*.53}% 
+\contentsline {subsection}{\numberline {2.4.2}\textit {ip}NX Divisions}{13}{subsection.2.4.2}% 
+\contentsline {subsubsection}{Infrastructure Division}{13}{section*.54}% 
+\contentsline {subsubsection}{Retail Division}{14}{section*.55}% 
+\contentsline {subsubsection}{Business Division}{14}{section*.56}% 
 \contentsline {chapter}{\numberline {3}Projects Done and Experiences Gained}{15}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Customer Premises Equipment (CPE)}{15}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Customer Experience Analysis (CEA) Dashboard}{15}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Data Usage Analytic (DUA) Dashboard}{15}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Flask Blog}{15}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Django Blog}{15}{section.3.5}% 
-\contentsline {section}{\numberline {3.6}Web Crawler}{15}{section.3.6}% 
-\contentsline {section}{\numberline {3.7}Recommender System}{15}{section.3.7}% 
-\contentsline {section}{\numberline {3.8}Deployment}{15}{section.3.8}% 
-\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{16}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusion}{16}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Recommendation}{16}{section.4.2}% 
-\contentsline {chapter}{References}{17}{chapter*.45}% 
+\contentsline {section}{\numberline {3.1}Preliminaries}{15}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Software development process overview at \textit {ip}NX}{15}{subsection.3.1.1}% 
+\contentsline {subsubsection}{Comparison of \ac {SDLC} Models}{16}{section*.58}% 
+\contentsline {subsection}{\numberline {3.1.2}Python}{18}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Flask Framework}{18}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Django Framework}{18}{subsection.3.1.4}% 
+\contentsline {subsubsection}{Model Layer}{19}{section*.61}% 
+\contentsline {subsubsection}{View Layer}{19}{section*.62}% 
+\contentsline {subsubsection}{Template Layer}{19}{section*.64}% 
+\contentsline {subsection}{\numberline {3.1.5}\ac {AJAX}}{19}{subsection.3.1.5}% 
+\contentsline {subsection}{\numberline {3.1.6}SQLAlchemy}{21}{subsection.3.1.6}% 
+\contentsline {subsection}{\numberline {3.1.7}\href {http://jinja.pocoo.org/}{Jinja2}}{22}{subsection.3.1.7}% 
+\contentsline {section}{\numberline {3.2}Python-based Projects}{23}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Methodology}{23}{subsection.3.2.1}% 
+\contentsline {subsubsection}{Created the Database tables}{23}{section*.75}% 
+\contentsline {subsubsection}{Created the User Interface}{26}{section*.78}% 
+\contentsline {subsection}{\numberline {3.2.2}Implemented the view function}{29}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Projects Implemented}{32}{subsection.3.2.3}% 
+\contentsline {subsubsection}{Customer Premises Equipment (CPE)}{32}{section*.84}% 
+\contentsline {subsection}{\numberline {3.2.4}Customer Experience Analysis (CEA) Dashboard}{32}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.5}Data Usage Analytic (DUA) Dashboard}{32}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}Flask Blog}{32}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.7}Django Blog}{32}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {3.2.8}Web Crawler}{32}{subsection.3.2.8}% 
+\contentsline {subsection}{\numberline {3.2.9}Recommender System}{32}{subsection.3.2.9}% 
+\contentsline {subsection}{\numberline {3.2.10}Deployment}{32}{subsection.3.2.10}% 
+\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{34}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusion}{34}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Recommendation}{34}{section.4.2}% 
+\contentsline {chapter}{References}{35}{chapter*.86}% 
