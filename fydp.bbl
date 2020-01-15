@@ -17,6 +17,12 @@ Holovaty, A. and Willison, S. (2019).
 \newblock Django Software Foundation.
 \newblock Release 3.1.dev.
 
+\bibitem[Makai, 2020]{Makai:2020}
+Makai, M. (2020 (accessed January 15, 2020)).
+\newblock {\em Deployment}.
+\newblock Full Stack Python.
+\newblock \url{https://www.fullstackpython.com/deployment.html}.
+
 \bibitem[Melé, 2018]{Antonio:2018}
 Melé, A. (2018).
 \newblock {\em Django 2 by Example: Build powerful and reliable Python web
@@ -39,6 +45,12 @@ Ronacher, A. (2010 (accessed January 9, 2020)).
 Ronacher, A. (2017).
 \newblock {\em Jinja2 Documentation}.
 \newblock Release 2.9.6.
+
+\bibitem[Salceanu, 2018]{Salceanu:2018}
+Salceanu, A. (2018).
+\newblock {\em Julia Programming Projects}.
+\newblock Packt Publishing Ltd, 35, Livery Street, Birmingham B3 2PB, United
+  Kingdom, first edition.
 
 \bibitem[Sharma and Singh, 2015]{Sharma:2015}
 Sharma, P. and Singh, D. (2015).

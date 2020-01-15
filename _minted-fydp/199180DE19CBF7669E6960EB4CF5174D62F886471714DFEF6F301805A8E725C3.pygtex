@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} sudo ln \PYGZhy{}s /etc/nginx/sites\PYGZhy{}available/flask\PYGZus{}settings /etc/nginx/sites\PYGZhy{}enabled/flask\PYGZus{}settings
+\end{Verbatim}

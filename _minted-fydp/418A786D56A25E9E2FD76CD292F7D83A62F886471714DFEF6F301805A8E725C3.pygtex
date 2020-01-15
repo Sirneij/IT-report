@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} sudo /etc/init.d/nginx restart
+\end{Verbatim}

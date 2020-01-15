@@ -382,7 +382,7 @@ Although the Database, where tables of any kind could be updated using Django an
 			fontsize=\footnotesize,
 			linenos
 			]
-			{HTML}
+			{htmldjango}
 {% extends 'base.html' %}
 {% block header %}{% endblock header %}
 {% block content %}
@@ -417,7 +417,7 @@ Although the Database, where tables of any kind could be updated using Django an
 {% endblock content %}
 		\end{minted}
 	\end{code}
-Every line surrounded by \texttt{"\% \%"} is a Django sentence which deals with simple \texttt{"if-else"}, \texttt{csrf\_token} and \texttt{"for-loop"} among others. The lines surrounded by double curly braces, such as \texttt{\{\{ field \}\}}, denote variables whose values are passed from view functions whenever this template has to be displayed.
+Every line surrounded by \mintinline{htmldjango}{{% %}} is a Django sentence which deals with simple \mintinline{htmldjango}{{% if-else %}}, \mintinline{htmldjango}{{% csrf_token %}} and \mintinline{htmldjango}{{% for-loop %}} among others. The lines surrounded by double curly braces, such as \mintinline{htmldjango}{{{ field }}}, denote variables whose values are passed from view functions whenever this template has to be displayed.
 
 	\item \textbf{Flask}: For flask, \href{http://jinja.pocoo.org/}{Jinja2} is one of the major dependencies needed to get it up and running and the syntax looks as follows:
 	\begin{code}
@@ -430,7 +430,7 @@ baselinestretch=1,
 fontsize=\footnotesize,
 linenos
 ]
-{HTML}
+{html+jinja}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -682,6 +682,7 @@ def logout():
 \end{itemize}
 
 \subsection{Projects Implemented}
+Some of the projects implemented using the Python programming language and its two most popular frameworks, Django and Flask, are undermentioned and discussed.
 \subsubsection{Customer Premises Equipment (CPE)}
 \begin{itemize}
 	\item \textbf{Project's Requirement specification}:
@@ -753,7 +754,7 @@ Having implemented the features stated using Flask, the system was initiated and
 \end{subfigure}
 	\caption{\ac{vCPE} Screenshots}
 \end{figure}
-\subsection{Customer Experience Analysis (CEA) Dashboard}
+\subsubsection{Customer Experience Analysis (CEA) Dashboard}
 \begin{itemize}
 	\item \textbf{Project's Requirement specification}: Customer Experience Analysis (CEA) Dashboard's requirement specification was to develop or implement a real-time dashboard which has the metrics and features as shown in the Figure 3.5 below:\\\\\\\\
 	\begin{figure}[!htbp]
@@ -790,7 +791,7 @@ Having implemented the features stated using Flask, the system was initiated and
 		\caption{Some CEA dashboard pages with Real-time data visualization.}
 	\end{figure}
 \end{itemize}
-\subsection{Data Usage Analytic (DUA) Dashboard}
+\subsubsection{Data Usage Analytic (DUA) Dashboard}
 \begin{itemize}
 	\item \textbf{Project's requirement specification}: \textit{ip}NX already had a Data Usage Analytic (DUA) Dashboard but was with poor design and user interface. The task was to re-engineer, re-develop and revamp the whole system with the following additional features:
 	\subitem Animated Error page for advertisement.
@@ -849,7 +850,7 @@ Having implemented the features stated using Flask, the system was initiated and
 		\caption{Re-designed DUA dashboard pages.}
 	\end{figure}
 \end{itemize}
-\subsection{Django Blog}
+\subsubsection{Django Blog}
 \begin{itemize}
 	\item \textbf{Project's description}: \textbf{Devc}, the name of the blog, is a complex web application inspired by \textbf{Frances Nnamadim}, a senior and regular colleague who worked as a Business Analyst and \ac{UI}/\ac{UX} designer in \textit{ip}NX's department of Business Intelligence and Data Analytics (BIDA). It was fully implemented in Django framework with PostgreSQL database at the back-end and a template initially designed by \href{https://www.styleshout.com/}{Styleshout}.\\
 	
@@ -963,6 +964,151 @@ Having implemented the features stated using Flask, the system was initiated and
 		\caption{\textbf{devc} Portfolio system.}
 	\end{figure}
 \end{itemize}
+\section{Julia-based projects}
+\subsection{Brief Introduction to Julia Programming Language}
+Julia, a new programming language offering a unique combination of performance and productivity that promises to change scientific computing and programming in general, is an open-source language for high-performance technical computing and data science created by Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman, some of the best minds in mathematical and statistical computing, and first released in 2012.\\ 
+
+It picks the best parts of existing programming languages, providing out-of-the-box features such as a powerful \ac{REPL}, an expressive syntax, Lisp-style metaprogramming capabilities, powerful numeric and scientific programming libraries, a built-in package manager, efficient Unicode support, and easily called C and Python functions, \citet{Salceanu:2018}.
 \subsection{Web Crawler}
-\subsection{Recommender System}
-\subsection{Deployment}
+Web crawler is a program that implements web scraping, a technique for extracting data from web pages using software, and it
+is a pivotal component of data harvesting.\\
+
+The essence of this web scraping script was to harvest some from the \textbf{devc} blog for proper usage in a Wiki game, a project yet to be concluded. Code Snippet gives the source code of the web crawler.
+\begin{code}
+	\captionof{listing}{webcrawler.jl}
+	\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1,
+fontsize=\footnotesize,
+linenos
+]
+{Julia}
+using HTTP, Gumbo
+const PAGE_URL = "http://localhost:8000/"
+const LINKS = String[]
+
+function fetchPage(url)
+	response = HTTP.get(url)
+	# if response.status == 200 && parse(Int,
+	Dict(response.headers)["Content-Length"]) > 0
+	#     String(response.body)
+	# else
+	#     ""
+	# end # if
+	response.status == 200 && parse(Int,
+	Dict(response.headers)["Content-Length"]) > 0 ?
+	String(response.body) : ""
+end # function
+
+function extractlinks(elem)
+	if isa(elem, HTMLElement) && tag(elem) == :a && in("href",
+	collect(keys(attrs(elem))))
+		url = getattr(elem, "href")
+		#startswith(url, "/portfolio/") && push!(LINKS, url)
+		startswith(url, "/2019/") && ! occursin(":", url) 
+			&& push!(LINKS, url)
+	end
+	for child in children(elem)
+		extractlinks(child)
+	end
+end # function
+
+
+content = fetchPage(PAGE_URL)
+if ! isempty(content)
+	dom = Gumbo.parsehtml(content)
+	extractlinks(dom.root)
+end # if
+display(unique(LINKS))
+	
+	\end{minted}
+\end{code}
+\section{Software Deployment}
+Software Deployment involves packaging up software products and putting them in a production environment where they can be run since having them only on the local machine barricades access to them. A production environment is the canonical version of the locally housed application and its associated data.
+\subsection{Python web application deployment}
+Python web application deployments are comprised of many pieces that need to be individually configured. Figure 3.12 is a map that visually depicts how each deployment topic relates to each other.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=1\textwidth]{./deploy.png}
+	\caption{SQLAlchemy overview, from \citet{Makai:2020}}
+\end{figure}
+\subsection{Deployement hosting option}
+According to \citet{Makai:2020}, four options are available for deploying and hosting web applications, namely:
+\begin{enumerate}
+	\item "Bare metal" servers
+	\item Virtualized servers
+	\item Infrastructure-as-a-service
+	\item Platform-as-a-service
+\end{enumerate}
+The first three options require the deployer to be provided with one or more servers having a Linux distribution wherein system packages, a web server, \ac{WSGI} server, database and the Python environment are then installed. There then the application can be pulled from source and installed in the environment.
+
+This was the option through which the projects built were deployed and the procedure for deployment are highlighted below based on the framework used.
+\subsection{Flask applications deployment}
+\begin{itemize}
+	\item Having been provided with a remote private server based on Ubuntu 14.04 LTS with the ip address 10.50.0.9 and a password, logging into the server using \ac{SSH} was done.
+	\mint{bash}{~$ ssh jidogun@10.50.0.9}
+	This required a password and was inputted appropriately.
+	\item As it is one of the best practises to update a server when one logs in, the Linux distribution was updated.
+	\mint{bash}{~$ sudo apt-get update}
+	\item Python requires its Package manager, \mintinline{python}{pip}, to install its dependencies easily, therefore, it was installed alongside the proxy server used, \mintinline{nginx}{nginx} and \mintinline{nginx}{git}.
+	\mint{bash}{~$ sudo apt-get install python-pip nginx git}
+	\item The \mintinline{nginx}{nginx} proxy server was started.
+	\mint{bash}{~$ sudo /etc/init.d/nginx start}
+	\item As expected, \mintinline{nginx}{nginx} comes with a default configuration file which can be found in a \mintinline{nginx}{/etc/nginx/sites-enabled/default}. This must be removed to allow personalised configuration file.
+	\mint{bash}{~$ sudo rm /etc/nginx/sites-enabled/default}
+	\item Having gotten rid of that default file, it was time to create a personalised configuration file.
+	\mint{bash}{~$ sudo touch /etc/nginx/sites-available/file_name}
+	where \mintinline{bash}{file_name} is the desired name given to the file. It was called \mintinline{bash}{flask_settings} in my case, so:
+	\mint{bash}{~$ sudo touch /etc/nginx/sites-available/flask_settings}
+	\item Since the just created file needs to be active for its contents to be used by \mintinline{nginx}{nginx}, a symbolic file, pointing to the \mintinline{nginx}{flask_settings} file created above, was made in \mintinline{nginx}{/etc/nginx/sites-enabled/flask_settings}.
+	\mint{bash}{~$ sudo ln -s /etc/nginx/sites-available/flask_settings /etc/nginx/sites-enabled/flask_settings}
+	\item The symbolic file made above was edited using \mintinline{nginx}{nano} editor, filling it with the short Snippet below:
+	\mint{bash}{~$ sudo nano /etc/nginx/sites-enabled/flask_settings}
+	\begin{code}
+		\captionof{listing}{/etc/nginx/sites-enabled/flask\_settings}
+		\begin{minted}
+[
+frame=lines,
+framesep=2mm,
+baselinestretch=1,
+fontsize=\footnotesize,
+linenos
+]
+{nginx}
+server{
+	location / {
+		proxy_pass http://127.0.0.1:8000;
+		proxy_set_header Host $host;
+		proxy_set-header X-Real-IP $remote_addr;
+	}
+}
+		\end{minted}
+	\end{code}
+	\item Next, \mintinline{nginx}{nginx} was restarted.
+	\mint{bash}{~$ sudo /etc/init.d/nginx restart}
+	\item With the above configurations, everything regarding \mintinline{nginx}{nginx} was pretty much done with. The next inline was to set up Python and the application as highlighted below. 
+	\begin{itemize}
+		\item A virtual environment for the application to be deployed must be created to avoid Python version conflict issues. But First, \mintinline{nginx}{virtualenv} was installed.
+		\mint{bash}{~$ sudo pip install virtualenv}
+		\item For proper organization, a directory for applications built using Flask was made.
+		\mint{bash}{~$ mkdir flask_app}
+		\item Next, directory was changed into the newly created one.
+		\mint{bash}{~$ cd flask_app}
+		\item The application to be deployed was cloned from its git repository which was \url{https://github.com/Sirneij/Blog.git}.
+		\mint{bash}{~/flask_app$ git clone https://github.com/Sirneij/Blog.git}
+		\item Directory was changed into the new application folder.
+		\mint{bash}{~/flask_app$ cd Blog}
+		\item Next, a virtual environment was created for it.
+		\mint{bash}{~/flask_app/Blog$ virtualenv venv #Environment name.}
+		\item Having created the virtual environment, it was activated.
+		\mint{bash}{~/flask_app/Blog$ source venv/bin/activate}
+		\item That done, the application's dependencies, stored in \mintinline{nginx}{requirements.txt} file, and the real Python server, \mintinline{nginx}{gunicorn} were installed.
+		\mint{bash}{(venv):~/flask_app/Blog$ sudo pip install -r requirements.txt gunicorn}
+		\item Finally, \mintinline{nginx}{gunicorn} was called and subsequently served with the main app's file name(without .py extension), in this case, \mintinline{nginx}{run}
+		\mint{bash}{(venv):~/flask_app/Blog$ gunicorn run:app}
+		That was it! Application was successfully deployed!
+	\end{itemize}
+	\item To confirm that the app was successfully deployed, a browser was visited and the ip address of the server provided was inputted as \ac{URL} or web address which returned a full version of the initial app.
+\end{itemize}

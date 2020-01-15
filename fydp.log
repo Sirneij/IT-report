@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  15 JAN 2020 08:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  15 JAN 2020 18:39
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -1759,10 +1759,7 @@ although it is yet undefined on input line 20.
 ] [10
 
 
-] [11] [12
-
-
-]
+] [11]
 (1.intro.tex
 Chapter 1.
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
@@ -1922,12 +1919,40 @@ pygtex [24] [25])
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/A5A6809F470DA1DAA9C6A27456F2A6148F00BA88796635AB31EFDE12B4F0B754.
+(_minted-fydp/A5A6809F470DA1DAA9C6A27456F2A6141ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex [26])
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/FF07FF4393F972A068C0D8D7A4CFC1621ADACB70B2A52ADDAFFEC6E08F2B9B65.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/FB072E36365FE2FA073E33A45F22660F1ADACB70B2A52ADDAFFEC6E08F2B9B65.
+pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
+)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/C84FD71F619D4462AE7E9B05E3B72C671ADACB70B2A52ADDAFFEC6E08F2B9B65.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/80E2862777CA937093E9C36C524979931ADACB70B2A52ADDAFFEC6E08F2B9B65.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/3ED2321C515CFAC6EE3409A93375018E1ADACB70B2A52ADDAFFEC6E08F2B9B65.
+pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/88F0E63337333221F6453FDC9627D3018F00BA88796635AB31EFDE12B4F0B754.
+(_minted-fydp/88F0E63337333221F6453FDC9627D301DFAE47347F48AC45F083385D614C70F7.
 pygtex [27]) [28]
 \openout5 = `fydp.pyg'.
 
@@ -1944,7 +1969,7 @@ pygtex)
 
 (_minted-fydp/D06A8FCB4EF5492385B056F3D713F631C01E3142112BA12B39735D06579A8ED1.
 pygtex [30]) [31]
-Overfull \hbox (2.32892pt too wide) in paragraph at lines 695--696
+Overfull \hbox (2.32892pt too wide) in paragraph at lines 696--697
 []| \TU/TimesNewRoman(0)/m/n/12 Enable/disable DHCP service, modify address ran
 ge, manage DHCP reser-
  []
@@ -1976,28 +2001,28 @@ File: ./ceasocial.png Graphic file (type bmp)
 File: ./cearetail.png Graphic file (type bmp)
 <./cearetail.png>
 
-Overfull \hbox (1.71742pt too wide) in paragraph at lines 758--792
+Overfull \hbox (1.71742pt too wide) in paragraph at lines 759--793
 []\TU/TimesNewRoman(0)/bx/n/12 Project’s Requirement specification\TU/TimesNewR
 oman(0)/m/n/12 : Customer Experience Analysis (CEA) Dash-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--792
+Underfull \hbox (badness 10000) in paragraph at lines 759--793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--792
+Underfull \hbox (badness 10000) in paragraph at lines 759--793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--792
+Underfull \hbox (badness 10000) in paragraph at lines 759--793
 
  []
 
 [32] [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 800--801
 
  []
 
@@ -2012,7 +2037,7 @@ File: ./duadata.png Graphic file (type bmp)
 File: ./duamodal.png Graphic file (type bmp)
 <./duamodal.png>
 
-Underfull \hbox (badness 1424) in paragraph at lines 835--835
+Underfull \hbox (badness 1424) in paragraph at lines 836--836
 []\TU/TimesNewRoman(0)/m/n/10.95 (c) |DUA dashboard modal data analysis
  []
 
@@ -2021,11 +2046,11 @@ File: ./duadatadetails.png Graphic file (type bmp)
 File: ./duaerror.png Graphic file (type bmp)
 <./duaerror.png>
 Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
-although it is yet undefined on input line 854.
+although it is yet undefined on input line 855.
 Package acronym Info: Label `acro:UX' newly defined as it shall be overridden
-although it is yet undefined on input line 854.
+although it is yet undefined on input line 855.
 
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
@@ -2048,6 +2073,7 @@ File: ./devccomments.png Graphic file (type bmp)
 <./devccomments.png>
 File: ./devcpostupdate.png Graphic file (type bmp)
 <./devcpostupdate.png>
+ [37]
 File: ./devcportprofile.png Graphic file (type bmp)
 <./devcportprofile.png>
 File: ./devcportabout.png Graphic file (type bmp)
@@ -2062,44 +2088,267 @@ File: ./devcportrecommend.png Graphic file (type bmp)
 <./devcportrecommend.png>
 File: ./devcportgetintouch.png Graphic file (type bmp)
 <./devcportgetintouch.png>
- [37] [38]) (4.conclusion.tex [39] [40]
-Chapter 4.
-) (fydp.bbl [41
 
-]
-Underfull \hbox (badness 1527) in paragraph at lines 28--32
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
+
+ []
+
+[38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 973--975
+
+ []
+
+\openout5 = `fydp.pyg'.
+
+
+(_minted-fydp/EC295EC5E757A4388EA6B1AEFBCA58209187AA9028A9EACF103840594174373D.
+pygtex [40])
+File: ./deploy.png Graphic file (type bmp)
+<./deploy.png>
+ [41]
+Package acronym Info: Label `acro:SSH' newly defined as it shall be overridden
+although it is yet undefined on input line 1050.
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/3C1FD11784AE580AD1E9C864858B156C62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/140938166A03A17CBFD0EF5872A92D6D62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/00305BC1FB89E33403A168E6E3E2EC08C01E3142112BA12B39735D06579A8ED1.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1F5E513D5D52EDD42FD343A7ECBD29BE07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/43FE31CB59EC24BF9C850AA8647BB31662F886471714DFEF6F301805A8E725C3.
+pygtex [42])
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/B665D7334C6203975C9B59ABA839641D62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/01B75E367C7F0B3257BCFCC2ED12962C07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/EFF43F0F47931A58CBF941D2D085A82A62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/8986A8159F030CB07521C27D07ACA32162F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/C6E796FF59529C289DBD29B559D7C72B62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/518BB20A572A02728A0065A300DD031B62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/CE4B4F7B599540ADCBBFAE7CAEF0E1A062F886471714DFEF6F301805A8E725C3.
+pygtex
+Overfull \hbox (9.91571pt too wide) in paragraph at lines 1063--1
+[]\TU/TimesNewRoman(0)/m/n/12 where [] is the desired name given to the file. I
+t was called []
+ []
+
+)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/518BB20A572A02728A0065A300DD031B07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/01BC9F28619913D96850A62C37B2BD4D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/199180DE19CBF7669E6960EB4CF5174D62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/ED346200D37D3671DDA64DB7777DC60407817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1D556CFCDDF8962EB8EA1C9F5281AC3A62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout5 = `fydp.pyg'.
+
+
+(_minted-fydp/A38F4B3304E2340E04F8099D0D76F30907817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/418A786D56A25E9E2FD76CD292F7D83A62F886471714DFEF6F301805A8E725C3.
+pygtex [43])
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/CCA856F365DBAF7DDA0BE240F66DAD1407817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/84AD1C00CDECE8C4E09BBF19369E115062F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/198B471C65BDF993A739C5BCC3A3318662F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/C20CD97FC9694EB7939467091ACFD58F62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/1F9E6E4B4A3AA2BDDBA3D362E5FB02F062F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/A7D9A7F86F69C970F90F73E8D9BF8D3262F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/711823512E604D0C1DAA9F8821AC15D562F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/0887F426C8EFA819D15413D2986A094E62F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/70ADCD74F797CB3DD919437BCADD635507817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/6D1F622B5FAA0746093C6AC1E948BAAA07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/DB411482C5135E6A37948D26CF057AE762F886471714DFEF6F301805A8E725C3.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/6D1F622B5FAA0746093C6AC1E948BAAA07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/E544B104197A5B99104A3741B8DB3FAE07817944E61570F8678A04BA714FB400.
+pygtex)
+\openout6 = `fydp.pyg'.
+
+
+(_minted-fydp/01B18830090C69711BF5B8057EBE85C462F886471714DFEF6F301805A8E725C3.
+pygtex)
+Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
+although it is yet undefined on input line 1113.
+) (4.conclusion.tex [44]
+Chapter 4.
+[45
+
+] [46]) (fydp.bbl [47]
+Underfull \hbox (badness 1527) in paragraph at lines 34--38
 []\TU/TimesNewRoman(0)/m/n/12 Pal, S. K. (2020 (accessed January 12, 2020)).  \
 TU/TimesNewRoman(0)/m/it/12 Software Engineering | Phases
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 \TU/TimesNewRoman(0)/m/it/12 of Prototyping Model | Set - 2\TU/TimesNewRoman(0)
 /m/n/12 .  [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][
 ][] []
  []
 
-) [42
+[48
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+]) [49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (fydp.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `fydp.out' has not changed.
-(rerunfilecheck)             Checksum: D53FB063C6614C03D807C57E79886AF0.
+(rerunfilecheck)             Checksum: 7F2DC223DBDEEB01EB73A01E72C09391.
 runsystem(del fydp.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 39197 strings out of 427669
- 756547 string characters out of 3149215
- 916055 words of memory out of 3000000
- 42674 multiletter control sequences out of 15000+200000
- 537639 words of font info for 80 fonts, out of 3000000 for 9000
+ 39406 strings out of 427669
+ 770723 string characters out of 3149215
+ 919628 words of memory out of 3000000
+ 42752 multiletter control sequences out of 15000+200000
+ 537647 words of font info for 81 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,12n,79p,1363b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,79p,1339b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fydp.pdf (55 pages).
+Output written on fydp.pdf (61 pages).

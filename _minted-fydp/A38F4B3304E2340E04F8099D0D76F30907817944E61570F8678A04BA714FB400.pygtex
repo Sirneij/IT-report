@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{server\PYGZob{}}
+	\PYG{l+s}{location} \PYG{l+s}{/} \PYG{p}{\PYGZob{}}
+		\PYG{k+kn}{proxy\PYGZus{}pass} \PYG{l+s}{http://127.0.0.1:8000}\PYG{p}{;}
+		\PYG{k+kn}{proxy\PYGZus{}set\PYGZus{}header} \PYG{l+s}{Host} \PYG{n+nv}{\PYGZdl{}host}\PYG{p}{;}
+		\PYG{k+kn}{proxy\PYGZus{}set\PYGZhy{}header} \PYG{l+s}{X\PYGZhy{}Real\PYGZhy{}IP} \PYG{n+nv}{\PYGZdl{}remote\PYGZus{}addr}\PYG{p}{;}
+	\PYG{p}{\PYGZcb{}}
+\PYG{k}{\PYGZcb{}}
+\end{Verbatim}
