@@ -1,6 +1,6 @@
 \chapter{Projects Done and Experiences Gained}
 \section{Preliminaries}
-This section gives a brief introduction to or exposes the technologies used during in the course of implementing the projects assigned to me.
+This section gives a brief introduction to or exposes the technologies used in the course of implementing the projects assigned to me.
 \subsection{Software development process overview at \textit{ip}NX}
 In IEEE standard Glossary of Software Engineering
 Terminology, the \ac{SDLC} is: “The period of time
@@ -36,53 +36,52 @@ According to \citet{Sharma:2015}, General software process models are:
 These models are depicted in Figure 3.1 below:
 \begin{figure}[htbp]
 	\centering
-	\hfill
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./Prototyping-model}
+		\includegraphics[width=\linewidth]{./Prototyping-model}
 		\caption{Prototype Model, Source: \citet{Kumar:2020}}
 		\label{fig: 1}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./rad}
-		\caption{Rapid application development model (RAD)}
+		\includegraphics[width=\linewidth]{./waterfall}
+		\caption{Waterfall model, Source: \citet{Team:2017}}
 		\label{fig: 2}
 	\end{subfigure}
-	\hfill
+	\medskip
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./iterative}
+		\includegraphics[width=\linewidth]{./iterative}
 		\caption{Incremental model, Source: \citet{Team:2017}}
 		\label{fig: 3}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./Spiral}
+		\includegraphics[width=\linewidth]{./Spiral}
 		\caption{Spiral model, Source: \citet{Team:2017}}
 		\label{fig: 4}
 	\end{subfigure}
-	\hfill
+	\medskip
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./Agile}
+		\includegraphics[width=\linewidth]{./Agile}
 		\caption{Agile model, Source: \citet{Team:2017}}
 		\label{fig: 5}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.45\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./V-Shaped}
+		\includegraphics[width=\linewidth]{./V-Shaped}
 		\caption{V-shaped model, Source: \citet{Team:2017}}
 		\label{fig: 6}
 	\end{subfigure}
-	\hfill
+	\medskip
 	\begin{subfigure}[b]{0.5\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{./waterfall}
-		\caption{Waterfall model, Source: \citet{Team:2017}}
+		\includegraphics[width=\linewidth]{./rad}
+		\caption{Rapid application development model (RAD)}
 		\label{fig: 7}
 	\end{subfigure}
 \caption{\ac{SDLC} Models}
@@ -418,7 +417,8 @@ Although the Database, where tables of any kind could be updated using Django an
 {% endblock content %}
 		\end{minted}
 	\end{code}
-Every line surrounded by \texttt{"\% \%"} is a Django sentence which deals with simple \texttt{"if-else"}, \texttt{csrf\_token} and \texttt{"for-loop"} among others. The lines surrounded by double curly braces, such as \texttt{\{\{ field \}\}}, denote variables whose values are passed from view functions whenever this template has to be displayed.
+Every line surrounded by \texttt{"\% \%"} is a Django sentence which deals with simple \texttt{"if-else"}, \texttt{csrf\_token} and \texttt{"for-loop"} among others. The lines surrounded by double curly braces, such as \texttt{\{\{ field \}\}}, denote variables whose values are passed from view functions whenever this template has to be displayed.
+
 	\item \textbf{Flask}: For flask, \href{http://jinja.pocoo.org/}{Jinja2} is one of the major dependencies needed to get it up and running and the syntax looks as follows:
 	\begin{code}
 		\captionof{listing}{CEA Dashboard \texttt{login.html}}
@@ -611,7 +611,8 @@ linenos
 {python}
 @app.route('/')
 def index():
-	return '<h1>Hello World!</h1>'
+	return '<h1>Hello World!</h1>'
+
 		\end{minted}
 	\end{code}
 Functions like index() are called view functions" and are mostly housed in the \texttt{views.py} file and an example of a comprehensive \texttt{views.py} file is shown below:
@@ -684,7 +685,7 @@ def logout():
 \subsubsection{Customer Premises Equipment (CPE)}
 \begin{itemize}
 	\item \textbf{Project's Requirement specification}:
-	The project was to build a web UI for a customer premises equipment (CPE) through which settings can be modified.
+	The project was to "build a web UI for a customer premises equipment (CPE) through which settings can be modified.
 	
 	Please design such a web UI with the following pages:
 	\begin{itemize}
@@ -698,66 +699,270 @@ def logout():
 	\end{itemize} 
 	
 	
-	This must be a responsive site with a nice UI and interaction. Communication between front-end and back-end should JSON over XHR asynchronously. Backend should be Python or PHP based with data persistence in SQLite on the backend server.
+	This must be a responsive site with a nice UI and interaction. Communication between front-end and back-end should JSON over XHR asynchronously. Backend should be Python or PHP based with data persistence in SQLite on the backend server".
 \end{itemize}
 
-Having implemented the features stated, the system was initiated and Figure 3.3 shows the pages of each feature:
-\begin{figure}[h!]
+Having implemented the features stated using Flask, the system was initiated and Figure 3.3 shows the pages of each feature:
+\begin{figure}[!htbp]
 	\centering
-\hfill
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpewifi}
+	\includegraphics[width=\linewidth]{./vcpewifi}
 	\caption{\ac{vCPE} WiFi management page}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpemainpage}
+	\includegraphics[width=\linewidth]{./vcpemainpage}
 	\caption{\ac{vCPE}  Main page}
 \end{subfigure}
-\hfill
+\medskip
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpedhcp}
+	\includegraphics[width=\linewidth]{./vcpedhcp}
 	\caption{\ac{vCPE} DHCP page}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpednsserver}
+	\includegraphics[width=\linewidth]{./vcpednsserver}
 	\caption{\ac{vCPE}  DNS Server page}
 \end{subfigure}
-\hfill
+\medskip
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpedhcp}
+	\includegraphics[width=\linewidth]{./vcpedhcp}
 	\caption{\ac{vCPE} DHCP page}
 \end{subfigure}
 \hfill
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpedevice}
+	\includegraphics[width=\linewidth]{./vcpedevice}
 	\caption{\ac{vCPE}  Devices List page}
 \end{subfigure}
-\hfill
+\medskip
 \begin{subfigure}[b]{0.45\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{./vcpelogin}
-	\caption{\ac{vCPE} Login page}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.45\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{./vcperegister}
+	\includegraphics[width=\linewidth]{./vcperegister}
 	\caption{\ac{vCPE} Registration page, \textit{restricted to an admin}.}
+\end{subfigure}\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{./vcpelogin}
+	\caption{\ac{vCPE} Login page}
 \end{subfigure}
 	\caption{\ac{vCPE} Screenshots}
 \end{figure}
 \subsection{Customer Experience Analysis (CEA) Dashboard}
+\begin{itemize}
+	\item \textbf{Project's Requirement specification}: Customer Experience Analysis (CEA) Dashboard's requirement specification was to develop or implement a real-time dashboard which has the metrics and features as shown in the Figure 3.5 below:\\\\\\\\
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=1\linewidth,height=0.9\textheight]{./ceadash}
+		\caption{Customer Experience Analysis (CEA) Dashboard specification sent by \textit{ip}NX's Head of Customer Experience \& Advocacy.}
+	\end{figure}
+	Figure 3.6 depicts the looks of the software product which was wholly implemented in Python's Flask:
+	\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./cealogin}
+			\caption{CEA dashboard Login page}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./ceaindex}
+			\caption{CEA dashboard Landing or main page}
+		\end{subfigure}
+		\medskip
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./ceasocial}
+			\caption{CEA dashboard Social menu page}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./cearetail}
+			\caption{CEA dashboard Retail menu page}
+		\end{subfigure}
+		\caption{Some CEA dashboard pages with Real-time data visualization.}
+	\end{figure}
+\end{itemize}
 \subsection{Data Usage Analytic (DUA) Dashboard}
-\subsection{Flask Blog}
+\begin{itemize}
+	\item \textbf{Project's requirement specification}: \textit{ip}NX already had a Data Usage Analytic (DUA) Dashboard but was with poor design and user interface. The task was to re-engineer, re-develop and revamp the whole system with the following additional features:
+	\subitem Animated Error page for advertisement.
+	\subitem Modal views of preliminary Data Usage analysis of each device on each user's network.
+	\subitem Attractive Login page with company's products advertisement as carousels.
+	\subitem Responsive Dashboard theme selection pluggin.\\
+	
+	
+	 Figures 3.7 and 3.8 show the initial system as well as its re-designed, using Flask micro-framework, counterpart.
+		\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./duaformeranalytic}
+			\caption{DUA dashboard data analytics}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./duaformeranalyticdetail}
+			\caption{DUA dashboard data analytics details}
+		\end{subfigure}
+		\caption{Former DUA dashboard pages.}
+	\end{figure}
+	\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./dualogin}
+			\caption{DUA dashboard Animated Login page}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./duadata}
+			\caption{DUA dashboard data analysis page}
+		\end{subfigure}
+	\medskip
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./duamodal}
+		\caption{DUA dashboard modal data analysis page}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./duadatadetails}
+		\caption{DUA dashboard detailed data analysis page}
+	\end{subfigure}
+	\medskip
+	\begin{subfigure}[b]{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./duaerror}
+		\caption{DUA dashboard Animated Error page}
+	\end{subfigure}
+		\caption{Re-designed DUA dashboard pages.}
+	\end{figure}
+\end{itemize}
 \subsection{Django Blog}
+\begin{itemize}
+	\item \textbf{Project's description}: \textbf{Devc}, the name of the blog, is a complex web application inspired by \textbf{Frances Nnamadim}, a senior and regular colleague who worked as a Business Analyst and \ac{UI}/\ac{UX} designer in \textit{ip}NX's department of Business Intelligence and Data Analytics (BIDA). It was fully implemented in Django framework with PostgreSQL database at the back-end and a template initially designed by \href{https://www.styleshout.com/}{Styleshout}.\\
+	
+	\textbf{Devc} was built with three (3) other main applications embedded, each embedding other systems in turn:
+	\subitem \textbf{Account management system}: This application provides interfaces for users registration and authentication. It allows direct authentication from popular social and technical websites such as Facebook, Twitter and Github among others as shown in Figure 3.9.
+	\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devclogin}
+			\caption{\textbf{devc} Login page with social authentication}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcsignup}
+			\caption{\textbf{devc} Signup page with social authentication}
+		\end{subfigure}
+		\medskip
+		\begin{subfigure}[b]{0.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcaccount}
+			\caption{\textbf{devc} Account update page}
+		\end{subfigure}
+		\caption{\textbf{devc} Account management system.}
+	\end{figure}
+	\subitem \textbf{Blogging system}: This is the heart of the overall system. It controls user's posts - their creation and  update, with a rich text editor and advanced text formatting system; and posts' deletion - profiles and portfolio with various mini-systems such as full-text search engine, tagging, related-posts recommendation, threaded commenting and slack-like chatting systems, embedded. Users' posts could also be liked and shared asynchronously. Some of these features are shown in Figure 3.10.
+	\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcmainwithout}
+			\caption{\textbf{devc} main page without user authentication}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcmainwith}
+			\caption{\textbf{devc} main page with user authentication, recent posts shown first.}
+		\end{subfigure}
+	\medskip
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./devcpostdetail}
+		\caption{\textbf{devc} Post detail page with user authentication}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./devcpostdetailwith}
+		\caption{\textbf{devc} syntax highlighting feature of the post detail page}
+	\end{subfigure}
+	\medskip
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./devccomments}
+		\caption{\textbf{devc} Threaded commenting section of the post detail page}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{./devcpostupdate}
+		\caption{\textbf{devc} post creation and update page with a Rich text editor}
+	\end{subfigure}
+		\caption{\textbf{devc} Blogging system.}
+	\end{figure}
+	\subitem \textbf{Portfolio system}: This serves as an extension of the account management system where authors of post(s) showcase their skills to their potential recruiters. It structures authors profiles, education, skills, projects and recommendations accordingly which can be downloaded in Portable Document Format (PDF). Figure 3.11 gives a quick tour of some of these features.
+	\begin{figure}[!htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportprofile}
+			\caption{\textbf{devc} portfolio introduction section.}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportabout}
+			\caption{\textbf{devc} portfolio about section.}
+		\end{subfigure}
+		\medskip
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportwork}
+			\caption{\textbf{devc} portfolio experience section}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportservices}
+			\caption{\textbf{devc} portfolio service section}
+		\end{subfigure}
+		\medskip
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportproject}
+			\caption{\textbf{devc} portfolio project showcase section}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportrecommend}
+			\caption{\textbf{devc} portfolio recommendation section}
+		\end{subfigure}
+		\medskip
+		\begin{subfigure}[b]{0.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{./devcportgetintouch}
+			\caption{\textbf{devc} portfolio Get-in-touch section}
+		\end{subfigure}
+		\caption{\textbf{devc} Portfolio system.}
+	\end{figure}
+\end{itemize}
 \subsection{Web Crawler}
 \subsection{Recommender System}
 \subsection{Deployment}

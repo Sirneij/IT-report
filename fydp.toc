@@ -1,9 +1,9 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Table of Contents}{vi}{chapter*.10}% 
 \contentsline {chapter}{List of Figures}{vii}{section*.11}% 
-\contentsline {chapter}{List of Tables}{viii}{section*.15}% 
-\contentsline {chapter}{List of Abbreviations}{ix}{chapter*.17}% 
-\contentsline {chapter}{List of Symbols}{x}{chapter*.18}% 
+\contentsline {chapter}{List of Tables}{ix}{section*.15}% 
+\contentsline {chapter}{List of Abbreviations}{x}{chapter*.17}% 
+\contentsline {chapter}{List of Symbols}{xii}{chapter*.18}% 
 \contentsline {chapter}{\numberline {1}Introduction to SIWES Program}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Brief History of SIWES Program}{1}{section.1.2}% 
@@ -79,13 +79,12 @@
 \contentsline {subsection}{\numberline {3.2.3}Projects Implemented}{32}{subsection.3.2.3}% 
 \contentsline {subsubsection}{Customer Premises Equipment (CPE)}{32}{section*.84}% 
 \contentsline {subsection}{\numberline {3.2.4}Customer Experience Analysis (CEA) Dashboard}{32}{subsection.3.2.4}% 
-\contentsline {subsection}{\numberline {3.2.5}Data Usage Analytic (DUA) Dashboard}{32}{subsection.3.2.5}% 
-\contentsline {subsection}{\numberline {3.2.6}Flask Blog}{32}{subsection.3.2.6}% 
-\contentsline {subsection}{\numberline {3.2.7}Django Blog}{32}{subsection.3.2.7}% 
-\contentsline {subsection}{\numberline {3.2.8}Web Crawler}{32}{subsection.3.2.8}% 
-\contentsline {subsection}{\numberline {3.2.9}Recommender System}{32}{subsection.3.2.9}% 
-\contentsline {subsection}{\numberline {3.2.10}Deployment}{32}{subsection.3.2.10}% 
-\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{34}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusion}{34}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Recommendation}{34}{section.4.2}% 
-\contentsline {chapter}{References}{35}{chapter*.86}% 
+\contentsline {subsection}{\numberline {3.2.5}Data Usage Analytic (DUA) Dashboard}{35}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}Django Blog}{35}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.7}Web Crawler}{40}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {3.2.8}Recommender System}{40}{subsection.3.2.8}% 
+\contentsline {subsection}{\numberline {3.2.9}Deployment}{40}{subsection.3.2.9}% 
+\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{41}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusion}{41}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Recommendation}{41}{section.4.2}% 
+\contentsline {chapter}{References}{42}{chapter*.95}% 

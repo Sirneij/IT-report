@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  13 JAN 2020 16:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  15 JAN 2020 08:11
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -1655,6 +1655,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
 [2
 
 
@@ -1737,27 +1742,28 @@ although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:vCPE' newly defined as it shall be overridden
 
 although it is yet undefined on input line 20.
-)
-\tf@lof=\write9
-\openout9 = `fydp.lof'.
-
  [7
 
 
-] (fydp.lot)
+])
+\tf@lof=\write9
+\openout9 = `fydp.lof'.
+
+ [8] (fydp.lot)
 \tf@lot=\write10
 \openout10 = `fydp.lot'.
 
- [8
-
-
-] [9
+ [9
 
 
 ] [10
 
 
-] (1.intro.tex
+] [11] [12
+
+
+]
+(1.intro.tex
 Chapter 1.
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
 1.
@@ -1812,8 +1818,8 @@ Chapter 3.
 ]
 File: ./Prototyping-model.png Graphic file (type bmp)
 <./Prototyping-model.png>
-File: ./rad.jpg Graphic file (type bmp)
-<./rad.jpg>
+File: ./waterfall.jpg Graphic file (type bmp)
+<./waterfall.jpg>
 File: ./iterative.jpg Graphic file (type bmp)
 <./iterative.jpg>
 File: ./Spiral.jpg Graphic file (type bmp)
@@ -1822,60 +1828,64 @@ File: ./Agile.jpg Graphic file (type bmp)
 <./Agile.jpg>
 File: ./V-Shaped.jpg Graphic file (type bmp)
 <./V-Shaped.jpg>
-File: ./waterfall.jpg Graphic file (type bmp)
-<./waterfall.jpg>
- [16] [17]
+File: ./rad.jpg Graphic file (type bmp)
+<./rad.jpg>
+
+
+LaTeX Warning: Float too large for page by 53.83942pt on input line 88.
+
+[16] [17]
 Package acronym Info: Label `acro:WSGI' newly defined as it shall be overridden
 
-although it is yet undefined on input line 114.
+although it is yet undefined on input line 113.
  [18]
 Package acronym Info: Label `acro:HTML' newly defined as it shall be overridden
 
-although it is yet undefined on input line 125.
+although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:DTL' newly defined as it shall be overridden
-although it is yet undefined on input line 128.
+although it is yet undefined on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 129.
+(hyperref)                removing `\@ac' on input line 128.
 
 Package acronym Info: Label `acro:XHTML' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 130.
+although it is yet undefined on input line 129.
 Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
 
-although it is yet undefined on input line 130.
+although it is yet undefined on input line 129.
 File: ./Ajax.png Graphic file (type bmp)
 <./Ajax.png>
 
-Overfull \hbox (10.1868pt too wide) in paragraph at lines 130--136
+Overfull \hbox (10.1868pt too wide) in paragraph at lines 129--135
 [][][]\TU/TimesNewRoman(0)/m/n/12 , a term coined in 2005 by Jesse James Garret
 t, stands for Asynchronous JavaScript
  []
 
 
-Overfull \hbox (3.24503pt too wide) in paragraph at lines 130--136
+Overfull \hbox (3.24503pt too wide) in paragraph at lines 129--135
 \TU/TimesNewRoman(0)/m/n/12 cading Style Sheets, JavaScript, The Document Objec
 t Model, [][], [][][]eXtensible Stylesheet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 139.
+t line 138.
 [19] [20]
 \openout5 = `fydp.pyg'.
 
@@ -1887,17 +1897,17 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 )
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
-although it is yet undefined on input line 190.
+although it is yet undefined on input line 189.
 Package acronym Info: Label `acro:ORM' newly defined as it shall be overridden
-although it is yet undefined on input line 190.
+although it is yet undefined on input line 189.
 File: ./sqlalchemy.png Graphic file (type bmp)
 <./sqlalchemy.png>
  [21]
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 198.
+although it is yet undefined on input line 197.
 Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 200.
+although it is yet undefined on input line 199.
  [22]
 \openout5 = `fydp.pyg'.
 
@@ -1934,7 +1944,7 @@ pygtex)
 
 (_minted-fydp/D06A8FCB4EF5492385B056F3D713F631C01E3142112BA12B39735D06579A8ED1.
 pygtex [30]) [31]
-Overfull \hbox (2.32892pt too wide) in paragraph at lines 696--697
+Overfull \hbox (2.32892pt too wide) in paragraph at lines 695--696
 []| \TU/TimesNewRoman(0)/m/n/12 Enable/disable DHCP service, modify address ran
 ge, manage DHCP reser-
  []
@@ -1951,16 +1961,110 @@ File: ./vcpedhcp.png Graphic file (type bmp)
 <./vcpedhcp.png>
 File: ./vcpedevice.png Graphic file (type bmp)
 <./vcpedevice.png>
-File: ./vcpelogin.png Graphic file (type bmp)
-<./vcpelogin.png>
 File: ./vcperegister.png Graphic file (type bmp)
 <./vcperegister.png>
+File: ./vcpelogin.png Graphic file (type bmp)
+<./vcpelogin.png>
+File: ./ceadash.jpg Graphic file (type bmp)
+<./ceadash.jpg>
+File: ./cealogin.png Graphic file (type bmp)
+<./cealogin.png>
+File: ./ceaindex.png Graphic file (type bmp)
+<./ceaindex.png>
+File: ./ceasocial.png Graphic file (type bmp)
+<./ceasocial.png>
+File: ./cearetail.png Graphic file (type bmp)
+<./cearetail.png>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (1.71742pt too wide) in paragraph at lines 758--792
+[]\TU/TimesNewRoman(0)/bx/n/12 Project’s Requirement specification\TU/TimesNewR
+oman(0)/m/n/12 : Customer Experience Analysis (CEA) Dash-
+ []
 
-) (4.conclusion.tex [32] [33]
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
+
+ []
+
+[32] [33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+File: ./duaformeranalytic.png Graphic file (type bmp)
+<./duaformeranalytic.png>
+File: ./duaformeranalyticdetail.png Graphic file (type bmp)
+<./duaformeranalyticdetail.png>
+File: ./dualogin.png Graphic file (type bmp)
+<./dualogin.png>
+File: ./duadata.png Graphic file (type bmp)
+<./duadata.png>
+File: ./duamodal.png Graphic file (type bmp)
+<./duamodal.png>
+
+Underfull \hbox (badness 1424) in paragraph at lines 835--835
+[]\TU/TimesNewRoman(0)/m/n/10.95 (c) |DUA dashboard modal data analysis
+ []
+
+File: ./duadatadetails.png Graphic file (type bmp)
+<./duadatadetails.png>
+File: ./duaerror.png Graphic file (type bmp)
+<./duaerror.png>
+Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
+although it is yet undefined on input line 854.
+Package acronym Info: Label `acro:UX' newly defined as it shall be overridden
+although it is yet undefined on input line 854.
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+ []
+
+[35] [36]
+File: ./devclogin.png Graphic file (type bmp)
+<./devclogin.png>
+File: ./devcsignup.png Graphic file (type bmp)
+<./devcsignup.png>
+File: ./devcaccount.png Graphic file (type bmp)
+<./devcaccount.png>
+File: ./devcmainwithout.png Graphic file (type bmp)
+<./devcmainwithout.png>
+File: ./devcmainwith.png Graphic file (type bmp)
+<./devcmainwith.png>
+File: ./devcpostdetail.png Graphic file (type bmp)
+<./devcpostdetail.png>
+File: ./devcpostdetailwith.png Graphic file (type bmp)
+<./devcpostdetailwith.png>
+File: ./devccomments.png Graphic file (type bmp)
+<./devccomments.png>
+File: ./devcpostupdate.png Graphic file (type bmp)
+<./devcpostupdate.png>
+File: ./devcportprofile.png Graphic file (type bmp)
+<./devcportprofile.png>
+File: ./devcportabout.png Graphic file (type bmp)
+<./devcportabout.png>
+File: ./devcportwork.png Graphic file (type bmp)
+<./devcportwork.png>
+File: ./devcportservices.png Graphic file (type bmp)
+<./devcportservices.png>
+File: ./devcportproject.png Graphic file (type bmp)
+<./devcportproject.png>
+File: ./devcportrecommend.png Graphic file (type bmp)
+<./devcportrecommend.png>
+File: ./devcportgetintouch.png Graphic file (type bmp)
+<./devcportgetintouch.png>
+ [37] [38]) (4.conclusion.tex [39] [40]
 Chapter 4.
-) (fydp.bbl [34
+) (fydp.bbl [41
 
 ]
 Underfull \hbox (badness 1527) in paragraph at lines 28--32
@@ -1975,27 +2079,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--32
 ][] []
  []
 
-) [35
+) [42
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
  (fydp.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
 Package rerunfilecheck Info: File `fydp.out' has not changed.
-(rerunfilecheck)             Checksum: CC235F9D8462776985A9B109220BE7F3.
+(rerunfilecheck)             Checksum: D53FB063C6614C03D807C57E79886AF0.
 runsystem(del fydp.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 39073 strings out of 427669
- 754008 string characters out of 3149215
- 915993 words of memory out of 3000000
- 42579 multiletter control sequences out of 15000+200000
- 537631 words of font info for 79 fonts, out of 3000000 for 9000
+ 39197 strings out of 427669
+ 756547 string characters out of 3149215
+ 916055 words of memory out of 3000000
+ 42674 multiletter control sequences out of 15000+200000
+ 537639 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,12n,79p,1363b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fydp.pdf (46 pages).
+Output written on fydp.pdf (55 pages).
