@@ -1,6 +1,6 @@
 \chapter{Projects Done and Experiences Gained}
 \section{Preliminaries}
-This section gives a brief introduction to or exposes the technologies used in the course of implementing the projects assigned to me.
+This section gives a brief introduction to or exposes the technologies used while implementing the projects assigned to me.
 \subsection{Software development process overview at \textit{ip}NX}
 In IEEE standard Glossary of Software Engineering
 Terminology, the \ac{SDLC} is: “The period of time
@@ -17,8 +17,8 @@ when the product is no longer available for use”. This circle typically includ
 		\item Source codes compilation
 		\item Unit testing and debugging
 	\end{itemize}
-	\item Testing This is the phase where comprehensive testing and debugging of the developed software product take place. All the code flaws missed during the development are detected, documented, and passed back to the developers to fix. The testing process repeats until all the critical issues are removed and software workflow is stable.
-	\item Deployment: When the program is finalized and has no critical issues, it is time to launch it for the end users and this is what happens in this stage.
+	\item Testing: This is the phase where comprehensive testing and debugging of the developed software product take place. All the code flaws missed during the development are detected, documented, and passed back to the developers to fix. The testing process repeats until all the critical issues are removed and software workflow is stable.
+	\item Deployment: When the program is finalised and has no critical issues, it is time to launch it for the end users and this happens in this stage.
 	\item Maintenance
 \end{enumerate}
 
@@ -108,23 +108,22 @@ Table: 3.1 compares the General software process models on different Parameters 
 	\end{tabular}}
 \end{table}
 \subsection{Python}
-Python is the programming language in which Django and Flask frameworks, used in implementing majority of the projects, were written. It is a general-purpose, versatile and modern programming language with a dynamic scripting ability similar to Perl and Ruby. First released in 1991 by its principal author, Guido van Rossum, Python supports dynamic typing and has a garbage collector for automatic memory management. Another important feature of Python is dynamic name solution which binds the names of functions and variables during execution, \citet{Zhou:2010}.
+Python is the programming language in which Django and Flask frameworks, used in implementing majority of the projects, were written. It is a general-purpose, versatile and modern programming language with a dynamic scripting ability similar to Perl and Ruby. First released in 1991 by its principal author, Guido van Rossum, Python supports dynamic typing and has a garbage collector for automatic memory management. Another important feature of Python is the dynamic name solution which binds the names of functions and variables during execution, \citet{Zhou:2010}.
 \subsection{Flask Framework}
-Flask is a lightweight \ac{WSGI} web application framework(\citet{Ronacher:2010}) written in Python by Armin Ronacher and first released on the 1st of April, 2010.  It was designed as an extensible framework from the ground up providing a solid core with the basic services while allowing extensions to provide the rest. Since one can pick and choose the required
+Flask is a lightweight \ac{WSGI} web application framework (\citet{Ronacher:2010}) written in Python by Armin Ronacher and first released on the 1st of April 2010.  It was designed as an extensible framework from the ground up providing a solid core with the basic services while allowing extensions to provide the rest. Since one can pick and choose the required
 extension packages, a lean stack with no bloat and which
 does exactly what one needs is ended up with.
 
 
 Flask has two main dependencies, namely \href{http://werkzeug.pocoo.org/}{Werkzeug} and \href{http://jinja.pocoo.org/}{Jinja2}. \href{http://werkzeug.pocoo.org/}{Werkzeug} provides the routing, debugging, and \ac{WSGI} subsystems, while template support is provided by \href{http://jinja.pocoo.org/}{Jinja2} \citet{Grinberg:2014}.
 \subsection{Django Framework}
-Django is a powerful Python web application framework that encourages rapid development with clean, and pragmatic design, which offers a relatively shallow learning curve, \citet{Antonio:2018}. It is open source with the primary goal of making the development of complex and data-based websites easier. Thus it emphasizes the re-usability and pluggability of components to ensure rapid developments, \citet{Zhou:2010}. Django consists of three layers, namely model, view and template, \citet{Adrian:2019}.
+Django is a powerful Python web application framework that encourages rapid development with clean, and pragmatic design, which offers a relatively shallow learning curve, \citet{Antonio:2018}. It is open source with the primary goal of making the development of complex and data-based websites easier. Thus it emphasizes the re-usability and "pluggability" of components to ensure rapid developments, \citet{Zhou:2010}. Django consists of three layers, namely model, view and template, \citet{Adrian:2019}.
 \subsubsection{Model Layer}
-Model, the single and definitive source of information about a data, contains the essential fields and behaviors of the data being stored. Generally, each model maps to a single database table, \citet{Adrian:2019}.
+Model, the single and definitive source of information about a data, contains the essential fields and behaviours of the data being stored. Generally, each model maps to a single database table, \citet{Adrian:2019}.
 \subsubsection{View Layer}
-Django's "views", which can be function- or class-based, encapsulate the logic that is responsible for processing a user’s request and for returning the desired response, \citet{Adrian:2019}. Response may be an \ac{HTML} content, \ac{XML} document or error code such as error 404, 505 and so on. The logic encapsulated in a view is allowed to be arbitrary provided that the desired response is returned.
+Django's "views", which can be function- or class-based, encapsulate the logic responsible for processing a user’s request and for returning the desired response, \citet{Adrian:2019}. Response may be a \ac{HTML} content, \ac{XML} document or error code such as error 404, 505 and so on. The logic encapsulated in a view may be arbitrary provided that the desired response is returned.
 \subsubsection{Template Layer}
-The template layer provides a designer-friendly syntax for rendering the information to be presented to the user. A template contains the static parts of the desired \ac{HTML} output as well as some special syntax
-describing how dynamic content will be inserted and A Django project can be configured with one or several template engines or systems such as the \ac{DTL} and \href{http://jinja.pocoo.org/}{Jinja2}.
+The template layer provides a designer-friendly syntax for rendering the information to be presented to the user. A template contains the static parts of the desired \ac{HTML} output and some special syntax describing how dynamic content will be inserted and a Django project can be configured with one or several template engines or systems such as the \ac{DTL} and \href{http://jinja.pocoo.org/}{Jinja2}.
 \subsection{\ac{AJAX}}
 \ac{AJAX}, a term coined in 2005 by Jesse James Garrett, stands for Asynchronous JavaScript and \ac{XML} and refers to a set of web development techniques combining existing web technologies, including \ac{HTML} or \ac{XHTML}, Cascading Style Sheets, JavaScript, The Document Object Model, \ac{XML}, \ac{XSLT}, and most importantly the \ac{XHR} object, \citet{Yang:2020}. Ajax is widely used in client-side programming (e.g. JavaScript) to allow for data to be sent and received to and from a database or server without actually disturbing the user experience or reloading the entire browser page. Figure 3.2 compares the conventional method of requesting data from a web server and the Ajax method.
 \begin{figure}[!htbp]
@@ -133,7 +132,7 @@ describing how dynamic content will be inserted and A Django project can be conf
 	\caption{Conventional method vs \ac{AJAX} method, Source \href{https://en.wikipedia.org/wiki/File:Ajax-vergleich-en.svg}{Wikipedia.com}}
 \end{figure}
 
-\ac{AJAX} was greatly utilized in carrying out my projects since most of them exhibited Real-time functionality. Code Snippet 3.1 is a sample snippet from one of the projects with asynchronous data persistence.\\\\\\\\
+\ac{AJAX} was greatly utilised in carrying out my projects since most of them exhibited Real-time functionality. Code Snippet 3.1 is a sample snippet from one of the projects with asynchronous data persistence.\\\\\\\\
 \begin{code}
 	\captionof{listing}{Django Blog's \ac{AJAX} snippet}
 	\begin{minted}
@@ -184,7 +183,7 @@ $(document).ready(function(event) {
 	\end{minted}
 \end{code}
 
-The above snippet was the underlying code responsible for the real-time functionality of Django blog's commenting system. It updates and fetches data from the Comment table which had been created in the blog's models without reloading the entire web page.
+The above snippet was the underlying code responsible for the real-time functionality of the Django blog's commenting system. It updates and fetches data from the Comment table which had been created in the blog's models without reloading the entire web page.
 \subsection{SQLAlchemy}
 According to \citet{Bayer:2016}, The SQLAlchemy \ac{SQL} Toolkit and \ac{ORM} provide a comprehensive set of tools for working with databases and Python. It consists of several distinct areas of functionality which can be individually or collaboratively used together. Below is the illustration of the major components of SQLAlchemy, with component dependencies organized into layers:
 \begin{figure}[htbp]
@@ -199,11 +198,11 @@ From the above figure, the two most significant front-facing portions of SQLAlch
 \href{http://jinja.pocoo.org/}{Jinja2} is a fast, expressive, extensible and modern day web templating language or engine for Python developers mimicking \ac{DTL} with the inclusion of call functions with arguments on objects. From \citet{Ronacher:2017}, An important usage of Jinga2 is the creation of \ac{HTML}, \ac{XML} or other markup formats which are returned to the user via \ac{HTTP} response.
 \section{Python-based Projects}
 \subsection{Methodology}
-All of the web applications were built using Flask or Django framework at the Back-end and Creative Tim's dashboard and other extensible templates at the front-end following the procedures below:
+All the web applications were built using Flask or Django framework at the Back-end and Creative Tim’s dashboard and other extensible templates at the front-­end following the procedures below:
 \subsubsection{Created the Database tables}
-To get started, a back-end of the system which is the database was created. It should be noted that the implementation of this system is framework dependent as discussed below.
+To get started, a back-end of the system which is the database was created. It should be noted that implementing this system was framework dependent as discussed below.
 \begin{itemize}
-	\item \textbf{Flask}: One of the notable tables in the database was the User table which was created by writing a Class that inherited from Flask's model class. A snippet is as follows:
+	\item \textbf{Flask}: One of the notable tables in the database was the User table which was created by writing a Class that inherited from Flask's model class. A snippet is:
 
 	\begin{code}
 	\captionof{listing}{\ac{vCPE} Flask User Model}
@@ -254,10 +253,10 @@ class User(UserMixin, db.Model):
 		return self 
 	\end{minted}
 	\end{code}
-	This piece of code creates a table called \texttt{User} which stores the user information. The table has seven columns: \texttt{id}, a primary key; \texttt{user}  which corresponds to \texttt{User}'s username; \texttt{email} corresponding to \texttt{User}'s email; \texttt{name} corresponding to the name of the \texttt{User}; role; \texttt{password} and \texttt{password\_q} corresponding to the password and confirm password fields respectively of the \texttt{User}. There are also the \texttt{\_\_init\_\_}(Python's Object constructor), \texttt{\_\_repr\_\_}, and \texttt{save} methods all taking \texttt{\textit{"self"}} as argument, a requirement in Python programming language for methods. \texttt{\_\_init\_\_} and \texttt{\_\_repr\_\_} are called \textit{dunder} or Double Under(Underscores) methods which are some times referred to as Magic methods. When an object of the class \texttt{User} is created, the \texttt{\_\_init\_\_} method is invoked while \texttt{\_\_repr\_\_} as well as its counterpart, \texttt{\_\_str\_\_}, found in Code Snippet 3.2 line 31, controls the \texttt{to-string} conversion in the class that houses it.
+	This piece of code creates a table called \texttt{User} which stores the user information. The table has seven columns: \texttt{id}, a primary key; \texttt{user}  which corresponds to \texttt{User}'s username; \texttt{email} corresponding to \texttt{User}'s email; \texttt{name} corresponding to the name of the \texttt{User}; role; \texttt{password} and \texttt{password\_q} corresponding to the password and confirm password fields of the \texttt{User}. There are also the \texttt{\_\_init\_\_}(Python's Object constructor), \texttt{\_\_repr\_\_}, and \texttt{save} methods all taking \texttt{\textit{"self"}} as an argument, a requirement in Python programming language for methods. \texttt{\_\_init\_\_} and \texttt{\_\_repr\_\_} are called \textit{dunder} or Double Under(Underscores) methods which are sometimes referred to as Magic methods. When an object of the class \texttt{User} is created, the \texttt{\_\_init\_\_} method is invoked while \texttt{\_\_repr\_\_} and its counterpart, \texttt{\_\_str\_\_}, found in Code Snippet 3.2 line 31, controls the \texttt{to-string} conversion in the class that houses it.
 
 	
-	It is worth noting that Flask uses \texttt{SQLAlchemy} for the \ac{ORM} or Data Access part. It takes charge of the database management such as creating tables, writing \ac{SQL} queries and other database operations. 
+	Flask uses \texttt{SQLAlchemy} for the \ac{ORM} or Data Access part. It takes charge of the database management such as creating tables, writing \ac{SQL} queries and other database operations. 
 	
 	
 	\item \textbf{Django}: For Django, creation of tables is fairly more verbose but simple. The snippet below buttresses this point.
@@ -1032,7 +1031,7 @@ Python web application deployments are comprised of many pieces that need to be 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{./deploy.png}
-	\caption{SQLAlchemy overview, from \citet{Makai:2020}}
+	\caption{Python web application deployment map, from \citet{Makai:2020}}
 \end{figure}
 \subsection{Deployement hosting option}
 According to \citet{Makai:2020}, four options are available for deploying and hosting web applications, namely:

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  15 JAN 2020 18:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  19 JAN 2020 10:52
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -1668,18 +1668,12 @@ Overfull \hbox (3.20865pt too wide) in paragraph at lines 2--4
  | 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
+Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
+although it is yet undefined on input line 10.
+Package acronym Info: Label `acro:UX' newly defined as it shall be overridden
+although it is yet undefined on input line 10.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
@@ -1771,19 +1765,19 @@ Package newfloat Info: Setting Plan B file extension to `lof'... on input line
 ]) (2.back.tex [2]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--26
+Underfull \hbox (badness 10000) in paragraph at lines 5--25
 
  []
 
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 [4] [5] [6] [7] [8]
-Overfull \hbox (18.46841pt too wide) in paragraph at lines 127--128
+Overfull \hbox (18.46841pt too wide) in paragraph at lines 125--126
 []\TU/TimesNewRoman(0)/m/n/12 Our aim is to support our communities by empoweri
 ng them primarily through technology-
  []
@@ -1800,7 +1794,7 @@ File: ./B2Borg.jpg Graphic file (type bmp)
 File: ./B2COrgan.jpg Graphic file (type bmp)
 <./B2COrgan.jpg>
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 160.
+put line 158.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1840,49 +1834,49 @@ Package acronym Info: Label `acro:HTML' newly defined as it shall be overridden
 
 although it is yet undefined on input line 124.
 Package acronym Info: Label `acro:DTL' newly defined as it shall be overridden
-although it is yet undefined on input line 127.
+although it is yet undefined on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 128.
+(hyperref)                removing `\@ac' on input line 127.
 
 Package acronym Info: Label `acro:XHTML' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 129.
+although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
 
-although it is yet undefined on input line 129.
+although it is yet undefined on input line 128.
 File: ./Ajax.png Graphic file (type bmp)
 <./Ajax.png>
 
-Overfull \hbox (10.1868pt too wide) in paragraph at lines 129--135
+Overfull \hbox (10.1868pt too wide) in paragraph at lines 128--134
 [][][]\TU/TimesNewRoman(0)/m/n/12 , a term coined in 2005 by Jesse James Garret
 t, stands for Asynchronous JavaScript
  []
 
 
-Overfull \hbox (3.24503pt too wide) in paragraph at lines 129--135
+Overfull \hbox (3.24503pt too wide) in paragraph at lines 128--134
 \TU/TimesNewRoman(0)/m/n/12 cading Style Sheets, JavaScript, The Document Objec
 t Model, [][], [][][]eXtensible Stylesheet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 138.
+t line 137.
 [19] [20]
 \openout5 = `fydp.pyg'.
 
@@ -1894,23 +1888,28 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 )
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
-although it is yet undefined on input line 189.
+although it is yet undefined on input line 188.
 Package acronym Info: Label `acro:ORM' newly defined as it shall be overridden
-although it is yet undefined on input line 189.
+although it is yet undefined on input line 188.
 File: ./sqlalchemy.png Graphic file (type bmp)
 <./sqlalchemy.png>
  [21]
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 197.
+although it is yet undefined on input line 196.
 Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 199.
+although it is yet undefined on input line 198.
  [22]
 \openout5 = `fydp.pyg'.
 
 
 (_minted-fydp/AF1DCD81FCEB4F71048CC6F46B4B700DC01E3142112BA12B39735D06579A8ED1.
 pygtex [23])
+Overfull \hbox (4.92624pt too wide) in paragraph at lines 259--260
+\TU/TimesNewRoman(0)/m/n/12 database management such as creating tables, writin
+g [][] queries and other database
+ []
+
 \openout5 = `fydp.pyg'.
 
 
@@ -1969,7 +1968,7 @@ pygtex)
 
 (_minted-fydp/D06A8FCB4EF5492385B056F3D713F631C01E3142112BA12B39735D06579A8ED1.
 pygtex [30]) [31]
-Overfull \hbox (2.32892pt too wide) in paragraph at lines 696--697
+Overfull \hbox (2.32892pt too wide) in paragraph at lines 695--696
 []| \TU/TimesNewRoman(0)/m/n/12 Enable/disable DHCP service, modify address ran
 ge, manage DHCP reser-
  []
@@ -2001,28 +2000,28 @@ File: ./ceasocial.png Graphic file (type bmp)
 File: ./cearetail.png Graphic file (type bmp)
 <./cearetail.png>
 
-Overfull \hbox (1.71742pt too wide) in paragraph at lines 759--793
+Overfull \hbox (1.71742pt too wide) in paragraph at lines 758--792
 []\TU/TimesNewRoman(0)/bx/n/12 Project’s Requirement specification\TU/TimesNewR
 oman(0)/m/n/12 : Customer Experience Analysis (CEA) Dash-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--793
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--793
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--793
+Underfull \hbox (badness 10000) in paragraph at lines 758--792
 
  []
 
 [32] [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
 
  []
 
@@ -2037,7 +2036,7 @@ File: ./duadata.png Graphic file (type bmp)
 File: ./duamodal.png Graphic file (type bmp)
 <./duamodal.png>
 
-Underfull \hbox (badness 1424) in paragraph at lines 836--836
+Underfull \hbox (badness 1424) in paragraph at lines 835--835
 []\TU/TimesNewRoman(0)/m/n/10.95 (c) |DUA dashboard modal data analysis
  []
 
@@ -2045,12 +2044,8 @@ File: ./duadatadetails.png Graphic file (type bmp)
 <./duadatadetails.png>
 File: ./duaerror.png Graphic file (type bmp)
 <./duaerror.png>
-Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
-although it is yet undefined on input line 855.
-Package acronym Info: Label `acro:UX' newly defined as it shall be overridden
-although it is yet undefined on input line 855.
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
 
  []
 
@@ -2089,12 +2084,12 @@ File: ./devcportrecommend.png Graphic file (type bmp)
 File: ./devcportgetintouch.png Graphic file (type bmp)
 <./devcportgetintouch.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 
  []
 
 [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 973--975
+Underfull \hbox (badness 10000) in paragraph at lines 972--974
 
  []
 
@@ -2107,7 +2102,7 @@ File: ./deploy.png Graphic file (type bmp)
 <./deploy.png>
  [41]
 Package acronym Info: Label `acro:SSH' newly defined as it shall be overridden
-although it is yet undefined on input line 1050.
+although it is yet undefined on input line 1049.
 \openout6 = `fydp.pyg'.
 
 
@@ -2183,7 +2178,7 @@ pygtex)
 
 (_minted-fydp/CE4B4F7B599540ADCBBFAE7CAEF0E1A062F886471714DFEF6F301805A8E725C3.
 pygtex
-Overfull \hbox (9.91571pt too wide) in paragraph at lines 1063--1
+Overfull \hbox (9.91571pt too wide) in paragraph at lines 1062--1
 []\TU/TimesNewRoman(0)/m/n/12 where [] is the desired name given to the file. I
 t was called []
  []
@@ -2310,7 +2305,7 @@ pygtex)
 (_minted-fydp/01B18830090C69711BF5B8057EBE85C462F886471714DFEF6F301805A8E725C3.
 pygtex)
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
-although it is yet undefined on input line 1113.
+although it is yet undefined on input line 1112.
 ) (4.conclusion.tex [44]
 Chapter 4.
 [45
@@ -2337,7 +2332,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `fydp.out' has not changed.
-(rerunfilecheck)             Checksum: 7F2DC223DBDEEB01EB73A01E72C09391.
+(rerunfilecheck)             Checksum: 284AA5D4D64AE79AFDA9A708B3AD8971.
 runsystem(del fydp.pyg)...executed.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
@@ -2345,10 +2340,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 Here is how much of TeX's memory you used:
  39406 strings out of 427669
  770723 string characters out of 3149215
- 919628 words of memory out of 3000000
+ 919597 words of memory out of 3000000
  42752 multiletter control sequences out of 15000+200000
  537647 words of font info for 81 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,12n,79p,1339b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,79p,1341b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on fydp.pdf (61 pages).
