@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYGZti{}\PYGZdl{} sudo apt\PYGZhy{}get install python3\PYGZhy{}dev libpq\PYGZhy{}dev postgresql postgresql\PYGZhy{}contrib
+\end{Verbatim}

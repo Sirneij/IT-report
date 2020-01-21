@@ -137,6 +137,7 @@ The template layer provides a designer-friendly syntax for rendering the informa
 	\captionof{listing}{Django Blog's \ac{AJAX} snippet}
 	\begin{minted}
 	[
+	breaklines,
 	frame=lines,
 	framesep=2mm,
 	baselinestretch=1,
@@ -208,6 +209,7 @@ To get started, a back-end of the system which is the database was created. It s
 	\captionof{listing}{\ac{vCPE} Flask User Model}
 	\begin{minted}
 		[
+		breaklines,
 		frame=lines,
 		framesep=2mm,
 		baselinestretch=1,
@@ -264,6 +266,7 @@ class User(UserMixin, db.Model):
 		\captionof{listing}{Django Blog's PublishedManager, Category,and Post}
 	\begin{minted}
 		[
+		breaklines,
 		frame=lines,
 		framesep=2mm,
 		baselinestretch=1,
@@ -375,6 +378,7 @@ Although the Database, where tables of any kind could be updated using Django an
 		\captionof{listing}{Django Blog's \texttt{post\_form.html}}
 		\begin{minted}
 			[
+			breaklines,
 			frame=lines,
 			framesep=2mm,
 			baselinestretch=1,
@@ -423,6 +427,7 @@ Every line surrounded by \mintinline{htmldjango}{{% %}} is a Django sentence whi
 		\captionof{listing}{CEA Dashboard \texttt{login.html}}
 		\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -519,6 +524,7 @@ Having dealt with the back-end databases and the frontend web pages user interfa
 		\captionof{listing}{Django's Blog \texttt{views.py}}
 		\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -601,6 +607,7 @@ class PostUpdateView(LoginRequiredMixin,
 		\captionof{listing}{Example snippet}
 		\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -619,6 +626,7 @@ Functions like index() are called view functions" and are mostly housed in the \
 	\captionof{listing}{An excerpt from CEA dashboard's \texttt{views.py} file}
 	\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -977,6 +985,7 @@ The essence of this web scraping script was to harvest some from the \textbf{dev
 	\captionof{listing}{webcrawler.jl}
 	\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -1043,32 +1052,35 @@ According to \citet{Makai:2020}, four options are available for deploying and ho
 \end{enumerate}
 The first three options require the deployer to be provided with one or more servers having a Linux distribution wherein system packages, a web server, \ac{WSGI} server, database and the Python environment are then installed. There then the application can be pulled from source and installed in the environment.
 
-This was the option through which the projects built were deployed and the procedure for deployment are highlighted below based on the framework used.
-\subsection{Flask applications deployment}
+This was the option through which the projects built were deployed and below is a comprehensive work-through for the applications deployment.
+\subsection{Python applications deployment: General setup}
 \begin{itemize}
-	\item Having been provided with a remote private server based on Ubuntu 14.04 LTS with the ip address 10.50.0.9 and a password, logging into the server using \ac{SSH} was done.
-	\mint{bash}{~$ ssh jidogun@10.50.0.9}
+	\item Having been provided with a remote private server based on Ubuntu 16.04 LTS with the ip address 10.50.0.20 and a password, the server was logged into using \ac{SSH}.
+	\mint{bash}{~$ ssh jidogun@10.50.0.20}
 	This required a password and was inputted appropriately.
 	\item As it is one of the best practises to update a server when one logs in, the Linux distribution was updated.
 	\mint{bash}{~$ sudo apt-get update}
 	\item Python requires its Package manager, \mintinline{python}{pip}, to install its dependencies easily, therefore, it was installed alongside the proxy server used, \mintinline{nginx}{nginx} and \mintinline{nginx}{git}.
 	\mint{bash}{~$ sudo apt-get install python-pip nginx git}
-	\item The \mintinline{nginx}{nginx} proxy server was started.
-	\mint{bash}{~$ sudo /etc/init.d/nginx start}
-	\item As expected, \mintinline{nginx}{nginx} comes with a default configuration file which can be found in a \mintinline{nginx}{/etc/nginx/sites-enabled/default}. This must be removed to allow personalised configuration file.
+	\item As expected, \mintinline{nginx}{nginx} comes with a default configuration file which can be found in a \mintinline{nginx}{/etc/nginx/sites-enabled/}. This was removed to allow personalised configuration.
 	\mint{bash}{~$ sudo rm /etc/nginx/sites-enabled/default}
-	\item Having gotten rid of that default file, it was time to create a personalised configuration file.
+	\item Having gotten rid of that default file, a personalised configuration file was created.
 	\mint{bash}{~$ sudo touch /etc/nginx/sites-available/file_name}
-	where \mintinline{bash}{file_name} is the desired name given to the file. It was called \mintinline{bash}{flask_settings} in my case, so:
-	\mint{bash}{~$ sudo touch /etc/nginx/sites-available/flask_settings}
-	\item Since the just created file needs to be active for its contents to be used by \mintinline{nginx}{nginx}, a symbolic file, pointing to the \mintinline{nginx}{flask_settings} file created above, was made in \mintinline{nginx}{/etc/nginx/sites-enabled/flask_settings}.
-	\mint{bash}{~$ sudo ln -s /etc/nginx/sites-available/flask_settings /etc/nginx/sites-enabled/flask_settings}
-	\item The symbolic file made above was edited using \mintinline{nginx}{nano} editor, filling it with the short Snippet below:
-	\mint{bash}{~$ sudo nano /etc/nginx/sites-enabled/flask_settings}
+	where \mintinline{bash}{file_name} is the desired name given to the file. It was called \mintinline{bash}{app_settings} in my case, so:
+	\mint{bash}{~$ sudo touch /etc/nginx/sites-available/app_settings}
+	\item Since the just created file needed to be active for its contents to be used by \mintinline{nginx}{nginx}, a symbolic file, pointing to the \mintinline{nginx}{app_settings} file created above, was made in \mintinline{nginx}{/etc/nginx/sites-enabled/app_settings}.
+	\begin{minted}
+		[breaklines]
+		{bash}
+~$ sudo ln -s /etc/nginx/sites-available/app_settings /etc/nginx/sites-enabled/app_settings
+	\end{minted}
+	\item The symbolic file made above was edited using \mintinline{nginx}{nano} editor, to cater for all the applications to be deployed using different port numbers:
+	\mint{bash}{~$ sudo nano /etc/nginx/sites-enabled/app_settings}
 	\begin{code}
-		\captionof{listing}{/etc/nginx/sites-enabled/flask\_settings}
+		\captionof{listing}{/etc/nginx/sites-enabled/app\_settings}
 		\begin{minted}
 [
+breaklines,
 frame=lines,
 framesep=2mm,
 baselinestretch=1,
@@ -1076,38 +1088,227 @@ fontsize=\footnotesize,
 linenos
 ]
 {nginx}
-server{
+server {
+	listen 8000;
 	location / {
+		include proxy_params;
 		proxy_pass http://127.0.0.1:8000;
-		proxy_set_header Host $host;
-		proxy_set-header X-Real-IP $remote_addr;
+	}
+}
+server {
+	listen 8001;
+	location / {
+		include proxy_params;
+		proxy_pass http://127.0.0.1:8008;
+	}
+}
+server {
+	listen 8002;
+	location / {
+		include proxy_params;
+		proxy_pass http://127.0.0.1:8888;
+	}
+}
+server {
+	listen 8003;
+	location / {
+		include proxy_params;
+		proxy_pass http://127.0.0.1:8999;
 	}
 }
 		\end{minted}
 	\end{code}
+	Four server instances were created since four applications were deployed. The first instance pointed to Django blog, since the default port for django applications is 8000. The rest instances were used for the three dashboards written in flask.
 	\item Next, \mintinline{nginx}{nginx} was restarted.
-	\mint{bash}{~$ sudo /etc/init.d/nginx restart}
-	\item With the above configurations, everything regarding \mintinline{nginx}{nginx} was pretty much done with. The next inline was to set up Python and the application as highlighted below. 
-	\begin{itemize}
-		\item A virtual environment for the application to be deployed must be created to avoid Python version conflict issues. But First, \mintinline{nginx}{virtualenv} was installed.
-		\mint{bash}{~$ sudo pip install virtualenv}
-		\item For proper organization, a directory for applications built using Flask was made.
-		\mint{bash}{~$ mkdir flask_app}
-		\item Next, directory was changed into the newly created one.
-		\mint{bash}{~$ cd flask_app}
-		\item The application to be deployed was cloned from its git repository which was \url{https://github.com/Sirneij/Blog.git}.
-		\mint{bash}{~/flask_app$ git clone https://github.com/Sirneij/Blog.git}
-		\item Directory was changed into the new application folder.
-		\mint{bash}{~/flask_app$ cd Blog}
-		\item Next, a virtual environment was created for it.
-		\mint{bash}{~/flask_app/Blog$ virtualenv venv #Environment name.}
-		\item Having created the virtual environment, it was activated.
-		\mint{bash}{~/flask_app/Blog$ source venv/bin/activate}
-		\item That done, the application's dependencies, stored in \mintinline{nginx}{requirements.txt} file, and the real Python server, \mintinline{nginx}{gunicorn} were installed.
-		\mint{bash}{(venv):~/flask_app/Blog$ sudo pip install -r requirements.txt gunicorn}
-		\item Finally, \mintinline{nginx}{gunicorn} was called and subsequently served with the main app's file name(without .py extension), in this case, \mintinline{nginx}{run}
-		\mint{bash}{(venv):~/flask_app/Blog$ gunicorn run:app}
-		That was it! Application was successfully deployed!
-	\end{itemize}
-	\item To confirm that the app was successfully deployed, a browser was visited and the ip address of the server provided was inputted as \ac{URL} or web address which returned a full version of the initial app.
+	\mint{bash}{~$ sudo systemctl restart nginx}
 \end{itemize}
+With the above configurations, everything regarding \mintinline{nginx}{nginx} was pretty much done with. The next inline was to deal with framework-specific configurations.
+\subsection{Framework-specifics}
+Before getting started with the framework-specific configurations, it was deemed necessary to organize the applications based on frameworks. Thus, different folders were created.
+\mint{bash}{~$ mkdir flask_app django_app}
+Obviously, all flask-based applications would take \mintinline{bash}{flask_app} directory as their habitat while \mintinline{bash}{django_app} would house django-based applications. The applications were cloned from their respective github repositories into either of these folders as appropriate.
+\subsubsection{Flask}
+First off, all flask-based applications were cloned into \mintinline{bash}{flask_app} directory.
+\begin{minted}
+[breaklines]
+{bash}
+~/flask_app$ git clone https://github.com/Sirneij/CPE-dash.git
+~/flask_app$ git clone https://github.com/Sirneij/CEA-dash.git
+~/flask_app$ git clone https://github.com/Sirneij/DUA-dash.git
+\end{minted}
+Thence, the undermentioned operations were performed on each of them, using \mintinline{bash}{CPE-dash} as an instance for clarification.
+	\begin{itemize}
+		\item First off, directory was changed to \mintinline{bash}{CPE-dash}
+		\mint{bash}{~/flask_app$ cd CPE-dash}
+		\item A virtual environment for the application must be created to avoid Python version conflict issues. But First, \mintinline{nginx}{virtualenv} was installed.
+		\mint{bash}{~/flask_app/CPE-dash$ sudo pip install virtualenv}
+		\item Next, a virtual environment was created for it, specifying the python version to be used(since all the applications required at least python3.6 to function optimally, it was selected as the python version to be used).
+		\mint{bash}{~/flask_app/CPE-dash$ virtualenv -p /usr/bin/python3.6 cpe #Environment name.}
+		\item Having created the virtual environment, it was activated.
+		\mint{bash}{~/flask_app/CPE-dash$ source cpe/bin/activate}
+		\item That done, the application's dependencies, stored in \mintinline{nginx}{requirements.txt} file, and the real Python server, \mintinline{nginx}{gunicorn} were installed.
+		\mint{bash}{(cpe):~/flask_app/CPE-dash$ sudo pip install -r requirements.txt gunicorn}
+		\item Penultimately, the applications \mintinline{python}{run.py} was edited to reflect the host and port configured in \mintinline{nginx}{/etc/nginx/sites-enabled/app_settings}, leaving the first server instance for django.
+		\mint{bash}{(cpe):~/flask_app/CPE-dash$ sudo nano run.py}
+		\begin{code}
+			\captionof{listing}{(cpe):~/flask\_app/CPE-dashapp/run.py}
+			\begin{minted}
+[
+breaklines,
+frame=lines,
+framesep=2mm,
+baselinestretch=1,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+from app import create_app
+from app import db
+app = create_app()
+db.create_all(app=create_app())
+if __name__ == '__main__':
+	app.run(host="0.0.0.0", port=8008, debug=False)	
+			\end{minted}
+		\end{code}
+		\item Finally, \mintinline{nginx}{gunicorn} was called and subsequently served with the main app's file name(without .py extension), in this case, \mintinline{nginx}{run}
+		\mint{bash}{(cpe):~/flask_app/CPE-dash$ gunicorn run:app -b 127.0.0.1:8008 &}
+		\textbf{That was it! Application was successfully deployed! This procedure was repeated to deploy the other two flask apps.}
+	\end{itemize}
+ To confirm, a browser was initiated and the ip address of the server provided as well as the port the app was listening to, say \textbf{10.50.0.20:8001} (for CPE-dash), was inputted as \ac{URL} or web address and it returned a full version of the initial app.
+ 
+ \subsubsection{Django}
+ The steps observed in deploying flask-based and Django-based applications are almost the same aside some of the dependencies that django requires. Also, the developed blog used PostgreSQL database instead of SQLite which must be installed and configured specially for the application to execute smoothly. 
+
+ Getting started, PostgreSQl and its dependencies were installed.
+ \begin{minted}
+ [breaklines]
+ {bash}
+ ~$ sudo apt-get install python3-dev libpq-dev postgresql postgresql-contrib
+ \end{minted} 
+\textbf{CAVEAT}: It's extremely important to successfully install \mintinline{python}{python3-dev} and \mintinline{python}{libpq-dev} as they are the build prerequisites which must be met in order to install \mintinline{python}{Psycopg}, a PostgreSQL adapter for the Python programming language, from a source distribution package. \mintinline{python}{Python3-dev(or python-dev)} provides the header files and its absence results in \textit{error: Python.h: No such file or directory} when installing psycopg or psycopg2 as the case may be. \mintinline{python}{libpq} header files are provided in the \mintinline{python}{libpq-dev} package. \textit{error: libpq-fe.h: No such file or directory} is thrown if the package is not installed.
+
+If the above command did not install these dependencies properly, use:
+\begin{minted}
+[breaklines]
+{bash}
+~$ sudo apt-get install python3.6-dev libpq-dev postgresql postgresql-contrib #specify the python version used
+\end{minted}
+Next, a database user and database for the Django app were created:
+\begin{minted}
+[breaklines]
+{postgres}
+~$ sudo su - postgres #changes to postgres environment
+postgres@10.50.0.20:~$ createuser --interactive -P
+Enter name of role to add: devc #adds devc
+Enter password for new role: 
+Enter it again: 
+Shall the new role be a superuser? (y/n) n
+Shall the new role be allowed to create databases? (y/n) n
+Shall the new role be allowed to create more new roles? (y/n) n
+\end{minted}
+The commands about created a database user \mintinline{postgres}{devc} and assigned roles to it.
+\begin{minted}
+[breaklines]
+{postgres}
+postgres@10.50.0.20:~$ createdb --owner devc django_app_db #creates django_app_db using devc user
+\end{minted}
+Having added a user and a database, logging out of the postgres environment was done.
+\mint{postgres}{postgres@10.50.0.20:~$ logout}
+Directory was changed into \mintinline{bash}{django_app} and the app was cloned from github. Thence, directory was changed into the cloned app directory.
+\begin{minted}
+[breaklines]
+{bash}
+~$ cd django_app
+~/django_app$ git clone https://github.com/Sirneij/devcAll.git
+~/django_app$ cd devcAll
+\end{minted}
+The \mintinline{python}{settings.py} file of the app located in \mintinline{bash}{/devc/devc} directory was modified to configure the database settings created above. The host was also set.
+\begin{minted}
+[breaklines]
+{bash}
+~/django_app/devcAll$ nano /devc/devc/settings.py
+\end{minted}
+
+\begin{code}
+	\captionof{listing}{/devc/devc/settings.py}
+	\begin{minted}
+[
+breaklines,
+frame=lines,
+framesep=2mm,
+baselinestretch=1,
+fontsize=\footnotesize,
+linenos
+]
+{python}
+...	
+DATABASES = {
+	'default': {
+		'ENGINE': 'django.db.backends.postgresql_psycopg2',                                                                                 'NAME': 'django_app_db',
+		'USER': 'devc',
+		'PASSWORD':'',#input your password
+		'HOST': 'localhost',
+		'PORT': '',
+	}
+}
+
+ALLOWED_HOSTS = ['*']#you could have input your ip address or domain name instead. '*' is for simplicity.
+...
+	\end{minted}
+\end{code}
+
+To effect the changes made, migrations were made, super user was created and static files were collected.
+
+\begin{minted}
+[breaklines]
+{bash}
+~/django_app/devcAll$ cd devc #changes directory to devc where manage.py is located
+~/django_app/devcAll/devc$ python manage.py migrate  #Syncs the database.
+~/django_app/devcAll/devc$ python manage.py collectstatic #collects the static files
+(devcenv):~/django_app/devcAll$ python manage.py createsuperuser #creates the super user
+Username(or 'jidogun' if not specified):
+Email:
+Password:
+Password again:
+\end{minted}
+
+Django and PostgreSQl specifics concluded. Virtual environment was created and activated as demonstrated and specified under Flask app deployment above and requirements as well as gunicorn were installed and instantiated!
+\begin{minted}
+[breaklines]
+{bash}
+~/django_app/devcAll$ virtualenv -p /usr/bin/python3.6 devcenv #Creates devcenv virtual environment using python3.6 as interpreter.
+~/django_app/devcAll$ source devcenv/bin/activate #activates virtual environment
+(devcenv):~/django_app/devcAll$ sudo pip install -r requirements.txt gunicorn #installs dependencies and gunicorn
+(devcenv):~/django_app/devcAll/devc$ gunicorn devc.wsgi -b 0.0.0.0:8000 & #serves gunicorn the app persistently.
+\end{minted}
+
+The applications could now be accessed online...
+
+If error of the below form erupted:
+\begin{minted}
+[breaklines,
+fontsize=\footnotesize
+]
+{bash}
+[2020-01-20 15:08:02 +0000] [19640] [INFO] Starting gunicorn 19.4.5
+[2020-01-20 15:08:02 +0000] [19640] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2020-01-20 15:08:02 +0000] [19640] [ERROR] Retrying in 1 second.
+[2017-01-20 15:08:03 +0000] [19640] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2020-01-20 15:08:03 +0000] [19640] [ERROR] Retrying in 1 second.
+[2020-01-20 15:08:04 +0000] [19640] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2020-01-20 15:08:04 +0000] [19640] [ERROR] Retrying in 1 second.
+[2020-01-20 15:08:05 +0000] [19640] [ERROR] Connection in use: ('0.0.0.0', 8000)
+\end{minted}
+Below commands would get them solved:
+\begin{minted}
+[breaklines,
+fontsize=\footnotesize
+]
+{bash}
+$ sudo netstat -nlp | grep :80 #finds the process using port 80
+$ sudo fuser -k 8000/tcp #kills the process
+
+#Reserve gunicorn with the application
+
+(devcenv):~/django_app/devcAll/devc$ gunicorn devc.wsgi -b 0.0.0.0:8000 & #serves gunicorn the app persistently.
+\end{minted}

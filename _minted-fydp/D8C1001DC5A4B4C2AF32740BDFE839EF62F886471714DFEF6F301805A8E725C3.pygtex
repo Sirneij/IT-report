@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}/flask\PYGZus{}app\PYGZdl{} git clone https://github.com/Sirneij/CPE\PYGZhy{}dash.git
+\PYGZti{}/flask\PYGZus{}app\PYGZdl{} git clone https://github.com/Sirneij/CEA\PYGZhy{}dash.git
+\PYGZti{}/flask\PYGZus{}app\PYGZdl{} git clone https://github.com/Sirneij/DUA\PYGZhy{}dash.git
+\end{Verbatim}

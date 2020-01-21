@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}/django\PYGZus{}app/devcAll\PYGZdl{} virtualenv \PYGZhy{}p /usr/bin/python3.6 devcenv \PYG{c+c1}{\PYGZsh{}Creates devcenv virtual environment using python3.6 as interpreter.}
+\PYGZti{}/django\PYGZus{}app/devcAll\PYGZdl{} \PYG{n+nb}{source} devcenv/bin/activate \PYG{c+c1}{\PYGZsh{}activates virtual environment}
+\PYG{o}{(}devcenv\PYG{o}{)}:\PYGZti{}/django\PYGZus{}app/devcAll\PYGZdl{} sudo pip install \PYGZhy{}r requirements.txt gunicorn \PYG{c+c1}{\PYGZsh{}installs dependencies and gunicorn}
+\PYG{o}{(}devcenv\PYG{o}{)}:\PYGZti{}/django\PYGZus{}app/devcAll/devc\PYGZdl{} gunicorn devc.wsgi \PYGZhy{}b \PYG{l+m}{0}.0.0.0:8000 \PYG{p}{\PYGZam{}} \PYG{c+c1}{\PYGZsh{}serves gunicorn the app persistently.}
+\end{Verbatim}

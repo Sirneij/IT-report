@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} sudo apt\PYGZhy{}get install python3.6\PYGZhy{}dev libpq\PYGZhy{}dev postgresql postgresql\PYGZhy{}contrib \PYG{c+c1}{\PYGZsh{}specify the python version used}
+\end{Verbatim}

@@ -17,48 +17,48 @@
 \contentsline {subfigure}{\numberline {g}{\ignorespaces Rapid application development model (RAD)\relax }}{17}{figure.caption.58}% 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Conventional method vs \ac {AJAX} method, Source \href {https://en.wikipedia.org/wiki/File:Ajax-vergleich-en.svg}{Wikipedia.com}\relax }}{20}{figure.caption.69}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces SQLAlchemy overview, from \citet {Bayer:2016}\relax }}{22}{figure.caption.73}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \ac {vCPE} Screenshots\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces \ac {vCPE} WiFi management page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces \ac {vCPE} Main page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces \ac {vCPE} DHCP page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {d}{\ignorespaces \ac {vCPE} DNS Server page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {e}{\ignorespaces \ac {vCPE} DHCP page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {f}{\ignorespaces \ac {vCPE} Devices List page\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {g}{\ignorespaces \ac {vCPE} Registration page, \textit {restricted to an admin}.\relax }}{33}{figure.caption.86}% 
-\contentsline {subfigure}{\numberline {h}{\ignorespaces \ac {vCPE} Login page\relax }}{33}{figure.caption.86}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Customer Experience Analysis (CEA) Dashboard specification sent by \textit {ip}NX's Head of Customer Experience \& Advocacy.\relax }}{34}{figure.caption.88}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Some CEA dashboard pages with Real-time data visualization.\relax }}{35}{figure.caption.89}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces CEA dashboard Login page\relax }}{35}{figure.caption.89}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces CEA dashboard Landing or main page\relax }}{35}{figure.caption.89}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces CEA dashboard Social menu page\relax }}{35}{figure.caption.89}% 
-\contentsline {subfigure}{\numberline {d}{\ignorespaces CEA dashboard Retail menu page\relax }}{35}{figure.caption.89}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Former DUA dashboard pages.\relax }}{35}{figure.caption.91}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces DUA dashboard data analytics\relax }}{35}{figure.caption.91}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces DUA dashboard data analytics details\relax }}{35}{figure.caption.91}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Re-designed DUA dashboard pages.\relax }}{36}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces DUA dashboard Animated Login page\relax }}{36}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces DUA dashboard data analysis page\relax }}{36}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces DUA dashboard modal data analysis page\relax }}{36}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {d}{\ignorespaces DUA dashboard detailed data analysis page\relax }}{36}{figure.caption.92}% 
-\contentsline {subfigure}{\numberline {e}{\ignorespaces DUA dashboard Animated Error page\relax }}{36}{figure.caption.92}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \textbf {devc} Account management system.\relax }}{37}{figure.caption.94}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} Login page with social authentication\relax }}{37}{figure.caption.94}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} Signup page with social authentication\relax }}{37}{figure.caption.94}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} Account update page\relax }}{37}{figure.caption.94}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textbf {devc} Blogging system.\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} main page without user authentication\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} main page with user authentication, recent posts shown first.\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} Post detail page with user authentication\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {d}{\ignorespaces \textbf {devc} syntax highlighting feature of the post detail page\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {e}{\ignorespaces \textbf {devc} Threaded commenting section of the post detail page\relax }}{38}{figure.caption.95}% 
-\contentsline {subfigure}{\numberline {f}{\ignorespaces \textbf {devc} post creation and update page with a Rich text editor\relax }}{38}{figure.caption.95}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces \textbf {devc} Portfolio system.\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} portfolio introduction section.\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} portfolio about section.\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} portfolio experience section\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {d}{\ignorespaces \textbf {devc} portfolio service section\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {e}{\ignorespaces \textbf {devc} portfolio project showcase section\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {f}{\ignorespaces \textbf {devc} portfolio recommendation section\relax }}{39}{figure.caption.96}% 
-\contentsline {subfigure}{\numberline {g}{\ignorespaces \textbf {devc} portfolio Get-in-touch section\relax }}{39}{figure.caption.96}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Python web application deployment map, from \citet {Makai:2020}\relax }}{42}{figure.caption.98}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \ac {vCPE} Screenshots\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \ac {vCPE} WiFi management page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces \ac {vCPE} Main page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces \ac {vCPE} DHCP page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces \ac {vCPE} DNS Server page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces \ac {vCPE} DHCP page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {f}{\ignorespaces \ac {vCPE} Devices List page\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {g}{\ignorespaces \ac {vCPE} Registration page, \textit {restricted to an admin}.\relax }}{34}{figure.caption.86}% 
+\contentsline {subfigure}{\numberline {h}{\ignorespaces \ac {vCPE} Login page\relax }}{34}{figure.caption.86}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Customer Experience Analysis (CEA) Dashboard specification sent by \textit {ip}NX's Head of Customer Experience \& Advocacy.\relax }}{35}{figure.caption.88}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Some CEA dashboard pages with Real-time data visualization.\relax }}{36}{figure.caption.89}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces CEA dashboard Login page\relax }}{36}{figure.caption.89}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces CEA dashboard Landing or main page\relax }}{36}{figure.caption.89}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces CEA dashboard Social menu page\relax }}{36}{figure.caption.89}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces CEA dashboard Retail menu page\relax }}{36}{figure.caption.89}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Former DUA dashboard pages.\relax }}{36}{figure.caption.91}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces DUA dashboard data analytics\relax }}{36}{figure.caption.91}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces DUA dashboard data analytics details\relax }}{36}{figure.caption.91}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Re-designed DUA dashboard pages.\relax }}{37}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces DUA dashboard Animated Login page\relax }}{37}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces DUA dashboard data analysis page\relax }}{37}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces DUA dashboard modal data analysis page\relax }}{37}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces DUA dashboard detailed data analysis page\relax }}{37}{figure.caption.92}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces DUA dashboard Animated Error page\relax }}{37}{figure.caption.92}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textbf {devc} Account management system.\relax }}{38}{figure.caption.94}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} Login page with social authentication\relax }}{38}{figure.caption.94}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} Signup page with social authentication\relax }}{38}{figure.caption.94}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} Account update page\relax }}{38}{figure.caption.94}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textbf {devc} Blogging system.\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} main page without user authentication\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} main page with user authentication, recent posts shown first.\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} Post detail page with user authentication\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces \textbf {devc} syntax highlighting feature of the post detail page\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces \textbf {devc} Threaded commenting section of the post detail page\relax }}{39}{figure.caption.95}% 
+\contentsline {subfigure}{\numberline {f}{\ignorespaces \textbf {devc} post creation and update page with a Rich text editor\relax }}{39}{figure.caption.95}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textbf {devc} Portfolio system.\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {a}{\ignorespaces \textbf {devc} portfolio introduction section.\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {b}{\ignorespaces \textbf {devc} portfolio about section.\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {c}{\ignorespaces \textbf {devc} portfolio experience section\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {d}{\ignorespaces \textbf {devc} portfolio service section\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {e}{\ignorespaces \textbf {devc} portfolio project showcase section\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {f}{\ignorespaces \textbf {devc} portfolio recommendation section\relax }}{40}{figure.caption.96}% 
+\contentsline {subfigure}{\numberline {g}{\ignorespaces \textbf {devc} portfolio Get-in-touch section\relax }}{40}{figure.caption.96}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Python web application deployment map, from \citet {Makai:2020}\relax }}{43}{figure.caption.98}% 
 \addvspace {10\p@ }

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} sudo netstat \PYGZhy{}nlp \PYG{p}{|} grep :80 \PYG{c+c1}{\PYGZsh{}finds the process using port 80}
+\PYGZdl{} sudo fuser \PYGZhy{}k \PYG{l+m}{8000}/tcp \PYG{c+c1}{\PYGZsh{}kills the process}
+
+\PYG{c+c1}{\PYGZsh{}Reserve gunicorn with the application}
+
+\PYG{o}{(}devcenv\PYG{o}{)}:\PYGZti{}/django\PYGZus{}app/devcAll/devc\PYGZdl{} gunicorn devc.wsgi \PYGZhy{}b \PYG{l+m}{0}.0.0.0:8000 \PYG{p}{\PYGZam{}} \PYG{c+c1}{\PYGZsh{}serves gunicorn the app persistently.}
+\end{Verbatim}

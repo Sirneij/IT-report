@@ -75,19 +75,22 @@
 \contentsline {subsubsection}{Created the Database tables}{23}{section*.76}% 
 \contentsline {subsubsection}{Created the User Interface}{26}{section*.79}% 
 \contentsline {subsection}{\numberline {3.2.2}Implemented the view function}{29}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Projects Implemented}{31}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Projects Implemented}{32}{subsection.3.2.3}% 
 \contentsline {subsubsection}{Customer Premises Equipment (CPE)}{32}{section*.85}% 
-\contentsline {subsubsection}{Customer Experience Analysis (CEA) Dashboard}{32}{section*.87}% 
-\contentsline {subsubsection}{Data Usage Analytic (DUA) Dashboard}{32}{section*.90}% 
-\contentsline {subsubsection}{Django Blog}{37}{section*.93}% 
-\contentsline {section}{\numberline {3.3}Julia-based projects}{40}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Brief Introduction to Julia Programming Language}{40}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Web Crawler}{40}{subsection.3.3.2}% 
-\contentsline {section}{\numberline {3.4}Software Deployment}{41}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Python web application deployment}{41}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Deployement hosting option}{41}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Flask applications deployment}{42}{subsection.3.4.3}% 
-\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{45}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusion}{45}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Recommendation}{46}{section.4.2}% 
-\contentsline {chapter}{References}{49}{chapter*.102}% 
+\contentsline {subsubsection}{Customer Experience Analysis (CEA) Dashboard}{33}{section*.87}% 
+\contentsline {subsubsection}{Data Usage Analytic (DUA) Dashboard}{33}{section*.90}% 
+\contentsline {subsubsection}{Django Blog}{33}{section*.93}% 
+\contentsline {section}{\numberline {3.3}Julia-based projects}{41}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Brief Introduction to Julia Programming Language}{41}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Web Crawler}{41}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.4}Software Deployment}{42}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Python web application deployment}{42}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Deployement hosting option}{42}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Python applications deployment: General setup}{43}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Framework-specifics}{45}{subsection.3.4.4}% 
+\contentsline {subsubsection}{Flask}{45}{section*.101}% 
+\contentsline {subsubsection}{Django}{47}{section*.104}% 
+\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{50}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusion}{50}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Recommendation}{51}{section.4.2}% 
+\contentsline {chapter}{References}{54}{chapter*.106}% 

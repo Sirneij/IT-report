@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:02 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}INFO\PYG{o}{]} Starting gunicorn \PYG{l+m}{19}.4.5
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:02 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Connection in use: \PYG{o}{(}\PYG{l+s+s1}{\PYGZsq{}0.0.0.0\PYGZsq{}}, \PYG{l+m}{8000}\PYG{o}{)}
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:02 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Retrying in \PYG{l+m}{1} second.
+\PYG{o}{[}\PYG{l+m}{2017}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:03 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Connection in use: \PYG{o}{(}\PYG{l+s+s1}{\PYGZsq{}0.0.0.0\PYGZsq{}}, \PYG{l+m}{8000}\PYG{o}{)}
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:03 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Retrying in \PYG{l+m}{1} second.
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:04 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Connection in use: \PYG{o}{(}\PYG{l+s+s1}{\PYGZsq{}0.0.0.0\PYGZsq{}}, \PYG{l+m}{8000}\PYG{o}{)}
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:04 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Retrying in \PYG{l+m}{1} second.
+\PYG{o}{[}\PYG{l+m}{2020}\PYGZhy{}01\PYGZhy{}20 \PYG{l+m}{15}:08:05 +0000\PYG{o}{]} \PYG{o}{[}\PYG{l+m}{19640}\PYG{o}{]} \PYG{o}{[}ERROR\PYG{o}{]} Connection in use: \PYG{o}{(}\PYG{l+s+s1}{\PYGZsq{}0.0.0.0\PYGZsq{}}, \PYG{l+m}{8000}\PYG{o}{)}
+\end{Verbatim}

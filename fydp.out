@@ -40,8 +40,9 @@
 \BOOKMARK [1][-]{section.3.4}{Software\040Deployment}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.4.1}{Python\040web\040application\040deployment}{section.3.4}% 41
 \BOOKMARK [2][-]{subsection.3.4.2}{Deployement\040hosting\040option}{section.3.4}% 42
-\BOOKMARK [2][-]{subsection.3.4.3}{Flask\040applications\040deployment}{section.3.4}% 43
-\BOOKMARK [0][-]{chapter.4}{Conclusion\040and\040Recommendation}{}% 44
-\BOOKMARK [1][-]{section.4.1}{Conclusion}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.2}{Recommendation}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter*.102}{References}{}% 47
+\BOOKMARK [2][-]{subsection.3.4.3}{Python\040applications\040deployment:\040General\040setup}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.4}{Framework-specifics}{section.3.4}% 44
+\BOOKMARK [0][-]{chapter.4}{Conclusion\040and\040Recommendation}{}% 45
+\BOOKMARK [1][-]{section.4.1}{Conclusion}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.2}{Recommendation}{chapter.4}% 47
+\BOOKMARK [0][-]{chapter*.106}{References}{}% 48
