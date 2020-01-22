@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  21 JAN 2020 09:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  21 JAN 2020 16:51
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -2290,7 +2290,7 @@ pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/0B7BB577DDE5C8C2295F9A2AE172ECFA07817944E61570F8678A04BA714FB400.
+(_minted-fydp/D40635D3753FF7704A81C48F24928F4807817944E61570F8678A04BA714FB400.
 pygtex [44])
 \openout6 = `fydp.pyg'.
 
@@ -2526,10 +2526,6 @@ pygtex)
 pygtex)
 \openout5 = `fydp.pyg'.
 
-runsystem(pygmentize -l bash -f latex -P commandprefix=PYG -F tokenmerge -o _mi
-nted-fydp/10D684090F0A3789B36C78264442F97962F886471714DFEF6F301805A8E725C3.pygt
-ex fydp.pyg)...executed.
-
 
 (_minted-fydp/10D684090F0A3789B36C78264442F97962F886471714DFEF6F301805A8E725C3.
 pygtex)) (4.conclusion.tex [49]
@@ -2566,7 +2562,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 Here is how much of TeX's memory you used:
  39525 strings out of 427669
  779330 string characters out of 3149215
- 923420 words of memory out of 3000000
+ 923493 words of memory out of 3000000
  42786 multiletter control sequences out of 15000+200000
  538308 words of font info for 86 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
