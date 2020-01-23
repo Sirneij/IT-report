@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  21 JAN 2020 16:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  23 JAN 2020 07:01
 entering extended mode
 **./fydp.tex
 (fydp.tex
@@ -1638,6 +1638,11 @@ Overfull \hbox (11.34053pt too wide) in paragraph at lines 11--14
  [] 
  []
 
+
+Overfull \hbox (23.08662pt too wide) in paragraph at lines 16--20
+ [][] 
+ []
+
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2290,7 +2295,7 @@ pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/D40635D3753FF7704A81C48F24928F4807817944E61570F8678A04BA714FB400.
+(_minted-fydp/B21E7D27FD48FCBA87DDB1CECFD00DDD07817944E61570F8678A04BA714FB400.
 pygtex [44])
 \openout6 = `fydp.pyg'.
 
@@ -2331,7 +2336,7 @@ pygtex)
 
 
 (_minted-fydp/D8C1001DC5A4B4C2AF32740BDFE839EF62F886471714DFEF6F301805A8E725C3.
-pygtex)
+pygtex [45])
 \openout6 = `fydp.pyg'.
 
 
@@ -2346,7 +2351,7 @@ pygtex)
 
 
 (_minted-fydp/31BDDEF2562192CFD4B67994BD773FD862F886471714DFEF6F301805A8E725C3.
-pygtex [45])
+pygtex)
 \openout6 = `fydp.pyg'.
 
 
@@ -2416,9 +2421,9 @@ pygtex)
 
 
 (_minted-fydp/44998C121643E608F13BD4B19AE0E07A62F886471714DFEF6F301805A8E725C3.
-pygtex) [46]
+pygtex [46])
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
-although it is yet undefined on input line 1177.
+although it is yet undefined on input line 1181.
 \openout5 = `fydp.pyg'.
 
 
@@ -2463,7 +2468,7 @@ pygtex)
 
 
 (_minted-fydp/CC6B7446730B0510CF717A649547A81B1E5676E186B6F71E48E91747C8C02432.
-pygtex)
+pygtex [47])
 \openout6 = `fydp.pyg'.
 
 
@@ -2473,7 +2478,7 @@ pygtex)
 
 
 (_minted-fydp/917B9194604F9A58F2B9A978BF45C72F1E5676E186B6F71E48E91747C8C02432.
-pygtex [47])
+pygtex)
 \openout6 = `fydp.pyg'.
 
 
@@ -2528,11 +2533,17 @@ pygtex)
 
 
 (_minted-fydp/10D684090F0A3789B36C78264442F97962F886471714DFEF6F301805A8E725C3.
-pygtex)) (4.conclusion.tex [49]
+pygtex [49])) (4.conclusion.tex [50]
 Chapter 4.
-[50
+[51
 
-] [51]) (fydp.bbl [52]
+]
+Overfull \hbox (33.76138pt too wide) in paragraph at lines 14--15
+\TU/TimesNewRoman(0)/m/n/12 Some theoretical knowledge gained in school proved 
+helpful and useful such as CPE407(Software
+ []
+
+[52]) (fydp.bbl [53]
 Underfull \hbox (badness 1527) in paragraph at lines 34--38
 []\TU/TimesNewRoman(0)/m/n/12 Pal, S. K. (2020 (accessed January 12, 2020)).  \
 TU/TimesNewRoman(0)/m/it/12 Software Engineering | Phases
@@ -2545,9 +2556,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--38
 ][] []
  []
 
-[53
+[54
 
-]) [54]
+]) [55]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (fydp.aux)
@@ -2562,10 +2573,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 Here is how much of TeX's memory you used:
  39525 strings out of 427669
  779330 string characters out of 3149215
- 923493 words of memory out of 3000000
+ 923492 words of memory out of 3000000
  42786 multiletter control sequences out of 15000+200000
  538308 words of font info for 86 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,12n,79p,1341b,867s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fydp.pdf (66 pages).
+Output written on fydp.pdf (67 pages).

@@ -90,7 +90,7 @@
 \contentsline {subsection}{\numberline {3.4.4}Framework-specifics}{45}{subsection.3.4.4}% 
 \contentsline {subsubsection}{Flask}{45}{section*.101}% 
 \contentsline {subsubsection}{Django}{47}{section*.104}% 
-\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{50}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusion}{50}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Recommendation}{51}{section.4.2}% 
-\contentsline {chapter}{References}{54}{chapter*.106}% 
+\contentsline {chapter}{\numberline {4}Conclusion and Recommendation}{51}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusion}{51}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Recommendation}{52}{section.4.2}% 
+\contentsline {chapter}{References}{55}{chapter*.106}% 

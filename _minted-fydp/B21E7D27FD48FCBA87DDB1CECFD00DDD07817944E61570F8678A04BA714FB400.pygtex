@@ -18,6 +18,10 @@
 	\PYG{k+kn}{location} \PYG{l+s}{/} \PYG{p}{\PYGZob{}}
 		\PYG{k+kn}{include} \PYG{l+s}{proxy\PYGZus{}params}\PYG{p}{;}
 		\PYG{k+kn}{proxy\PYGZus{}pass} \PYG{l+s}{http://127.0.0.1:8888}\PYG{p}{;}
+		\PYG{k+kn}{proxy\PYGZus{}http\PYGZus{}version} \PYG{l+m+mi}{1}\PYG{l+s}{.1}\PYG{p}{;}
+		\PYG{k+kn}{proxy\PYGZus{}set\PYGZus{}header} \PYG{l+s}{Connection} \PYG{l+s}{\PYGZdq{}\PYGZdq{}}\PYG{p}{;}
+		\PYG{k+kn}{proxy\PYGZus{}buffering} \PYG{n+no}{off}\PYG{p}{;}
+		\PYG{k+kn}{chunked\PYGZus{}transfer\PYGZus{}encoding} \PYG{n+no}{off}\PYG{p}{;}
 	\PYG{p}{\PYGZcb{}}
 \PYG{p}{\PYGZcb{}}
 \PYG{k}{server} \PYG{p}{\PYGZob{}}
