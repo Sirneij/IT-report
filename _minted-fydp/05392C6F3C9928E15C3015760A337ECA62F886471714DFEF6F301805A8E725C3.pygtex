@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} sudo apt\PYGZhy{}get install python\PYGZhy{}pip nginx git
+\end{Verbatim}

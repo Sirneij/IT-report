@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{app} \PYG{k+kn}{import} \PYG{n}{create\PYGZus{}app}
+\PYG{k+kn}{from} \PYG{n+nn}{app} \PYG{k+kn}{import} \PYG{n}{db}
+\PYG{n}{app} \PYG{o}{=} \PYG{n}{create\PYGZus{}app}\PYG{p}{()}
+\PYG{n}{db}\PYG{o}{.}\PYG{n}{create\PYGZus{}all}\PYG{p}{(}\PYG{n}{app}\PYG{o}{=}\PYG{n}{create\PYGZus{}app}\PYG{p}{())}
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}\PYGZsq{}}\PYG{p}{:}
+	\PYG{n}{app}\PYG{o}{.}\PYG{n}{run}\PYG{p}{(}\PYG{n}{host}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}0.0.0.0\PYGZdq{}}\PYG{p}{,} \PYG{n}{port}\PYG{o}{=}\PYG{l+m+mi}{8008}\PYG{p}{,} \PYG{n}{debug}\PYG{o}{=}\PYG{n+nb+bp}{False}\PYG{p}{)}	
+\end{Verbatim}

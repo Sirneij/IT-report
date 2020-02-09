@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{postgres}\PYG{o}{@}\PYG{l+m+mf}{10.50.0.20}\PYG{p}{:}\PYG{o}{\PYGZti{}}\PYG{err}{\PYGZdl{}} \PYG{n}{createdb} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}owner devc django\PYGZus{}app\PYGZus{}db \PYGZsh{}creates django\PYGZus{}app\PYGZus{}db using devc user}
+\end{Verbatim}

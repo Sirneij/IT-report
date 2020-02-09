@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZti{}}\PYG{err}{\PYGZdl{}} \PYG{n}{sudo} \PYG{n}{su} \PYG{o}{\PYGZhy{}} \PYG{n}{postgres} \PYG{o}{\PYGZsh{}}\PYG{n}{changes} \PYG{k}{to} \PYG{n}{postgres} \PYG{n}{environment}
+\PYG{n}{postgres}\PYG{o}{@}\PYG{l+m+mf}{10.50.0.20}\PYG{p}{:}\PYG{o}{\PYGZti{}}\PYG{err}{\PYGZdl{}} \PYG{n}{createuser} \PYG{c+c1}{\PYGZhy{}\PYGZhy{}interactive \PYGZhy{}P}
+\PYG{n}{Enter} \PYG{k}{name} \PYG{k}{of} \PYG{k}{role} \PYG{k}{to} \PYG{k}{add}\PYG{p}{:} \PYG{n}{devc} \PYG{o}{\PYGZsh{}}\PYG{n}{adds} \PYG{n}{devc}
+\PYG{n}{Enter} \PYG{k}{password} \PYG{k}{for} \PYG{n}{new} \PYG{k}{role}\PYG{p}{:}
+\PYG{n}{Enter} \PYG{n}{it} \PYG{n}{again}\PYG{p}{:}
+\PYG{n}{Shall} \PYG{n}{the} \PYG{n}{new} \PYG{k}{role} \PYG{n}{be} \PYG{n}{a} \PYG{n}{superuser}\PYG{o}{?} \PYG{p}{(}\PYG{n}{y}\PYG{o}{/}\PYG{n}{n}\PYG{p}{)} \PYG{n}{n}
+\PYG{n}{Shall} \PYG{n}{the} \PYG{n}{new} \PYG{k}{role} \PYG{n}{be} \PYG{n}{allowed} \PYG{k}{to} \PYG{k}{create} \PYG{n}{databases}\PYG{o}{?} \PYG{p}{(}\PYG{n}{y}\PYG{o}{/}\PYG{n}{n}\PYG{p}{)} \PYG{n}{n}
+\PYG{n}{Shall} \PYG{n}{the} \PYG{n}{new} \PYG{k}{role} \PYG{n}{be} \PYG{n}{allowed} \PYG{k}{to} \PYG{k}{create} \PYG{n}{more} \PYG{n}{new} \PYG{n}{roles}\PYG{o}{?} \PYG{p}{(}\PYG{n}{y}\PYG{o}{/}\PYG{n}{n}\PYG{p}{)} \PYG{n}{n}
+\end{Verbatim}

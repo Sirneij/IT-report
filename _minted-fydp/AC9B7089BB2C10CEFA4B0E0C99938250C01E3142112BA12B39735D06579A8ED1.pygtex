@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{...}	
+\PYG{n}{DATABASES} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+	\PYG{l+s+s1}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}
+		\PYG{l+s+s1}{\PYGZsq{}ENGINE\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}django.db.backends.postgresql\PYGZus{}psycopg2\PYGZsq{}}\PYG{p}{,}                                                                                 \PYG{l+s+s1}{\PYGZsq{}NAME\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}django\PYGZus{}app\PYGZus{}db\PYGZsq{}}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}USER\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}devc\PYGZsq{}}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}PASSWORD\PYGZsq{}}\PYG{p}{:}\PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{,}\PYG{c+c1}{\PYGZsh{}input your password}
+		\PYG{l+s+s1}{\PYGZsq{}HOST\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}localhost\PYGZsq{}}\PYG{p}{,}
+		\PYG{l+s+s1}{\PYGZsq{}PORT\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}\PYGZsq{}}\PYG{p}{,}
+	\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n}{ALLOWED\PYGZus{}HOSTS} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}*\PYGZsq{}}\PYG{p}{]}\PYG{c+c1}{\PYGZsh{}you could have input your ip address or domain name instead. \PYGZsq{}*\PYGZsq{} is for simplicity.}
+\PYG{o}{...}
+\end{Verbatim}

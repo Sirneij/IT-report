@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} \PYG{n+nb}{cd} django\PYGZus{}app
+\PYGZti{}/django\PYGZus{}app\PYGZdl{} git clone https://github.com/Sirneij/devcAll.git
+\PYGZti{}/django\PYGZus{}app\PYGZdl{} \PYG{n+nb}{cd} devcAll
+\end{Verbatim}

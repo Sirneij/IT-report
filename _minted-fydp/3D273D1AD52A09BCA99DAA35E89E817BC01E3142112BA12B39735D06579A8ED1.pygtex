@@ -1,0 +1,38 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{app}         \PYG{k+kn}{import} \PYG{n}{db}
+\PYG{k+kn}{from} \PYG{n+nn}{flask\PYGZus{}login} \PYG{k+kn}{import} \PYG{n}{UserMixin}
+
+\PYG{k+kn}{from} \PYG{n+nn}{.} \PYG{n+nn}{common}    \PYG{k+kn}{import} \PYG{n}{COMMON}\PYG{p}{,} \PYG{n}{STATUS}\PYG{p}{,} \PYG{n}{DATATYPE}
+
+\PYG{k}{class} \PYG{n+nc}{User}\PYG{p}{(}\PYG{n}{UserMixin}\PYG{p}{,} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{):}
+
+	\PYG{n+nb}{id}          \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{Integer}\PYG{p}{,}     \PYG{n}{primary\PYGZus{}key}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}
+	\PYG{n}{user}        \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{String}\PYG{p}{(}\PYG{l+m+mi}{64}\PYG{p}{),}  \PYG{n}{unique} \PYG{o}{=} \PYG{n+nb+bp}{True}\PYG{p}{)}
+	\PYG{n}{email}       \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{String}\PYG{p}{(}\PYG{l+m+mi}{120}\PYG{p}{),} \PYG{n}{unique} \PYG{o}{=} \PYG{n+nb+bp}{True}\PYG{p}{)}
+	\PYG{n}{name}        \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{String}\PYG{p}{(}\PYG{l+m+mi}{500}\PYG{p}{))}
+	\PYG{n}{role}        \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{Integer}\PYG{p}{)}
+	\PYG{n}{password}    \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{String}\PYG{p}{(}\PYG{l+m+mi}{500}\PYG{p}{))}
+	\PYG{n}{password\PYGZus{}q}  \PYG{o}{=} \PYG{n}{db}\PYG{o}{.}\PYG{n}{Column}\PYG{p}{(}\PYG{n}{db}\PYG{o}{.}\PYG{n}{Integer}\PYG{p}{)}
+
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{user}\PYG{p}{,} \PYG{n}{password}\PYG{p}{,} \PYG{n}{name}\PYG{p}{,} \PYG{n}{email}\PYG{p}{):}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{user}       \PYG{o}{=} \PYG{n}{user}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{password}   \PYG{o}{=} \PYG{n}{password}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{password\PYGZus{}q} \PYG{o}{=} \PYG{n}{DATATYPE}\PYG{o}{.}\PYG{n}{CRYPTED}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{name}       \PYG{o}{=} \PYG{n}{name}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{email}      \PYG{o}{=} \PYG{n}{email}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{group\PYGZus{}id} \PYG{o}{=} \PYG{n+nb+bp}{None}
+		\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{role}     \PYG{o}{=} \PYG{n+nb+bp}{None}
+
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}repr\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}\PYGZlt{}User }\PYG{l+s+si}{\PYGZpc{}r}\PYG{l+s+s1}{\PYGZgt{}\PYGZsq{}} \PYG{o}{\PYGZpc{}} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{id}\PYG{p}{)}
+
+	\PYG{k}{def} \PYG{n+nf}{save}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+
+		\PYG{c+c1}{\PYGZsh{} inject self into db session}
+		\PYG{n}{db}\PYG{o}{.}\PYG{n}{session}\PYG{o}{.}\PYG{n}{add} \PYG{p}{(} \PYG{n+nb+bp}{self} \PYG{p}{)}
+
+		\PYG{c+c1}{\PYGZsh{} commit change and save the object}
+		\PYG{n}{db}\PYG{o}{.}\PYG{n}{session}\PYG{o}{.}\PYG{n}{commit}\PYG{p}{(} \PYG{p}{)}
+
+		\PYG{k}{return} \PYG{n+nb+bp}{self}
+\end{Verbatim}

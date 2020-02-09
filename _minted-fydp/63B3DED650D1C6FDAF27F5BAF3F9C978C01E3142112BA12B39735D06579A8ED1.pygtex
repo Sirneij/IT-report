@@ -1,0 +1,95 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.postgres.fields} \PYG{k+kn}{import} \PYG{n}{ArrayField}
+\PYG{k+kn}{from} \PYG{n+nn}{django.db} \PYG{k+kn}{import} \PYG{n}{models}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.contenttypes.models} \PYG{k+kn}{import} \PYG{n}{ContentType}
+\PYG{k+kn}{from} \PYG{n+nn}{django.contrib.auth.models} \PYG{k+kn}{import} \PYG{n}{User}
+\PYG{k+kn}{from} \PYG{n+nn}{ckeditor\PYGZus{}uploader.fields} \PYG{k+kn}{import} \PYG{n}{RichTextUploadingField}
+\PYG{k+kn}{from} \PYG{n+nn}{ckeditor.fields} \PYG{k+kn}{import} \PYG{n}{RichTextField}
+\PYG{k+kn}{from} \PYG{n+nn}{django.utils} \PYG{k+kn}{import} \PYG{n}{timezone}
+\PYG{k+kn}{from} \PYG{n+nn}{django.urls} \PYG{k+kn}{import} \PYG{n}{reverse}
+\PYG{k+kn}{from} \PYG{n+nn}{django.db.models.signals} \PYG{k+kn}{import} \PYG{n}{pre\PYGZus{}save}
+\PYG{k+kn}{from} \PYG{n+nn}{PIL} \PYG{k+kn}{import} \PYG{n}{Image}
+\PYG{k+kn}{from} \PYG{n+nn}{taggit.managers} \PYG{k+kn}{import} \PYG{n}{TaggableManager}
+\PYG{k+kn}{from} \PYG{n+nn}{.utils} \PYG{k+kn}{import} \PYG{n}{get\PYGZus{}read\PYGZus{}time}
+\PYG{k+kn}{from} \PYG{n+nn}{django.utils.safestring} \PYG{k+kn}{import} \PYG{n}{mark\PYGZus{}safe}
+\PYG{c+c1}{\PYGZsh{}from django.contrib.contenttypes.fields import GenericRelation}
+		
+\PYG{c+c1}{\PYGZsh{} Create your models here.}
+		
+\PYG{k}{class} \PYG{n+nc}{PublishedManager}\PYG{p}{(}\PYG{n}{models}\PYG{o}{.}\PYG{n}{Manager}\PYG{p}{):}
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}queryset}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{PublishedManager}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n}{get\PYGZus{}queryset}\PYG{p}{()}
+		\PYG{o}{.}\PYG{n}{filter}\PYG{p}{(}\PYG{n}{status}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}published\PYGZsq{}}\PYG{p}{)}
+		
+\PYG{k}{class} \PYG{n+nc}{Category}\PYG{p}{(}\PYG{n}{models}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{):}
+	\PYG{n}{name} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{TextField}\PYG{p}{(}\PYG{n}{max\PYGZus{}length}\PYG{o}{=}\PYG{l+m+mi}{1000000}\PYG{p}{)}
+	\PYG{n}{slug} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{SlugField}\PYG{p}{(}\PYG{n}{max\PYGZus{}length}\PYG{o}{=}\PYG{l+m+mi}{10000000}\PYG{p}{,} \PYG{n}{unique}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}
+		
+	\PYG{k}{class} \PYG{n+nc}{Meta}\PYG{p}{:}
+		\PYG{n}{ordering} \PYG{o}{=} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}name\PYGZsq{}}\PYG{p}{,)}
+		\PYG{n}{verbose\PYGZus{}name}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}category\PYGZsq{}}
+		\PYG{n}{verbose\PYGZus{}name\PYGZus{}plural} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}categories\PYGZsq{}}
+		
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{name}
+		
+\PYG{k}{class} \PYG{n+nc}{Post}\PYG{p}{(}\PYG{n}{models}\PYG{o}{.}\PYG{n}{Model}\PYG{p}{):}
+	\PYG{n}{STATUS\PYGZus{}CHOICES} \PYG{o}{=} \PYG{p}{(}
+		\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}draft\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Draft\PYGZsq{}}\PYG{p}{),}
+		\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}published\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Published\PYGZsq{}}\PYG{p}{),}
+	\PYG{p}{)}
+	\PYG{n}{title}   \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{CharField}\PYG{p}{(}\PYG{n}{max\PYGZus{}length}\PYG{o}{=}\PYG{l+m+mi}{10000000}\PYG{p}{)}
+	\PYG{n}{slug}    \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{SlugField}\PYG{p}{(}\PYG{n}{max\PYGZus{}length}\PYG{o}{=}\PYG{l+m+mi}{10000000}\PYG{p}{,} \PYG{n}{unique\PYGZus{}for\PYGZus{}date}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}publish\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{author}  \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{ForeignKey}\PYG{p}{(}\PYG{n}{User}\PYG{p}{,} \PYG{n}{on\PYGZus{}delete}\PYG{o}{=}\PYG{n}{models}\PYG{o}{.}\PYG{n}{CASCADE}\PYG{p}{,}
+	\PYG{n}{related\PYGZus{}name}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}blog\PYGZus{}posts\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{image}   \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{ImageField}\PYG{p}{(}\PYG{n}{upload\PYGZus{}to}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}posts\PYGZus{}pics\PYGZsq{}}
+	\PYG{p}{,}\PYG{n}{default}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}logo.svg\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{body}    \PYG{o}{=} \PYG{n}{RichTextUploadingField}\PYG{p}{()}
+	\PYG{n}{publish} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{DateTimeField}\PYG{p}{(}\PYG{n}{default}\PYG{o}{=}\PYG{n}{timezone}\PYG{o}{.}\PYG{n}{now}\PYG{p}{)}
+	\PYG{n}{read\PYGZus{}time} \PYG{o}{=}  \PYG{n}{models}\PYG{o}{.}\PYG{n}{IntegerField}\PYG{p}{(}\PYG{n}{default}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{)}
+	\PYG{n}{created} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{DateTimeField}\PYG{p}{(}\PYG{n}{auto\PYGZus{}now\PYGZus{}add}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}
+	\PYG{n}{updated} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{DateTimeField}\PYG{p}{(}\PYG{n}{auto\PYGZus{}now}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}
+	\PYG{n}{status}  \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{CharField}\PYG{p}{(}\PYG{n}{max\PYGZus{}length}\PYG{o}{=}\PYG{l+m+mi}{100}
+	\PYG{p}{,}\PYG{n}{choices}\PYG{o}{=}\PYG{n}{STATUS\PYGZus{}CHOICES}\PYG{p}{,} \PYG{n}{default}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}draft\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{objects} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{Manager}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} The default manager.}
+	\PYG{n}{published} \PYG{o}{=} \PYG{n}{PublishedManager}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{} Our custom manager.}
+	\PYG{n}{category} \PYG{o}{=} \PYG{n}{models}\PYG{o}{.}\PYG{n}{ForeignKey}\PYG{p}{(}\PYG{n}{Category}\PYG{p}{,} \PYG{n}{on\PYGZus{}delete}\PYG{o}{=}\PYG{n}{models}\PYG{o}{.}\PYG{n}{CASCADE}\PYG{p}{)}
+	\PYG{n}{tags} \PYG{o}{=} \PYG{n}{TaggableManager}\PYG{p}{()}
+	\PYG{k}{class} \PYG{n+nc}{Meta}\PYG{p}{:}
+		\PYG{n}{ordering} \PYG{o}{=} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}created\PYGZsq{}}\PYG{p}{,)}
+		
+	\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}str\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{title}
+		
+		
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}absolute\PYGZus{}url}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n}{reverse}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}blog:post\PYGZus{}detail\PYGZsq{}}\PYG{p}{,}\PYG{n}{args}\PYG{o}{=}\PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{publish}\PYG{o}{.}\PYG{n}{year}
+		\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{publish}\PYG{o}{.}\PYG{n}{month}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{publish}\PYG{o}{.}\PYG{n}{day}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{slug}\PYG{p}{])}
+		
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}next\PYGZus{}post}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}next\PYGZus{}by\PYGZus{}created}\PYG{p}{()}
+		
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}previous\PYGZus{}post}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{get\PYGZus{}previous\PYGZus{}by\PYGZus{}created}\PYG{p}{()}
+		
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}markdown}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n}{body} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{body}
+		\PYG{k}{return} \PYG{n}{mark\PYGZus{}safe}\PYG{p}{(}\PYG{n}{body}\PYG{p}{)}
+		
+	\PYG{n+nd}{@property}
+	\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}content\PYGZus{}type}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+		\PYG{n}{instance} \PYG{o}{=} \PYG{n+nb+bp}{self}
+		\PYG{n}{content\PYGZus{}type} \PYG{o}{=} \PYG{n}{ContentType}\PYG{o}{.}\PYG{n}{objects}\PYG{o}{.}\PYG{n}{get\PYGZus{}for\PYGZus{}model}\PYG{p}{(}\PYG{n}{instance}\PYG{o}{.}\PYG{n+nv+vm}{\PYGZus{}\PYGZus{}class\PYGZus{}\PYGZus{}}\PYG{p}{)}
+		\PYG{k}{return} \PYG{n}{content\PYGZus{}type}
+		
+	\PYG{k}{def} \PYG{n+nf}{save}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{):}
+		\PYG{n+nb}{super}\PYG{p}{(}\PYG{n}{Post}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{o}{.}\PYG{n}{save}\PYG{p}{(}\PYG{o}{*}\PYG{n}{args}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{)}
+		
+		\PYG{n}{img} \PYG{o}{=} \PYG{n}{Image}\PYG{o}{.}\PYG{n}{open}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{image}\PYG{o}{.}\PYG{n}{path}\PYG{p}{)}
+		\PYG{n}{width} \PYG{o}{=} \PYG{l+m+mi}{883}
+		\PYG{n}{height} \PYG{o}{=} \PYG{l+m+mi}{391}
+		\PYG{k}{if} \PYG{n}{img}\PYG{o}{.}\PYG{n}{width} \PYG{o}{\PYGZgt{}} \PYG{n}{width} \PYG{o+ow}{or} \PYG{n}{img}\PYG{o}{.}\PYG{n}{height} \PYG{o}{\PYGZgt{}} \PYG{n}{height}\PYG{p}{:}
+			\PYG{n}{output\PYGZus{}size} \PYG{o}{=} \PYG{p}{(}\PYG{n}{width}\PYG{p}{,} \PYG{n}{height}\PYG{p}{)}
+			\PYG{n}{img}\PYG{o}{.}\PYG{n}{thumbnail}\PYG{p}{(}\PYG{n}{output\PYGZus{}size}\PYG{p}{)}
+			\PYG{n}{img}\PYG{o}{.}\PYG{n}{save}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{image}\PYG{o}{.}\PYG{n}{path}\PYG{p}{)}
+\end{Verbatim}

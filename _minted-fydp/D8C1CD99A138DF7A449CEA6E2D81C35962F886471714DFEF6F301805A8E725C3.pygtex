@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}\PYGZdl{} sudo nano /etc/nginx/sites\PYGZhy{}enabled/app\PYGZus{}settings
+\end{Verbatim}

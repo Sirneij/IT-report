@@ -1,27 +1,28 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7140 64-bit) (preloaded format=xelatex 2020.1.12)  23 JAN 2020 07:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250) (preloaded format=xelatex 2020.2.8)  9 FEB 2020 14:20
 entering extended mode
 **./fydp.tex
 (fydp.tex
-LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
-Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+LaTeX2e <2020-02-02>
+L3 programming layer <2020-02-03>
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count163
+\c@chapter=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
@@ -29,181 +30,176 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/07/19 3.33 The Babel package
+) (/home/sirneij/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2020/02/03 3.39 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/07/19 3.33 Babel switching mechanism
+(/home/sirneij/.miktex/texmfs/install/tex/generic/babel/switch.def
+File: switch.def 2020/02/03 3.39 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+(/home/sirneij/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/07/19 3.33 Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen103
+(/home/sirneij/.miktex/texmfs/install/tex/generic/babel/babel.def
+File: babel.def 2020/02/03 3.39 Babel common definitions
+\babel@savecnt=\count172
+\U@D=\dimen135
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\xebabel.def"
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def"))
-\bbl@dirlevel=\count90
+(/home/sirneij/.miktex/texmfs/install/tex/generic/babel/xebabel.def
+(/home/sirneij/.miktex/texmfs/install/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count173
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language72) on input line 108.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\makeidx.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
-\Urlmuskip=\muskip10
+(/home/sirneij/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/natbib\natbib.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
+\bibhang=\skip49
+\bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count91
+\c@NAT@ctr=\count174
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/framed\framed.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip45
-\fb@frw=\dimen104
-\fb@frh=\dimen105
-\FrameRule=\dimen106
-\FrameSep=\dimen107
+\OuterFrameSep=\skip51
+\fb@frw=\dimen136
+\fb@frh=\dimen137
+\FrameRule=\dimen138
+\FrameSep=\dimen139
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\ti
-kz.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.s
-ty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs
-.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfu
-til-common.tex
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
 \pgfutil@everybye=\toks16
-\pgfutil@tempdima=\dimen108
-\pgfutil@tempdimb=\dimen109
+\pgfutil@tempdima=\dimen140
+\pgfutil@tempdimb=\dimen141
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfu
-til-common-lists.tex))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfu
-til-latex.def
-\pgfutil@abb=\box27
-
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box45
+ (/home/sirneij/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfr
-cs.code.tex
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.t
-ex)
-Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfco
-re.sty ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\xetex.def"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen110
-\Gin@req@width=\dimen111
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfs
-ys.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsys.code.tex
-Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfk
-eys.code.tex
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
 \pgfkeys@pathtoks=\toks18
 \pgfkeys@temptoks=\toks19
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfk
-eysfiltered.code.tex
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
 \pgfkeys@tmptoks=\toks20
 ))
-\pgf@x=\dimen112
-\pgf@y=\dimen113
-\pgf@xa=\dimen114
-\pgf@ya=\dimen115
-\pgf@xb=\dimen116
-\pgf@yb=\dimen117
-\pgf@xc=\dimen118
-\pgf@yc=\dimen119
-\pgf@xd=\dimen120
-\pgf@yd=\dimen121
+\pgf@x=\dimen144
+\pgf@y=\dimen145
+\pgf@xa=\dimen146
+\pgf@ya=\dimen147
+\pgf@xb=\dimen148
+\pgf@yb=\dimen149
+\pgf@xc=\dimen150
+\pgf@yc=\dimen151
+\pgf@xd=\dimen152
+\pgf@yd=\dimen153
 \w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count92
-\c@pgf@countb=\count93
-\c@pgf@countc=\count94
-\c@pgf@countd=\count95
+\r@pgf@reada=\read3
+\c@pgf@counta=\count175
+\c@pgf@countb=\count176
+\c@pgf@countc=\count177
+\c@pgf@countd=\count178
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count96
+\pgf@sys@id@count=\count179
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-f.cfg
-File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-xetex.def
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsys-xetex.def
-File: pgfsys-xetex.def 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-xetex.
+def
+File: pgfsys-xetex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-dvipdf
+mx.def
+File: pgfsys-dvipdfmx.def 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def
-File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )
-\pgfsys@objnum=\count97
+\pgfsys@objnum=\count180
 )))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count98
-\pgfsyssoftpath@bigbuffer@items=\count99
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count181
+\pgfsyssoftpath@bigbuffer@items=\count182
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/home/sirneij/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 225.
@@ -216,708 +212,557 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-core.code.tex
-Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathca
-lc.code.tex
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathut
-il.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathpa
-rser.code.tex
-\pgfmath@dimen=\dimen122
-\pgfmath@count=\count100
-\pgfmath@box=\box28
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count183
+\pgfmath@box=\box46
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex)))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfl
-oat.code.tex
-\c@pgfmathroundto@lastzeros=\count101
-))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfint.co
-de.tex)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex
-File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen123
-\pgf@picmaxx=\dimen124
-\pgf@picminy=\dimen125
-\pgf@picmaxy=\dimen126
-\pgf@pathminx=\dimen127
-\pgf@pathmaxx=\dimen128
-\pgf@pathminy=\dimen129
-\pgf@pathmaxy=\dimen130
-\pgf@xx=\dimen131
-\pgf@xy=\dimen132
-\pgf@yx=\dimen133
-\pgf@yy=\dimen134
-\pgf@zx=\dimen135
-\pgf@zy=\dimen136
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count184
+)) (/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen155
+\pgf@picmaxx=\dimen156
+\pgf@picminy=\dimen157
+\pgf@picmaxy=\dimen158
+\pgf@pathminx=\dimen159
+\pgf@pathmaxx=\dimen160
+\pgf@pathminy=\dimen161
+\pgf@pathmaxy=\dimen162
+\pgf@xx=\dimen163
+\pgf@xy=\dimen164
+\pgf@yx=\dimen165
+\pgf@yy=\dimen166
+\pgf@zx=\dimen167
+\pgf@zy=\dimen168
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen137
-\pgf@path@lasty=\dimen138
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen169
+\pgf@path@lasty=\dimen170
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex
-File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen139
-\pgf@shorten@start@additional=\dimen140
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen171
+\pgf@shorten@start@additional=\dimen172
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex
-File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box29
-\pgf@hbox=\box30
-\pgf@layerbox@main=\box31
-\pgf@picture@serial@count=\count102
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count185
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen141
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen173
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex
-File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen142
-\pgf@pt@y=\dimen143
-\pgf@pt@temp=\dimen144
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen174
+\pgf@pt@y=\dimen175
+\pgf@pt@temp=\dimen176
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex
-File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex
-File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex
-File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen145
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen177
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex
-File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen146
-\pgf@sys@shading@range@num=\count103
-\pgf@shadingcount=\count104
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen178
+\pgf@sys@shading@range@num=\count186
+\pgf@shadingcount=\count187
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex
-File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex
-File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box32
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box50
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex
-File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex
-File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex
-File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex
-File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box33
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box51
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex
-File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen147
-\pgf@nodesepend=\dimen148
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen179
+\pgf@nodesepend=\dimen180
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor
-.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkey
-s.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfk
-eys.code.tex))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
-
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgff
-or.code.tex
-Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
-
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.c
-ode.tex)
-\pgffor@iter=\dimen149
-\pgffor@skip=\dimen150
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (/home/sirneij/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen181
+\pgffor@skip=\dimen182
 \pgffor@stack=\toks27
 \pgffor@toks=\toks28
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex
-Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count105
-\pgfplotmarksize=\dimen151
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count188
+\pgfplotmarksize=\dimen183
 )
-\tikz@lastx=\dimen152
-\tikz@lasty=\dimen153
-\tikz@lastxsaved=\dimen154
-\tikz@lastysaved=\dimen155
-\tikz@lastmovetox=\dimen156
-\tikz@lastmovetoy=\dimen157
-\tikzleveldistance=\dimen158
-\tikzsiblingdistance=\dimen159
-\tikz@figbox=\box34
-\tikz@figbox@bg=\box35
-\tikz@tempbox=\box36
-\tikz@tempbox@bg=\box37
-\tikztreelevel=\count106
-\tikznumberofchildren=\count107
-\tikznumberofcurrentchild=\count108
-\tikz@fig@count=\count109
+\tikz@lastx=\dimen184
+\tikz@lasty=\dimen185
+\tikz@lastxsaved=\dimen186
+\tikz@lastysaved=\dimen187
+\tikz@lastmovetox=\dimen188
+\tikz@lastmovetoy=\dimen189
+\tikzleveldistance=\dimen190
+\tikzsiblingdistance=\dimen191
+\tikz@figbox=\box52
+\tikz@figbox@bg=\box53
+\tikz@tempbox=\box54
+\tikz@tempbox@bg=\box55
+\tikztreelevel=\count189
+\tikznumberofchildren=\count190
+\tikznumberofcurrentchild=\count191
+\tikz@fig@count=\count192
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex
-File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count110
-\pgfmatrixcurrentcolumn=\count111
-\pgf@matrix@numberofcolumns=\count112
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count193
+\pgfmatrixcurrentcolumn=\count194
+\pgf@matrix@numberofcolumns=\count195
 )
-\tikz@expandcount=\count113
+\tikz@expandcount=\count196
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.s
-ty
-Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
-Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
-Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen160
-\captionmargin@=\dimen161
-\captionwidth=\dimen162
-\caption@tempdima=\dimen163
-\caption@indent=\dimen164
-\caption@parindent=\dimen165
-\caption@hangindent=\dimen166
+(/home/sirneij/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen192
+\captionmargin@=\dimen193
+\captionwidth=\dimen194
+\caption@tempdima=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
+Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count114
-\c@ContinuedFloat=\count115
+\c@caption@flags=\count197
+\c@continuedfloat=\count198
 )
-\c@subfigure=\count116
-\c@subtable=\count117
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip46
-\LTright=\skip47
-\LTpre=\skip48
-\LTpost=\skip49
-\LTchunksize=\count118
-\LTcapwidth=\dimen167
-\LT@head=\box38
-\LT@firsthead=\box39
-\LT@foot=\box40
-\LT@lastfoot=\box41
-\LT@cols=\count119
-\LT@rows=\count120
-\c@LT@tables=\count121
-\c@LT@chunks=\count122
+\c@subfigure=\count199
+\c@subtable=\count266
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count267
+\LTcapwidth=\dimen199
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@cols=\count268
+\LT@rows=\count269
+\c@LT@tables=\count270
+\c@LT@chunks=\count271
 \LT@p@ftn=\toks29
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks30
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip50
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks31
-\ex@=\dimen168
+\ex@=\dimen256
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen169
+\pmbraise@=\dimen257
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count123
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count124
-\leftroot@=\count125
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count126
-\DOTSCASE@=\count127
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box42
-\strutbox@=\box43
-\big@size=\dimen170
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count128
-\c@MaxMatrixCols=\count129
-\dotsspace@=\muskip11
-\c@parentequation=\count130
-\dspbrk@lvl=\count131
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen258
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count277
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip17
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
 \tag@help=\toks32
-\row@=\count132
-\column@=\count133
-\maxfields@=\count134
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
 \andhelp@=\toks33
-\eqnshift@=\dimen171
-\alignsep@=\dimen172
-\tagshift@=\dimen173
-\tagwidth@=\dimen174
-\totwidth@=\dimen175
-\lineht@=\dimen176
+\eqnshift@=\dimen259
+\alignsep@=\dimen260
+\tagshift@=\dimen261
+\tagwidth@=\dimen262
+\totwidth@=\dimen263
+\lineht@=\dimen264
 \@envbody=\toks34
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip57
+\multlinetaggap=\skip58
 \mathdisplay@stack=\toks35
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/algorithm2e\algorith
-m2e.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/algorithm2e/algorithm2e.sty
 Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 550 replaced by U+FFFD.
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count135
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+\c@AlgoLine=\count284
+
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip53
+\algocf@hangindent=\skip59
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/ifoddpage\ifoddpage.
-sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count136
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+\c@checkoddpage=\count285
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/relsize\relsize.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip54
-\skiplinenumber=\skip55
-\skiprule=\skip56
-\skiphlne=\skip57
-\skiptext=\skip58
-\skiplength=\skip59
-\algomargin=\skip60
-\skipalgocfslide=\skip61
-\algowidth=\dimen177
-\inoutsize=\dimen178
-\inoutindent=\dimen179
-\interspacetitleruled=\dimen180
-\interspacealgoruled=\dimen181
-\interspacetitleboxruled=\dimen182
-\algocf@ruledwidth=\skip62
-\algocf@inoutbox=\box44
-\algocf@inputbox=\box45
-\AlCapSkip=\skip63
-\AlCapHSkip=\skip64
-\algoskipindent=\skip65
-\algocf@nlbox=\box46
-\algocf@hangingbox=\box47
-\algocf@untilbox=\box48
-\algocf@skipuntil=\skip66
-\algocf@capbox=\box49
-\algocf@lcaptionbox=\skip67
-\algoheightruledefault=\skip68
-\algoheightrule=\skip69
-\algotitleheightruledefault=\skip70
-\algotitleheightrule=\skip71
-\c@algocfline=\count137
-\c@algocfproc=\count138
-\c@algocf=\count139
-\algocf@algoframe=\box50
-\algocf@algobox=\box51
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+\skiptotal=\skip60
+\skiplinenumber=\skip61
+\skiprule=\skip62
+\skiphlne=\skip63
+\skiptext=\skip64
+\skiplength=\skip65
+\algomargin=\skip66
+\skipalgocfslide=\skip67
+\algowidth=\dimen265
+\inoutsize=\dimen266
+\inoutindent=\dimen267
+\interspacetitleruled=\dimen268
+\interspacealgoruled=\dimen269
+\interspacetitleboxruled=\dimen270
+\algocf@ruledwidth=\skip68
+\algocf@inoutbox=\box62
+\algocf@inputbox=\box63
+\AlCapSkip=\skip69
+\AlCapHSkip=\skip70
+\algoskipindent=\skip71
+\algocf@nlbox=\box64
+\algocf@hangingbox=\box65
+\algocf@untilbox=\box66
+\algocf@skipuntil=\skip72
+\algocf@capbox=\box67
+\algocf@lcaptionbox=\skip73
+\algoheightruledefault=\skip74
+\algoheightrule=\skip75
+\algotitleheightruledefault=\skip76
+\algotitleheightrule=\skip77
+\c@algocfline=\count286
+\c@algocfproc=\count287
+\c@algocf=\count288
+\algocf@algoframe=\box68
+\algocf@algobox=\box69
 )
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/sirneij/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen271
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\@linkdim=\dimen183
-\Hy@linkcounter=\count140
-\Hy@pagecounter=\count141
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count142
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 4424.
-Package hyperref Info: Hyper figures OFF on input line 4550.
-Package hyperref Info: Link nesting OFF on input line 4555.
-Package hyperref Info: Hyper index ON on input line 4558.
-Package hyperref Info: Plain pages OFF on input line 4565.
-Package hyperref Info: Backreferencing OFF on input line 4570.
+\Hy@SavedSpaceFactor=\count291
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count143
-LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen184
-\Fld@menulength=\count144
-\Field@Width=\dimen185
-\Fld@charsize=\dimen186
-Package hyperref Info: Hyper figures OFF on input line 6411.
-Package hyperref Info: Link nesting OFF on input line 6416.
-Package hyperref Info: Hyper index ON on input line 6419.
-Package hyperref Info: backreferencing OFF on input line 6426.
-Package hyperref Info: Link coloring ON on input line 6429.
-Package hyperref Info: Link coloring with OCG OFF on input line 6436.
-Package hyperref Info: PDF/A mode OFF on input line 6441.
-LaTeX Info: Redefining \ref on input line 6481.
-LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count145
-\c@Item=\count146
-\c@Hfootnote=\count147
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count292
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen272
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen273
+\Fld@charsize=\dimen274
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hxetex.def"
-File: hxetex.def 2019/06/12 v6.88h Hyperref driver for XeTeX
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
-File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+(/home/sirneij/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box52
-\c@Hy@AnnotLevel=\count148
-\HyField@AnnotCount=\count149
-\Fld@listcount=\count150
-\c@bookmark@seq@number=\count151
+\pdfm@box=\box70
+\c@Hy@AnnotLevel=\count297
+\HyField@AnnotCount=\count298
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.s
+ty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/home/sirneij/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.s
+ty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
-\Hy@SectionHShift=\skip72
+\Hy@SectionHShift=\skip78
+) (/home/sirneij/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count152
-\Gm@cntv=\count153
-\c@Gm@tempcnt=\count154
-\Gm@bindingoffset=\dimen187
-\Gm@wd@mp=\dimen188
-\Gm@odd@mp=\dimen189
-\Gm@even@mp=\dimen190
-\Gm@layoutwidth=\dimen191
-\Gm@layoutheight=\dimen192
-\Gm@layouthoffset=\dimen193
-\Gm@layoutvoffset=\dimen194
+\Gm@cnth=\count301
+\Gm@cntv=\count302
+\c@Gm@tempcnt=\count303
+\Gm@bindingoffset=\dimen275
+\Gm@wd@mp=\dimen276
+\Gm@odd@mp=\dimen277
+\Gm@even@mp=\dimen278
+\Gm@layoutwidth=\dimen279
+\Gm@layoutheight=\dimen280
+\Gm@layouthoffset=\dimen281
+\Gm@layoutvoffset=\dimen282
 \Gm@dimlist=\toks36
 
-("C:\Program Files\MiKTeX 2.9\tex/xelatex/xetexconfig\geometry.cfg"))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.st
-y
+(/home/sirneij/.miktex/texmfs/install/tex/xelatex/xetexconfig/geometry.cfg))
+(/home/sirneij/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.st
-y
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
+\f@nch@headwidth=\skip79
+\f@nch@O@elh=\skip80
+\f@nch@O@erh=\skip81
+\f@nch@O@olh=\skip82
+\f@nch@O@orh=\skip83
+\f@nch@O@elf=\skip84
+\f@nch@O@erf=\skip85
+\f@nch@O@olf=\skip86
+\f@nch@O@orf=\skip87
 )
 \@indexfile=\write4
 \openout4 = `fydp.idx'.
 
 
 Writing index file fydp.idx
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/xpatch\xpatch.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
-Package: expl3 2019-09-08 L3 programming layer (loader) 
+(/home/sirneij/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-03 L3 programming layer (loader) 
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3-code.
-tex
-Package: expl3 2019-09-08 L3 programming layer (code)
-\c_max_int=\count155
-\l_tmpa_int=\count156
-\l_tmpb_int=\count157
-\g_tmpa_int=\count158
-\g_tmpb_int=\count159
-\g__kernel_prg_map_int=\count160
-\c__ior_term_noprompt_ior=\count161
-\c_log_iow=\count162
-\l_iow_line_count_int=\count163
-\l__iow_line_target_int=\count164
-\l__iow_one_indent_int=\count165
-\l__iow_indent_int=\count166
-\c_zero_dim=\dimen195
-\c_max_dim=\dimen196
-\l_tmpa_dim=\dimen197
-\l_tmpb_dim=\dimen198
-\g_tmpa_dim=\dimen199
-\g_tmpb_dim=\dimen256
-\c_zero_skip=\skip82
-\c_max_skip=\skip83
-\l_tmpa_skip=\skip84
-\l_tmpb_skip=\skip85
-\g_tmpa_skip=\skip86
-\g_tmpb_skip=\skip87
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count167
-\l__intarray_loop_int=\count168
-\c__intarray_sp_dim=\dimen257
-\g__intarray_font_int=\count169
-\c__fp_leading_shift_int=\count170
-\c__fp_middle_shift_int=\count171
-\c__fp_trailing_shift_int=\count172
-\c__fp_big_leading_shift_int=\count173
-\c__fp_big_middle_shift_int=\count174
-\c__fp_big_trailing_shift_int=\count175
-\c__fp_Bigg_leading_shift_int=\count176
-\c__fp_Bigg_middle_shift_int=\count177
-\c__fp_Bigg_trailing_shift_int=\count178
-\g__fp_array_int=\count179
-\l__fp_array_loop_int=\count180
-\l__sort_length_int=\count181
-\l__sort_min_int=\count182
-\l__sort_top_int=\count183
-\l__sort_max_int=\count184
-\l__sort_true_max_int=\count185
-\l__sort_block_int=\count186
-\l__sort_begin_int=\count187
-\l__sort_end_int=\count188
-\l__sort_A_int=\count189
-\l__sort_B_int=\count190
-\l__sort_C_int=\count191
-\l__str_internal_int=\count192
-\l__tl_analysis_normal_int=\count193
-\l__tl_analysis_index_int=\count194
-\l__tl_analysis_nesting_int=\count195
-\l__tl_analysis_type_int=\count196
-\l__regex_internal_a_int=\count197
-\l__regex_internal_b_int=\count198
-\l__regex_internal_c_int=\count199
-\l__regex_balance_int=\count266
-\l__regex_group_level_int=\count267
-\l__regex_mode_int=\count268
-\c__regex_cs_in_class_mode_int=\count269
-\c__regex_cs_mode_int=\count270
-\l__regex_catcodes_int=\count271
-\l__regex_default_catcodes_int=\count272
-\c__regex_catcode_L_int=\count273
-\c__regex_catcode_O_int=\count274
-\c__regex_catcode_A_int=\count275
-\c__regex_all_catcodes_int=\count276
-\l__regex_show_lines_int=\count277
-\l__regex_min_state_int=\count278
-\l__regex_max_state_int=\count279
-\l__regex_left_state_int=\count280
-\l__regex_right_state_int=\count281
-\l__regex_capturing_group_int=\count282
-\l__regex_min_pos_int=\count283
-\l__regex_max_pos_int=\count284
-\l__regex_curr_pos_int=\count285
-\l__regex_start_pos_int=\count286
-\l__regex_success_pos_int=\count287
-\l__regex_curr_char_int=\count288
-\l__regex_curr_catcode_int=\count289
-\l__regex_last_char_int=\count290
-\l__regex_case_changed_char_int=\count291
-\l__regex_curr_state_int=\count292
-\l__regex_step_int=\count293
-\l__regex_min_active_int=\count294
-\l__regex_max_active_int=\count295
-\l__regex_replacement_csnames_int=\count296
-\l__regex_match_count_int=\count297
-\l__regex_min_submatch_int=\count298
-\l__regex_submatch_int=\count299
-\l__regex_zeroth_submatch_int=\count300
-\g__regex_trace_regex_int=\count301
-\c_empty_box=\box53
-\l_tmpa_box=\box54
-\l_tmpb_box=\box55
-\g_tmpa_box=\box56
-\g_tmpb_box=\box57
-\l__box_top_dim=\dimen258
-\l__box_bottom_dim=\dimen259
-\l__box_left_dim=\dimen260
-\l__box_right_dim=\dimen261
-\l__box_top_new_dim=\dimen262
-\l__box_bottom_new_dim=\dimen263
-\l__box_left_new_dim=\dimen264
-\l__box_right_new_dim=\dimen265
-\l__box_internal_box=\box58
-\l__coffin_internal_box=\box59
-\l__coffin_internal_dim=\dimen266
-\l__coffin_offset_x_dim=\dimen267
-\l__coffin_offset_y_dim=\dimen268
-\l__coffin_x_dim=\dimen269
-\l__coffin_y_dim=\dimen270
-\l__coffin_x_prime_dim=\dimen271
-\l__coffin_y_prime_dim=\dimen272
-\c_empty_coffin=\box60
-\l__coffin_aligned_coffin=\box61
-\l__coffin_aligned_internal_coffin=\box62
-\l_tmpa_coffin=\box63
-\l_tmpb_coffin=\box64
-\g_tmpa_coffin=\box65
-\g_tmpb_coffin=\box66
-\l__coffin_bounding_shift_dim=\dimen273
-\l__coffin_left_corner_dim=\dimen274
-\l__coffin_right_corner_dim=\dimen275
-\l__coffin_bottom_corner_dim=\dimen276
-\l__coffin_top_corner_dim=\dimen277
-\l__coffin_scaled_total_height_dim=\dimen278
-\l__coffin_scaled_width_dim=\dimen279
-\c__coffin_empty_coffin=\box67
-\l__coffin_display_coffin=\box68
-\l__coffin_display_coord_coffin=\box69
-\l__coffin_display_pole_coffin=\box70
-\l__coffin_display_offset_dim=\dimen280
-\l__coffin_display_x_dim=\dimen281
-\l__coffin_display_y_dim=\dimen282
-\g__char_data_ior=\read2
-\l__seq_internal_a_int=\count302
-\l__seq_internal_b_int=\count303
-)
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-
-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2019-04-06 v L3 backend support: xdvipdfmx
+(/home/sirneij/.miktex/texmfs/install/tex/latex/l3backend/l3backend-xdvipdfmx.d
+ef
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count304
 \l__pdf_internal_box=\box71
 \g__pdf_backend_object_int=\count305
@@ -925,21 +770,18 @@ File: l3backend-xdvipdfmx.def 2019-04-06 v L3 backend support: xdvipdfmx
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xp
-arse.sty
-Package: xparse 2019-05-28 L3 Experimental document command parser
+(/home/sirneij/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-03 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count307
 \g__xparse_grabber_int=\count308
 \l__xparse_m_args_int=\count309
 \l__xparse_v_nesting_int=\count310
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/etoolbox\etoolbox.st
-y
-Package: etoolbox 2019/09/09 v2.5g e-TeX tools for LaTeX (JAW)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count311
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/blindtext\blindtext.
-sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 \c@blindtext=\count312
 \c@Blindtext=\count313
@@ -959,115 +801,35 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 \c@blind@randommax=\count327
 \c@blind@pangramcount=\count328
 \c@blind@pangrammax=\count329
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 Patched makeschapterhead
 Patched @makechapterhead
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/minted\minted.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/minted/minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/fvextra\fvextra.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fvextra/fvextra.sty
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyvrb\fancyvrb.st
-y
-Package: fancyvrb 2019/11/09
- Style option: `fancyvrb' v3.4 <2019/11/09> (tvz)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count330
-\FV@InFile=\read3
+\FV@InFile=\read4
 \FV@TabBox=\box72
 \c@FancyVerbLine=\count331
 \FV@StepNumber=\count332
 \FV@OutFile=\write5
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/upquote\upquote.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0m Standard LaTeX package
 ))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/lineno\lineno.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
 \linenopenalty=\count333
@@ -1109,7 +871,7 @@ LaTeX Info: Redefining \\ on input line 3056.
 \FV@LineIndentBox=\box77
 \FV@LineWidth=\dimen293
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+(/home/sirneij/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count351
 \calc@Bcount=\count352
@@ -1122,19 +884,26 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count353
 \calc@Cskip=\skip91
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
-Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+(/home/sirneij/.miktex/texmfs/install/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/ifplatform\ifplatfor
-m.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
- ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\catchfile.sty"
-Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
-))
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/xstring\xstring.sty
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/generic/xstring\xstring.te
-x
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "fydp.w18")...executed.
+
+ (fydp.w18)
+runsystem(rm -- "fydp.w18")...executed.
+
+) (/home/sirneij/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/sirneij/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
 \integerpart=\count354
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
 \decimalpart=\count355
@@ -1276,8 +1045,8 @@ Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\newfloat.sty
-Package: newfloat 2019/09/01 v1.1k Defining new floating environments (AR)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
 Package newfloat Info: Unsupported document class, or \@chapter 
 (newfloat)             was already redefined by another package.
 Package newfloat Info: \@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAu
@@ -1288,7 +1057,7 @@ chapter .
 Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\algocf@original@chapter
  [#1]{#2}\addtocontents {loa}{\protect \addvspace {10\p@ }}.
 )
-\minted@appexistsfile=\read4
+\minted@appexistsfile=\read5
 \minted@bgbox=\box78
 \minted@code=\write6
 \c@minted@FancyVerbLineTemp=\count356
@@ -1300,52 +1069,62 @@ tbp' on input line 1151.
 Package newfloat Info: float type `listing'=8 on input line 1151.
 \c@sublisting=\count360
 )
-runsystem(if not exist _minted-fydp mkdir _minted-fydp)...executed.
+runsystem(mkdir -p _minted-fydp)...executed.
 
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/acronym\acronym.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/acronym/acronym.sty
 Package: acronym 2019/11/11 v1.42 Support for acronyms (Tobias Oetiker)
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/bigfoot\suffix.sty
+(/home/sirneij/.miktex/texmfs/install/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
 \AC@clearlist=\toks38
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.sty"
-Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen296
+\lightrulewidth=\dimen297
+\cmidrulewidth=\dimen298
+\belowrulesep=\dimen299
+\belowbottomsep=\dimen300
+\aboverulesep=\dimen301
+\abovetopsep=\dimen302
+\cmidrulesep=\dimen303
+\cmidrulekern=\dimen304
+\defaultaddspace=\dimen305
+\@cmidla=\count361
+\@cmidlb=\count362
+\@aboverulesep=\dimen306
+\@belowrulesep=\dimen307
+\@thisruleclass=\count363
+\@lastruleclass=\count364
+\@thisrulewidth=\dimen308
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec-xetex.sty"
-Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count361
-\l__fontspec_language_int=\count362
-\l__fontspec_strnum_int=\count363
-\l__fontspec_tmp_int=\count364
-\l__fontspec_tmpa_int=\count365
-\l__fontspec_tmpb_int=\count366
-\l__fontspec_tmpc_int=\count367
-\l__fontspec_em_int=\count368
-\l__fontspec_emdef_int=\count369
-\l__fontspec_strong_int=\count370
-\l__fontspec_strongdef_int=\count371
-\l__fontspec_tmpa_dim=\dimen296
-\l__fontspec_tmpb_dim=\dimen297
-\l__fontspec_tmpc_dim=\dimen298
+\l__fontspec_script_int=\count365
+\l__fontspec_language_int=\count366
+\l__fontspec_strnum_int=\count367
+\l__fontspec_tmp_int=\count368
+\l__fontspec_tmpa_int=\count369
+\l__fontspec_tmpb_int=\count370
+\l__fontspec_tmpc_int=\count371
+\l__fontspec_em_int=\count372
+\l__fontspec_emdef_int=\count373
+\l__fontspec_strong_int=\count374
+\l__fontspec_strongdef_int=\count375
+\l__fontspec_tmpa_dim=\dimen309
+\l__fontspec_tmpb_dim=\dimen310
+\l__fontspec_tmpc_dim=\dimen311
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\tuenc.def"
-File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.cfg")
-LaTeX Info: Redefining \itshape on input line 4051.
-LaTeX Info: Redefining \slshape on input line 4056.
-LaTeX Info: Redefining \scshape on input line 4061.
-LaTeX Info: Redefining \upshape on input line 4066.
-LaTeX Info: Redefining \em on input line 4096.
-LaTeX Info: Redefining \emph on input line 4121.
-))
+(/home/sirneij/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Ligatures=TeX].
@@ -1354,68 +1133,40 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-tex
-t;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times
-(fontspec)             New
-(fontspec)             Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
-text;"
+runsystem(which pygmentize && touch fydp.aex)...executed.
 
-LaTeX Info: Redefining \rmfamily on input line 69.
+runsystem(rm fydp.aex)...executed.
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.st
-y
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen299
-\lightrulewidth=\dimen300
-\cmidrulewidth=\dimen301
-\belowrulesep=\dimen302
-\belowbottomsep=\dimen303
-\aboverulesep=\dimen304
-\abovetopsep=\dimen305
-\cmidrulesep=\dimen306
-\cmidrulekern=\dimen307
-\defaultaddspace=\dimen308
-\@cmidla=\count372
-\@cmidlb=\count373
-\@aboverulesep=\dimen309
-\@belowrulesep=\dimen310
-\@thisruleclass=\count374
-\@lastruleclass=\count375
-\@thisrulewidth=\dimen311
-)
-runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > fy
-dp.aex <nul: /p x=^%~$PATH:i>> fydp.aex)...executed.
 
-runsystem(del fydp.aex)...executed.
-
- (fydp.aux)
+(fydp.aux)
 \openout1 = `fydp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+0.
+ (/home/sirneij/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -1427,38 +1178,35 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 70.
 
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\fredsolomon\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\ltcaption.st
-y
+(/home/sirneij/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box79
 Package hyperref Info: Link coloring ON on input line 70.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/home/sirneij/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/home/sirneij/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/sirneij/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring
+.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count376
 )
 LaTeX Info: Redefining \ref on input line 70.
 LaTeX Info: Redefining \pageref on input line 70.
 LaTeX Info: Redefining \nameref on input line 70.
-
-(fydp.out) (fydp.out)
+ (fydp.out) (fydp.out)
 \@outlinefile=\write7
 \openout7 = `fydp.out'.
 
@@ -1544,33 +1292,36 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
  70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 70.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 70.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 70.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 70.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 70.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 70.
 (0.0.title.tex
 File: ./ipnx.jpg Graphic file (type bmp)
 <./ipnx.jpg>
 File: ./futa.png Graphic file (type bmp)
 <./futa.png>
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\se-ascii-print.def"
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
-)
-[1
+LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 42.
+
+(/home/sirneij/.miktex/texmfs/install/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) [1
 
 ]) (0.1.cert.tex
 Overfull \hbox (3.20865pt too wide) in paragraph at lines 2--4
@@ -1625,22 +1376,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+
+(/home/sirneij/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (11.34053pt too wide) in paragraph at lines 11--14
+Overfull \hbox (11.34056pt too wide) in paragraph at lines 11--14
  [] 
- []
-
-
-Overfull \hbox (23.08662pt too wide) in paragraph at lines 16--20
- [][] 
  []
 
 )
@@ -1694,28 +1442,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
-
-although it is yet undefined on input line 9.
-Package acronym Info: Label `acro:XHR' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
-Package acronym Info: Label `acro:AJAX' newly defined as it shall be overridden
-
-although it is yet undefined on input line 9.
-Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:CRUD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:REPL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 10.
-
-Overfull \hbox (9.1813pt too wide) in paragraph at lines 9--11
-\TU/TimesNewRoman(0)/m/n/12 HyperText Transfer Protocol Request ([])[] using []
-[][]Asynchronous JavaScript and [][][]eXtensible
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
@@ -1730,7 +1462,19 @@ although it is yet undefined on input line 12.
 
 
 
-])
+]
+Package acronym Info: Label `acro:AJAX' newly defined as it shall be overridden
+
+although it is yet undefined on input line 70.
+Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
+although it is yet undefined on input line 70.
+
+Overfull \hbox (7.7247pt too wide) in paragraph at lines 70--70
+ [][] [][][][]\TU/TimesNewRoman(0)/m/n/12 Asynchronous JavaScript and [][][]eXt
+ensible Markup Language ([])[] 
+ []
+
+)
 \tf@toc=\write8
 \openout8 = `fydp.toc'.
 
@@ -1758,8 +1502,7 @@ although it is yet undefined on input line 20.
 ] [10
 
 
-] [11]
-(1.intro.tex
+] [11] (1.intro.tex
 Chapter 1.
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
 1.
@@ -1851,6 +1594,8 @@ although it is yet undefined on input line 128.
 Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
 
 although it is yet undefined on input line 128.
+Package acronym Info: Label `acro:XHR' newly defined as it shall be overridden
+although it is yet undefined on input line 128.
 File: ./Ajax.png Graphic file (type bmp)
 <./Ajax.png>
 
@@ -1887,7 +1632,7 @@ t line 137.
 
  (_minted-fydp/default-pyg-prefix.pygstyle)
 (_minted-fydp/default.pygstyle)
-(_minted-fydp/CA3367E8F8E0498D9FFADB940CF8D67199D537B9CC1EBEB188FEB3E9E9C4171E.
+(_minted-fydp/CB0D3B618F874752CD34EBE353FB79A599D537B9CC1EBEB188FEB3E9E9C4171E.
 pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
@@ -1925,7 +1670,7 @@ although it is yet undefined on input line 199.
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/AF1DCD81FCEB4F71048CC6F46B4B700DC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/3D273D1AD52A09BCA99DAA35E89E817BC01E3142112BA12B39735D06579A8ED1.
 pygtex [23])
 Overfull \hbox (4.92624pt too wide) in paragraph at lines 261--262
 \TU/TimesNewRoman(0)/m/n/12 database management such as creating tables, writin
@@ -1935,22 +1680,22 @@ g [][] queries and other database
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/3E7619F26610BA3C8BE2FEAAD43FC395C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/63B3DED650D1C6FDAF27F5BAF3F9C978C01E3142112BA12B39735D06579A8ED1.
 pygtex [24] [25])
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/A5A6809F470DA1DAA9C6A27456F2A6141ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/1603EE50B638414D43FD1349DA84C4E01ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex [26])
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/FF07FF4393F972A068C0D8D7A4CFC1621ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/DD7CDBEC1F30A11830688962C96E126F1ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/FB072E36365FE2FA073E33A45F22660F1ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/3872F87EE87FF0E2E8E0CCCD56ED99D01ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
@@ -1958,22 +1703,22 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/C84FD71F619D4462AE7E9B05E3B72C671ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/176C012E8B9E306620868B3088E70F7D1ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/80E2862777CA937093E9C36C524979931ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/333E13482C22B2A08FDA18CABB1B57951ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/3ED2321C515CFAC6EE3409A93375018E1ADACB70B2A52ADDAFFEC6E08F2B9B65.
+(_minted-fydp/DAAD735D01BBF1CFE65397342DE127ED1ADACB70B2A52ADDAFFEC6E08F2B9B65.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/88F0E63337333221F6453FDC9627D301DFAE47347F48AC45F083385D614C70F7.
+(_minted-fydp/47253F8675B710E8E05AD3304C456964DFAE47347F48AC45F083385D614C70F7.
 pygtex
 Overfull \hbox (65.20865pt too wide) in paragraph at lines 22--22
 | | | |[][][][][][][][]\TU/lmtt/m/n/10 src[][]=[][]"/static/assets/custom/login
@@ -2050,17 +1795,17 @@ Overfull \hbox (75.70865pt too wide) in paragraph at lines 63--63
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/B23576CA921F028CBEA2A3864B702FBEC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/14C18953F24C3253F817FDA911642DFBC01E3142112BA12B39735D06579A8ED1.
 pygtex [29]) [30]
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/DDAC6031CECC37AE865F8ED02DE07C05C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/D728DFDE416D978E767725D1EDF6FF3BC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/D06A8FCB4EF5492385B056F3D713F631C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/C8FAFAF0D22F7FF537DDDDBB8F7A576EC01E3142112BA12B39735D06579A8ED1.
 pygtex [31])
 Overfull \hbox (2.32892pt too wide) in paragraph at lines 703--704
 []| \TU/TimesNewRoman(0)/m/n/12 Enable/disable DHCP service, modify address ran
@@ -2096,8 +1841,8 @@ File: ./cearetail.png Graphic file (type bmp)
 <./cearetail.png>
 
 Overfull \hbox (1.71742pt too wide) in paragraph at lines 766--800
-[]\TU/TimesNewRoman(0)/bx/n/12 Project’s Requirement specification\TU/TimesNewR
-oman(0)/m/n/12 : Customer Experience Analysis (CEA) Dash-
+[]\TU/TimesNewRoman(0)/b/n/12 Project’s Requirement specification\TU/TimesNewRo
+man(0)/m/n/12 : Customer Experience Analysis (CEA) Dash-
  []
 
 
@@ -2190,7 +1935,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 980--982
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/EC295EC5E757A4388EA6B1AEFBCA58209187AA9028A9EACF103840594174373D.
+(_minted-fydp/4CE05CB5A3CF07671782D1DD1B44641C9187AA9028A9EACF103840594174373D.
 pygtex [41])
 File: ./deploy.png Graphic file (type bmp)
 <./deploy.png>
@@ -2200,339 +1945,339 @@ although it is yet undefined on input line 1058.
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/FDD4B9249150299E2C4DAF726FADA1AC62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/4A9EF918618E3736BD77497D330E7DDF62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/140938166A03A17CBFD0EF5872A92D6D62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/0BD43389C041806323AE603A45776FFA62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/00305BC1FB89E33403A168E6E3E2EC08C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/365C9BFEB7D89244F2CE01C1DE44CB85C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/0C41DA539D4E470469EAD97C6E024C4B07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1F5E513D5D52EDD42FD343A7ECBD29BE07817944E61570F8678A04BA714FB400.
+(_minted-fydp/E8DD36A5E4086E63E105442262DEEA9107817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/43FE31CB59EC24BF9C850AA8647BB31662F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/05392C6F3C9928E15C3015760A337ECA62F886471714DFEF6F301805A8E725C3.
 pygtex [43])
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/0C41DA539D4E470469EAD97C6E024C4B07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/0720B6A6810F88D21C554259FDF4F45D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/B2D5D05D2B7FF71E628A8BF5A6760F2907817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/EFF43F0F47931A58CBF941D2D085A82A62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/2B5936CDE07FFF89A9FA797D9E86CEC662F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/8986A8159F030CB07521C27D07ACA32162F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/B8DFECC6B8B66B4E4FFED795A499BB9962F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/C6E796FF59529C289DBD29B559D7C72B62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/17C1D9A3EE1E63C3705888F1442891AF62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/7818AD9F22FC2556E2EC0681507384B062F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/1BC7EB41E2FDFC3E95960A778261A80062F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/7A3B5CC3093EFAEA79E7F869E86304B162F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/810779D62C9A6F5800ED6FA18A4F479862F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/0C41DA539D4E470469EAD97C6E024C4B07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/7818AD9F22FC2556E2EC0681507384B007817944E61570F8678A04BA714FB400.
+(_minted-fydp/1BC7EB41E2FDFC3E95960A778261A80007817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/4591FA9578024E53F06E3FD42DE7EB7F07817944E61570F8678A04BA714FB400.
+(_minted-fydp/05E28773B6D4F8B1AA61AA6DF8479FA407817944E61570F8678A04BA714FB400.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/7ABC5E5453F4676BA5E351C8FA406D9762F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/B5D4436B1CF014854470A7322402455062F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/ED346200D37D3671DDA64DB7777DC60407817944E61570F8678A04BA714FB400.
+(_minted-fydp/E0DCEB9D9D0CD0C2FBAF6DF58BD246CA07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/25786B5506256E5EAC7CE6415E6AF8CB62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/D8C1CD99A138DF7A449CEA6E2D81C35962F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/B21E7D27FD48FCBA87DDB1CECFD00DDD07817944E61570F8678A04BA714FB400.
+(_minted-fydp/736988BE5E1635EC0762D8413E5A72E107817944E61570F8678A04BA714FB400.
 pygtex [44])
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/0C41DA539D4E470469EAD97C6E024C4B07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/79E96F232AC3C770D82E87AFD8C0F50862F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/CFB68A0C41E20D04ACA214E2B30B90ED62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/1A6848649709523D3ED455B8A0C3D84D07817944E61570F8678A04BA714FB400.
+(_minted-fydp/0C41DA539D4E470469EAD97C6E024C4B07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/D5F7618328D7E145D5304C2E29DEC8F562F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/AE4F18B7145435E74D268B824AFEA02362F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/0AD52A8209EF59E71D42AD83A9254EB762F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/52ADF469CC343353CBF2D6AA01819D9D62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/35FD0BCFE24437E379055DD3EE7840CA62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/BA23DBC5943E79837D188109FDBB55E762F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/0AD52A8209EF59E71D42AD83A9254EB762F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/52ADF469CC343353CBF2D6AA01819D9D62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/D8C1001DC5A4B4C2AF32740BDFE839EF62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/F01BA28A0F18CA0CC3C624A9493DCE3662F886471714DFEF6F301805A8E725C3.
 pygtex [45])
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/8EBA0E8326EC4A3CD9C1F2E566D6EC9362F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/B1F850944498544FE485F20AFEB5A0B662F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/8EBA0E8326EC4A3CD9C1F2E566D6EC9362F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/B1F850944498544FE485F20AFEB5A0B662F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/31BDDEF2562192CFD4B67994BD773FD862F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/A75FA4BF4183D1AFDD314E369C2519A262F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/CCA856F365DBAF7DDA0BE240F66DAD1407817944E61570F8678A04BA714FB400.
+(_minted-fydp/9106108552DFD4B2B515BAE473A9753E07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/78359DB21B2397536FF9B2EA52013FA762F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/F87A886B5BDE9CADA83C13FD8B9084D462F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/422CDCDBBF2A7EC4C9E1888247217A9E62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/94D5C48BB9B94F3620AAA7A14057FD1D62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/82DD4362970972861DA2006ACEC5965E62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/8D71338315E1C56B1F421717E934CA7462F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/70ADCD74F797CB3DD919437BCADD635507817944E61570F8678A04BA714FB400.
+(_minted-fydp/2C50B94E1D48CB2974CC5F4067179D9907817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/6D1F622B5FAA0746093C6AC1E948BAAA07817944E61570F8678A04BA714FB400.
+(_minted-fydp/B4E582FBEC7D7EE5253B0AFCF406344907817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/EDB5742619EB441C04894C28414ADB6662F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/BEAF4867DABFEDA299060FC6E8F9652562F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/E94BA2272189D07C214AD6C49C4577AEC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/A57FE5BDB26E0AF91AC76FE1B3DBDB5FC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/4591FA9578024E53F06E3FD42DE7EB7F07817944E61570F8678A04BA714FB400.
+(_minted-fydp/05E28773B6D4F8B1AA61AA6DF8479FA407817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/61AF8B6E24A79286CD3941E67914C20762F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/DDFD89FA0E1A088C1C747E5693290B0062F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/06B9B8DB59E078F936A811FF29852607C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/D1F0D69AC3025007CCC9DB762A323FF6C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/6D1F622B5FAA0746093C6AC1E948BAAA07817944E61570F8678A04BA714FB400.
+(_minted-fydp/B4E582FBEC7D7EE5253B0AFCF406344907817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/E544B104197A5B99104A3741B8DB3FAE07817944E61570F8678A04BA714FB400.
+(_minted-fydp/B0F24E3D11BFE3D31529D1B9F2745CFD07817944E61570F8678A04BA714FB400.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/44998C121643E608F13BD4B19AE0E07A62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/C8BE4746FA4C932C942C83C6DB78EEAC62F886471714DFEF6F301805A8E725C3.
 pygtex [46])
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
 although it is yet undefined on input line 1181.
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/6EF6BD17279ED963FAB7C9CD9C6EA10E62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/3734C45B2AB63CD18A2627734053AF8162F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/28D294EC1E572D49AF71530DACB5C496C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/147832E68E8FD83982884B491B48EBC4C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/ACF9E4CC4CE24AC6A2136B44A132463AC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/465CE3FE2063B7AE5EE81C019F24C03CC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/09E2E051B0F9E61260B7B8171A6F2080C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/8CB90BE69F603ED281A6162B42192E8BC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/4C407A190FFF0D2990E797D49AF79C85C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/AE5F7928B3D1079628B68104675449E8C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/FBE57C162183419850EFCD057083DA1AC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/9036B74F95CDC2E3EEC52D52C88AA4B2C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/ACF9E4CC4CE24AC6A2136B44A132463AC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/465CE3FE2063B7AE5EE81C019F24C03CC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/A751DD001FC0304F7A275DD9A082B58D62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/46AEDC3E08C4CD49373731BC5E129D6262F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/CC6B7446730B0510CF717A649547A81B1E5676E186B6F71E48E91747C8C02432.
+(_minted-fydp/4142CC9FAA727FAEEEB1BDD102188B881E5676E186B6F71E48E91747C8C02432.
 pygtex [47])
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/DFFB27FD6166BDC10AD9399950CDF9AF1E5676E186B6F71E48E91747C8C02432.
+(_minted-fydp/1430F4D82C976C3F0150CA960252CC7F1E5676E186B6F71E48E91747C8C02432.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/917B9194604F9A58F2B9A978BF45C72F1E5676E186B6F71E48E91747C8C02432.
+(_minted-fydp/4B3B2A4594CEEA37FB723AAF775157341E5676E186B6F71E48E91747C8C02432.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/4FCD590D8944F983F5F6E803229A3ADE1E5676E186B6F71E48E91747C8C02432.
+(_minted-fydp/EFE0AF0AE976E2F92350B889744B95F71E5676E186B6F71E48E91747C8C02432.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/35FD0BCFE24437E379055DD3EE7840CA62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/BA23DBC5943E79837D188109FDBB55E762F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/43698A9C6FDF3B5C089D8A416206DC2C62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/98BBA2A9590E28FFFF6BFB004AA909BA62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/7F7D69EEFE585944000F30A723C70EDBC01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/2D35B0EDA837F43CB769820D474D6D6FC01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout6 = `fydp.pyg'.
 
 
-(_minted-fydp/F33BB8DB2FBEE05F39C4C2E1A560E48B62F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/AC48526F22D6889D83F90E3B0939D7ED62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/433E2D516C9492C261273FAFA2557FB862F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/EE6176643F5EF234A20686F623FABA5B62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/990F277A6618C764BFC83DC9D7C0FA14C01E3142112BA12B39735D06579A8ED1.
+(_minted-fydp/AC9B7089BB2C10CEFA4B0E0C99938250C01E3142112BA12B39735D06579A8ED1.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/959EEF25833309049806EAA6137F186362F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/BA4F0D8BF04CF444C7A667414FE3018F62F886471714DFEF6F301805A8E725C3.
 pygtex [48])
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/7D487F4305149AEE0D3BC1827E20888862F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/69A47DBE55A21338E263D8A1BC0AC5CF62F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/A0C353A56FA0A3B349E08C2E1CC58CB162F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/3D25618D8064DA1DD82A96112893D27962F886471714DFEF6F301805A8E725C3.
 pygtex)
 \openout5 = `fydp.pyg'.
 
 
-(_minted-fydp/10D684090F0A3789B36C78264442F97962F886471714DFEF6F301805A8E725C3.
+(_minted-fydp/3BC07002A03448A444DE73DA5BC0958A62F886471714DFEF6F301805A8E725C3.
 pygtex [49])) (4.conclusion.tex [50]
 Chapter 4.
 [51
@@ -2565,18 +2310,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `fydp.out' has not changed.
-(rerunfilecheck)             Checksum: 597B1FD7BFC2A11EFC3AC34EBB0A78CB.
-runsystem(del fydp.pyg)...executed.
+(rerunfilecheck)             Checksum: F540F81B7635D77871B33CC537B88AB1;3531.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+runsystem(rm fydp.pyg)...executed.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 39525 strings out of 427669
- 779330 string characters out of 3149215
- 923492 words of memory out of 3000000
- 42786 multiletter control sequences out of 15000+200000
- 538308 words of font info for 86 fonts, out of 3000000 for 9000
+ 30565 strings out of 414621
+ 608163 string characters out of 2910830
+ 962954 words of memory out of 3000000
+ 46841 multiletter control sequences out of 15000+200000
+ 538300 words of font info for 85 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,12n,79p,1341b,867s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,67p,1326b,890s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on fydp.pdf (67 pages).

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}/flask\PYGZus{}app/CPE\PYGZhy{}dash\PYGZdl{} virtualenv \PYGZhy{}p /usr/bin/python3.6 cpe \PYG{c+c1}{\PYGZsh{}Environment name.}
+\end{Verbatim}

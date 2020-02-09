@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{using} \PYG{n}{HTTP}\PYG{p}{,} \PYG{n}{Gumbo}
+\PYG{k+kd}{const} \PYG{n}{PAGE\PYGZus{}URL} \PYG{o}{=} \PYG{l+s}{\PYGZdq{}http://localhost:8000/\PYGZdq{}}
+\PYG{k+kd}{const} \PYG{n}{LINKS} \PYG{o}{=} \PYG{n}{String}\PYG{p}{[]}
+
+\PYG{k}{function} \PYG{n}{fetchPage}\PYG{p}{(}\PYG{n}{url}\PYG{p}{)}
+	\PYG{n}{response} \PYG{o}{=} \PYG{n}{HTTP}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n}{url}\PYG{p}{)}
+	\PYG{c}{\PYGZsh{} if response.status == 200 \PYGZam{}\PYGZam{} parse(Int,}
+	\PYG{k+kt}{Dict}\PYG{p}{(}\PYG{n}{response}\PYG{o}{.}\PYG{n}{headers}\PYG{p}{)[}\PYG{l+s}{\PYGZdq{}Content\PYGZhy{}Length\PYGZdq{}}\PYG{p}{])} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}
+	\PYG{c}{\PYGZsh{}     String(response.body)}
+	\PYG{c}{\PYGZsh{} else}
+	\PYG{c}{\PYGZsh{}     \PYGZdq{}\PYGZdq{}}
+	\PYG{c}{\PYGZsh{} end \PYGZsh{} if}
+	\PYG{n}{response}\PYG{o}{.}\PYG{n}{status} \PYG{o}{==} \PYG{l+m+mi}{200} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{parse}\PYG{p}{(}\PYG{k+kt}{Int}\PYG{p}{,}
+	\PYG{k+kt}{Dict}\PYG{p}{(}\PYG{n}{response}\PYG{o}{.}\PYG{n}{headers}\PYG{p}{)[}\PYG{l+s}{\PYGZdq{}Content\PYGZhy{}Length\PYGZdq{}}\PYG{p}{])} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0} \PYG{o}{?}
+	\PYG{n}{String}\PYG{p}{(}\PYG{n}{response}\PYG{o}{.}\PYG{n}{body}\PYG{p}{)} \PYG{o}{:} \PYG{l+s}{\PYGZdq{}\PYGZdq{}}
+\PYG{k}{end} \PYG{c}{\PYGZsh{} function}
+
+\PYG{k}{function} \PYG{n}{extractlinks}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{)}
+	\PYG{k}{if} \PYG{n}{isa}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{,} \PYG{n}{HTMLElement}\PYG{p}{)} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{tag}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{)} \PYG{o}{==} \PYG{o}{:}\PYG{n}{a} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{k+kp}{in}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}href\PYGZdq{}}\PYG{p}{,}
+	\PYG{n}{collect}\PYG{p}{(}\PYG{n}{keys}\PYG{p}{(}\PYG{n}{attrs}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{))))}
+		\PYG{n}{url} \PYG{o}{=} \PYG{n}{getattr}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}href\PYGZdq{}}\PYG{p}{)}
+		\PYG{c}{\PYGZsh{}startswith(url, \PYGZdq{}/portfolio/\PYGZdq{}) \PYGZam{}\PYGZam{} push!(LINKS, url)}
+		\PYG{n}{startswith}\PYG{p}{(}\PYG{n}{url}\PYG{p}{,} \PYG{l+s}{\PYGZdq{}/2019/\PYGZdq{}}\PYG{p}{)} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{o}{!} \PYG{n}{occursin}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}:\PYGZdq{}}\PYG{p}{,} \PYG{n}{url}\PYG{p}{)}
+			\PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{push!}\PYG{p}{(}\PYG{n}{LINKS}\PYG{p}{,} \PYG{n}{url}\PYG{p}{)}
+	\PYG{k}{end}
+	\PYG{k}{for} \PYG{n}{child} \PYG{k+kp}{in} \PYG{n}{children}\PYG{p}{(}\PYG{n}{elem}\PYG{p}{)}
+		\PYG{n}{extractlinks}\PYG{p}{(}\PYG{n}{child}\PYG{p}{)}
+	\PYG{k}{end}
+\PYG{k}{end} \PYG{c}{\PYGZsh{} function}
+
+
+\PYG{n}{content} \PYG{o}{=} \PYG{n}{fetchPage}\PYG{p}{(}\PYG{n}{PAGE\PYGZus{}URL}\PYG{p}{)}
+\PYG{k}{if} \PYG{o}{!} \PYG{n}{isempty}\PYG{p}{(}\PYG{n}{content}\PYG{p}{)}
+	\PYG{n}{dom} \PYG{o}{=} \PYG{n}{Gumbo}\PYG{o}{.}\PYG{n}{parsehtml}\PYG{p}{(}\PYG{n}{content}\PYG{p}{)}
+	\PYG{n}{extractlinks}\PYG{p}{(}\PYG{n}{dom}\PYG{o}{.}\PYG{n}{root}\PYG{p}{)}
+\PYG{k}{end} \PYG{c}{\PYGZsh{} if}
+\PYG{n}{display}\PYG{p}{(}\PYG{n}{unique}\PYG{p}{(}\PYG{n}{LINKS}\PYG{p}{))}
+	
+\end{Verbatim}

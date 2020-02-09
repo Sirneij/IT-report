@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZti{}/django\PYGZus{}app/devcAll\PYGZdl{} \PYG{n+nb}{cd} devc \PYG{c+c1}{\PYGZsh{}changes directory to devc where manage.py is located}
+\PYGZti{}/django\PYGZus{}app/devcAll/devc\PYGZdl{} python manage.py migrate  \PYG{c+c1}{\PYGZsh{}Syncs the database.}
+\PYGZti{}/django\PYGZus{}app/devcAll/devc\PYGZdl{} python manage.py collectstatic \PYG{c+c1}{\PYGZsh{}collects the static files}
+\PYG{o}{(}devcenv\PYG{o}{)}:\PYGZti{}/django\PYGZus{}app/devcAll\PYGZdl{} python manage.py createsuperuser \PYG{c+c1}{\PYGZsh{}creates the super user}
+Username\PYG{o}{(}or \PYG{l+s+s1}{\PYGZsq{}jidogun\PYGZsq{}} \PYG{k}{if} not specified\PYG{o}{)}:
+Email:
+Password:
+Password again:
+\end{Verbatim}
